@@ -1,0 +1,62 @@
+<PlusConfiguration version="2.1">
+
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet 
+      Name="PlusServer: NDI Polaris with 2 stylus"
+      Description="HoloLens calibration validation by double-stylus capture." />
+
+    <Device
+      Id="TrackerDevice"
+      Type="PolarisTracker"
+      SerialPort="6"
+      AcquisitionRate="50"
+      BaudRate="115200"
+      ToolReferenceFrame="Reference" >
+      <DataSources>
+        <DataSource Type="Tool" Id="Stylus" RomFile="../NdiToolDefinitions/8700248.rom"  />
+        <DataSource Type="Tool" Id="MagStylus" RomFile="../NdiToolDefinitions/MagStylus.rom"  />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="TrackerStream" >
+          <DataSource Id="Stylus"/>
+          <DataSource Id="MagStylus"/>
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+
+  <PlusOpenIGTLinkServer 
+    MaxNumberOfIgtlMessagesToSend="1" 
+    MaxTimeSpentWithProcessingMs="50" 
+    DefaultClientSendTimeoutSec="0"
+    ListeningPort="18945" 
+    SendValidTransformsOnly="true" 
+    OutputChannelId="TrackerStream" > 
+    <DefaultClientInfo> 
+      <MessageTypes> 
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="MagStylusTipToReference"/>
+        <Transform Name="StylusTipToReference"/>
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+  <CoordinateDefinitions>
+    <Transform From="StylusTip" To="Stylus"
+      Matrix="
+        1	0	0.000542072	0.0483153
+        -1.17673e-08	-1	2.1708e-05	0.00193485
+        0.000542072	-2.1708e-05	-1	-89.1308
+        0	0	0	1"
+       Error="1.0265" Date="022217_204336" />
+    <Transform From="MagStylusTip" To="MagStylus"
+      Matrix="
+        0.905744	0	0.423825	19.2284
+        -0.396888	-0.35082	0.848178	38.4808
+        0.148686	-0.936443	-0.317753	-14.416
+        0	0	0	1"
+       Error="0.167734" Date="022217_204454" />
+  </CoordinateDefinitions>
+</PlusConfiguration>

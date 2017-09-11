@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<PlusConfiguration version="2.1">
+
+  <DataCollection StartupDelaySec="1.0">
+    <DeviceSet Name="PlusServer: NDI Polaris tracker with passive markers"
+               Description="Broadcasting tool tracking data through OpenIGTLink For NDI Polaris passive marker starting kit: Stylus (8700248), Tool (TraxisTA1D3x2), HoloLens (HoloLens)"/>
+    <Device Id="TrackerDevice"
+            Type="PolarisTracker"
+            SerialPort="4"
+            BaudRate="1228739"
+            ToolReferenceFrame="Reference">
+      <DataSources>
+        <DataSource Type="Tool"
+                    Id="Stylus"
+                    RomFile="../NdiToolDefinitions/8700248.rom"/>
+        <DataSource Type="Tool"
+                    Id="HoloLens"
+                    RomFile="../NdiToolDefinitions/HoloLens.rom"/>
+        <DataSource Type="Tool"
+                    Id="Tool"
+                    RomFile="../NdiToolDefinitions/TraxisTA1D3x2.rom"/>
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="TrackerChannel">
+          <DataSource Id="Stylus"/>
+          <DataSource Id="HoloLens"/>
+          <DataSource Id="Tool"/>
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+
+    <Device Id="CaptureDevice"
+            Type="VirtualCapture"
+            BaseFilename="RecordingTest.nrrd"
+            EnableFileCompression="TRUE"
+            EnableCapturingOnStart="FALSE">
+      <InputChannels>
+        <InputChannel Id="TrackerChannel"/>
+      </InputChannels>
+    </Device>
+  </DataCollection>
+
+  <CoordinateDefinitions>
+    <Transform From="Tip"
+               To="Stylus"
+               Matrix="1 0 9.86505e-05 0.00878774 
+                      -1.38686e-08 -1 0.000140583 0.0125231
+                       9.86505e-05 -0.000140583 -1 -89.0796 
+                       0 0 0 1"
+               Error="0.533134"
+               Date="052717_153254"/>
+  </CoordinateDefinitions>
+
+  <PlusOpenIGTLinkServer MaxNumberOfIgtlMessagesToSend="1"
+                         MaxTimeSpentWithProcessingMs="50"
+                         ListeningPort="18944"
+                         SendValidTransformsOnly="false"
+                         OutputChannelId="TrackerChannel">
+                         <!-- SendValidTransformsOnly="false" : This allows client apps to report invalid tools -->
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="TRANSFORM"/>
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="TipToReference"/>
+        <Transform Name="HoloLensToReference"/>
+        <Transform Name="ToolToReference"/>
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>

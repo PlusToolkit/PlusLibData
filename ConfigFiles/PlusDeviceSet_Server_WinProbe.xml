@@ -1,0 +1,52 @@
+<PlusConfiguration version="2.3">
+
+ <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet
+      Name="WinProbe+PlusServer"
+      Description="This is a simple config file of WinProbe ultrasound system which includes OpenIGTLinkServer" />
+    <Device
+      Id="VideoDevice"
+      Type="WinProbeVideo"
+      AcquisitionRate="100"
+      LocalTimeOffsetSec="0"
+      TransducerID="{c9d2bbc6-8061-4f74-8047-497cdea7e207}"
+      TimeGainCompensation="0.0 10.0 40.0 40 10 0.5 1.0 40"
+      FocalPointDepth="10.0 0 0 0"
+      TxTxFrequency="9.5"
+      SSDepth="152.4"
+      Voltage="50">
+      <DataSources>
+        <DataSource Type="Video" Id="Video" PortUsImageOrientation="MF" BufferSize="100" AveragedItemsForFiltering="0"/>
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+  
+    <CoordinateDefinitions>
+    <Transform From="Image" To="Reference"
+      Matrix="
+        0.3 0.0 0.0 0.0
+        0.0 0.3 0.0 0.0
+        0.0 0.0 1.0 0.0        
+        0 0 0 1" />
+  </CoordinateDefinitions>
+  
+  <PlusOpenIGTLinkServer 
+    MaxNumberOfIgtlMessagesToSend="1" 
+    MaxTimeSpentWithProcessingMs="50" 
+    ListeningPort="18944" 
+    SendValidTransformsOnly="true" 
+    OutputChannelId="VideoStream" > 
+    <DefaultClientInfo> 
+      <MessageTypes> 
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="Image" EmbeddedTransformToFrame="Reference" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>

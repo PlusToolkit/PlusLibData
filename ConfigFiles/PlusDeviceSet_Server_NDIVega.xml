@@ -1,0 +1,87 @@
+<PlusConfiguration version="2.1">
+
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet
+      Name="PlusServer: NDI Vega tracker with passive markers"
+      Description="Broadcasting tool tracking data through OpenIGTLink
+For NDI Vega: Tool (8700339), Stylus (8700340), Reference (8700449)" />
+    <Device
+      Id="TrackerDevice"
+      Type="NDITracker"
+      NetworkHostname="192.168.0.101"
+      NetworkPort="8765"
+      BaudRate="115200"
+      ToolReferenceFrame="Reference" >
+      <DataSources>
+        <DataSource Type="Tool" Id="Stylus" RomFile="NdiToolDefinitions/8700248.rom"  />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="TrackerStream" >
+          <DataSource Id="Stylus"/>
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+
+    <Device
+      Id="VideoDevice"
+      Type="RTSPVideo"
+      StreamURL="rtsp://192.168.0.101/video">
+      <DataSources>
+        <DataSource Type="Video" Id="Video" ImageType="RGB_COLOR" PortUsImageOrientation="MF"  />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+    </Device>
+
+    <Device
+      Id="TrackedVideoDevice"
+      Type="VirtualMixer" >
+      <InputChannels>
+        <InputChannel Id="TrackerStream" />
+        <InputChannel Id="VideoStream" />
+      </InputChannels>
+      <OutputChannels>
+        <OutputChannel Id="TrackedVideoStream"/>
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+
+  <CoordinateDefinitions>
+    <Transform From="Image" To="Reference"
+      Matrix="
+        1	0	0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1"
+       Error="0.554951" Date="012617_105449" />
+    <Transform From="StylusTip" To="Stylus"
+      Matrix="
+        1	0	0.000203823	0.0180449
+        3.31529e-09	-1	-1.62655e-05	-0.00144002
+        0.000203823	1.62655e-05	-1	-88.5321
+        0	0	0	1"
+       Error="0.554951" Date="012617_105449" />
+  </CoordinateDefinitions>
+
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="true"
+    OutputChannelId="TrackedVideoStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="Image" EmbeddedTransformToFrame="Reference" />
+      </ImageNames>
+      <TransformNames>
+        <Transform Name="StylusTipToReference" />
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>

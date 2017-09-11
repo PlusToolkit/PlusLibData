@@ -1,0 +1,25 @@
+<PlusConfiguration version="2.1">
+  <DataCollection StartupDelaySec="1.0" >
+    <Device
+      Id="TrackerDevice"
+      Type="OpenIGTLinkTracker"
+      MessageType="TDATA"
+      ToolReferenceFrame="Tracker"
+      ServerAddress="127.0.0.1"
+      ServerPort="22222"
+      IgtlMessageCrcCheckEnabled="true"
+      AcquisitionRate="20"
+      ReconnectOnReceiveTimeout="false" >
+      <DataSources>
+        <DataSource Type="Tool" Id="Probe" />
+        <DataSource Type="Tool" Id="Reference" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="TrackerStream">
+          <DataSource Id="Probe" />
+          <DataSource Id="Reference" />
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+</PlusConfiguration>

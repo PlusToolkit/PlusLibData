@@ -1,0 +1,168 @@
+<PlusConfiguration version="2.1">
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet 
+      Name="PlusServer: HoloLens - Replay iE33 3D US with live NDI Aurora tracking"
+      Description="Replay of saved imaging data with live tracking data for help with developing the HoloLens project." />
+    <Device
+      Id="VideoDevice"
+      Type="SavedDataSource"
+      SequenceFile="ie33_NDIAurora_Probe_Stylus_compressed.mha"
+      AcquisitionRate="20"
+      UseData="IMAGE"
+      UseOriginalTimestamps="TRUE"
+      RepeatEnabled="TRUE" >
+      <DataSources>
+        <DataSource Type="Video" Id="Video" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+    </Device>
+
+    <Device
+      Id="TrackerDevice"
+      Type="AuroraTracker"
+      SerialPort="5"
+      AcquisitionRate="60"
+      LocalTimeOffsetSec="0.0"
+      ToolReferenceFrame="Reference"
+      BaudRate="115200">
+      <DataSources>
+        <DataSource Type="Tool" Id="Phantom" PortName="0" AveragedItemsForFiltering="20" />
+        <DataSource Type="Tool" Id="Stylus" PortName="1" AveragedItemsForFiltering="20" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="TrackerStream">
+          <DataSource Id="Phantom" />
+          <DataSource Id="Stylus" />
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+    
+    <Device 
+      Id="TrackedVideoDevice" 
+      Type="VirtualMixer" >
+      <InputChannels>
+        <InputChannel Id="TrackerStream" />
+        <InputChannel Id="VideoStream" />
+      </InputChannels>
+      <OutputChannels>
+        <OutputChannel Id="TrackedVideoStream"/>
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+
+  <xPlusOpenIGTLinkServer 
+    MaxNumberOfIgtlMessagesToSend="1" 
+    MaxTimeSpentWithProcessingMs="50" 
+    DefaultClientSendTimeoutSec="0"
+    ListeningPort="18944" 
+    KeepAliveIntervalSec="2"
+    SendValidTransformsOnly="true" 
+    OutputChannelId="TrackedVideoStream" > 
+    <DefaultClientInfo> 
+      <MessageTypes> 
+        <Message Type="TRACKEDFRAME" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="StylusTipToReference"/>
+        <Transform Name="PhantomToReference"/>
+        <Transform Name="RedSphere1ToPhantom"/>
+        <Transform Name="RedSphere2ToPhantom"/>
+        <Transform Name="RedSphere3ToPhantom"/>
+        <Transform Name="RedSphere4ToPhantom"/>
+        <Transform Name="RedSphere5ToPhantom"/>
+      </TransformNames>
+      <ImageNames>
+        <Image Name="Image" EmbeddedTransformToFrame="Reference" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </xPlusOpenIGTLinkServer>
+  
+    <PlusOpenIGTLinkServer 
+    MaxNumberOfIgtlMessagesToSend="5" 
+    MaxTimeSpentWithProcessingMs="50" 
+    DefaultClientSendTimeoutSec="0"
+    ListeningPort="18944" 
+    KeepAliveIntervalSec="2"
+    SendValidTransformsOnly="true" 
+    OutputChannelId="TrackerStream" > 
+    <DefaultClientInfo> 
+      <MessageTypes> 
+        <Message Type="TDATA" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="StylusTipToReference"/>
+        <Transform Name="PhantomToReference"/>
+        <Transform Name="RedSphere1ToPhantom"/>
+        <Transform Name="RedSphere2ToPhantom"/>
+        <Transform Name="RedSphere3ToPhantom"/>
+        <Transform Name="RedSphere4ToPhantom"/>
+        <Transform Name="RedSphere5ToPhantom"/>
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+  <CoordinateDefinitions>
+    <Transform From="Image" To="Reference"
+      Matrix="
+        1	0	0	0
+        0	1	0	0
+        0	0	1	0
+        0	0	0	1"
+      Error="0.0" Date="012712_152030" />
+
+    <Transform From="StylusTip" To="Stylus"
+      Matrix="
+        0.999688	0	0.0249626	1.98826
+        -0.00028736	0.999934	0.0115081	0.916616
+        -0.0249609	-0.0115117	0.999622	79.6197
+        0	0	0	1"
+      Error="0.115965" Date="013017_102345" />
+
+    <!-- Green -->
+    <Transform From="RedSphere1" To="Phantom"
+      Matrix="
+        0.906307	0	0.422621	39.6817
+        0.422153	-0.047048	-0.905303	-85.0027
+        0.0198835	0.998893	-0.0426399	-4.00364
+        0	0	0	1"
+       Error="0.219897" Date="013117_141755" />
+
+    <!-- Hub -->
+    <Transform From="RedSphere2" To="Phantom"
+      Matrix="
+        0.800763	0	-0.598981	-22.2097
+        0.594188	-0.126252	0.794356	29.454
+        -0.0756227	-0.991998	-0.101098	-3.74863
+        0	0	0	1"
+       Error="0.892526" Date="013117_142127" />
+
+    <!-- Yellow -->
+    <Transform From="RedSphere3" To="Phantom"
+      Matrix="
+        0.434914	0	-0.900472	-100.528
+        0.550875	-0.791042	0.266064	29.7033
+        -0.712311	-0.611762	-0.344035	-38.4079
+        0	0	0	1"
+       Error="0.208926" Date="013117_141830" />
+
+    <!-- Blue -->
+    <Transform From="RedSphere4" To="Phantom"
+      Matrix="
+        0.976847	0	-0.213938	-22.5863
+        0.16736	0.622921	0.764173	80.677
+        0.133266	-0.782285	0.608499	64.2419
+        0	0	0	1"
+       Error="0.268658" Date="013117_141902" />
+
+     <!-- Teal -->
+     <Transform From="RedSphere5" To="Phantom"
+      Matrix="
+        0.970328	0	-0.241792	-27.8036
+        0.215886	-0.450343	0.866363	99.6226
+        -0.108889	-0.892856	-0.43698	-50.2481
+        0	0	0	1"
+       Error="0.274968" Date="013117_141932" />
+  </CoordinateDefinitions> 
+</PlusConfiguration>

@@ -1,0 +1,58 @@
+<PlusConfiguration version="2.1">
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet 
+      Name="PlusServer: Broadcast envelope detected Z offset from Agilent scope connected to single element transducer."
+      Description="Broadcast envelope detected Z offset from Agilent scope connected to single element transducer." />
+    <Device
+      Id="DP310"
+      Type="AgilentScope"
+      SampleFrequencyHz="420000000"
+      DelayTimeSec="0.000002"
+      SampleCountPerAcquisition="11350"
+      FullScale="1.0"
+      Offset="0.0"
+      Coupling="3"
+      SpeedOfSound="1480"
+      Bandwidth="0"
+      TrigCoupling="0"
+      Slope="0"
+      Level="20.0"
+      ToolReferenceFrame="Tracker">
+      <DataSources>
+        <DataSource Type="Tool" Id="FirstPeak" />
+        <DataSource Type="Tool" Id="SecondPeak" />
+        <DataSource Type="Tool" Id="ThirdPeak" />
+        <DataSource Type="Video" Id="1DSignal" PortUsImageOrientation="MF"/>
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="ScopeChannel" VideoDataSourceId="1DSignal">
+          <DataSource Id="FirstPeak"/>
+          <DataSource Id="SecondPeak"/>
+          <DataSource Id="ThirdPeak"/>
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+  
+  <PlusOpenIGTLinkServer 
+    MaxNumberOfIgtlMessagesToSend="1" 
+    MaxTimeSpentWithProcessingMs="50" 
+    ListeningPort="18944" 
+    SendValidTransformsOnly="true" 
+    OutputChannelId="ScopeChannel" > 
+    <DefaultClientInfo> 
+      <MessageTypes> 
+        <Message Type="TRANSFORM" />
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <TransformNames> 
+        <Transform Name="FirstPeakToTracker" /> 
+        <Transform Name="SecondPeakToTracker" /> 
+        <Transform Name="ThirdPeakToTracker" /> 
+      </TransformNames>
+      <ImageNames>
+        <Image Name="Image" EmbeddedTransformToFrame="Image" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+</PlusConfiguration>
