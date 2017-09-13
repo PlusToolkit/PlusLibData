@@ -3,14 +3,20 @@
   <DataCollection StartupDelaySec="1.0" >
     <DeviceSet 
       Name="PlusServer: BK ultrasound imaging device using OEM interface"
-      Description="Broadcasting ultrasound images acquired from the BK system through OEM (TCP/IP) interface. Make sure the correct IP address is set in BkSettings/IniFile.ini."
+      Description="Broadcasting ultrasound images acquired from the BK system through OEM (TCP/IP) interface."
     />
     <!-- Setting AcquisitionRate to higher value may decrease the responsiveness of the BK software on the scanner. Thoroughly test the performance of the BK scanner when acquiring images through the OEM interface. -->
+    <!-- For offline testing set OfflineTesting to true and supply path to test image file. -->
     <Device 
       Id="VideoDevice"
       Type="BkProFocusOem"
-      IniFileName="BkSettings/IniFile.ini"
-      AcquisitionRate="1.5" >
+      ScannerAddress="10.1.1.100"
+      OemPort="7915"
+      ContinuousStreamingEnabled="false"
+      ColorEnabled="false"
+      AcquisitionRate="1.5"
+      OfflineTesting="true"
+      OfflineTestingFilePath="c:\dev\bktest.png" >
       <DataSources>
         <DataSource Type="Video" Id="Video" PortUsImageOrientation="MF"  />
       </DataSources>
@@ -47,7 +53,21 @@
     <DefaultClientInfo> 
       <MessageTypes> 
         <Message Type="IMAGE" />
+        <Message Type="STRING" />
       </MessageTypes>
+      <!-- Send parameters according to OpenIGTLinkIO standard (under development) -->
+      <!-- These parameters should be sent as meta data in the image message in the future. -->
+      <StringNames>
+        <String Name="ProbeType" />
+        <String Name="Origin" />
+        <String Name="Angles" />
+        <String Name="BouningBox" />
+        <String Name="Depths" />
+        <String Name="LinearWidth" />
+        <!-- Spacing are sent as separate messages, should be sent with image in the future. -->
+        <String Name="SpacingX" />
+        <String Name="SpacingY" />
+      </StringNames>
       <ImageNames>
         <Image Name="Image" EmbeddedTransformToFrame="Reference" />
       </ImageNames>
