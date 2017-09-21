@@ -9,7 +9,8 @@
       Id="TrackerDevice"
       Type="OptiTrack"
       ToolReferenceFrame="Tracker" 
-      ProjectFile="Project.ttp">
+      ProjectFile="Project.ttp"
+      RunMotiveInBackground="TRUE" >
       <DataSources>
         <DataSource Type="Tool" Id="Stylus" />
         <DataSource Type="Tool" Id="Reference" />
@@ -17,7 +18,7 @@
       <OutputChannels>
         <OutputChannel Id="TrackerStream">
         <DataSource Type="Tool" Id="Stylus" />
-        <DataSource Type="Tool" Id="Reference"/>     
+        <DataSource Type="Tool" Id="Reference" />
         </OutputChannel>
       </OutputChannels>
     </Device>
