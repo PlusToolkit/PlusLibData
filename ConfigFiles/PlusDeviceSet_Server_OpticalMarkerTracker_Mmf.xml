@@ -19,8 +19,8 @@
     <Device
       Id="TrackerDevice"
       Type="OpticalMarkerTracker"
-      CameraCalibrationFile="OpticalMarkerTracker/surface_book_rear_calibration.yml"
-      ToolReferenceFrame="TrackerX"
+      CameraCalibrationFile="OpticalMarkerTracker/realsense_gen2_calibration.yml"
+      ToolReferenceFrame="Tracker"
       TrackingMethod="OPTICAL"
       MarkerDictionary="ARUCO_MIP_36h12">
       <DataSources>
@@ -61,15 +61,6 @@
       </InputChannels>
     </Device>
   </DataCollection>
-
-    <CoordinateDefinitions>
-    <Transform From="Tracker" To="Marker0"
-      Matrix="
-      1 0 0 0
-      0 1 0 0
-      0 0 1 0
-      0 0 0 1" />
-    </CoordinateDefinitions>
   
   <PlusOpenIGTLinkServer
     MaxNumberOfIgtlMessagesToSend="1"
