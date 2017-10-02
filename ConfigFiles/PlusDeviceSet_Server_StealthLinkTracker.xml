@@ -13,6 +13,8 @@ Tools: Stylus (Passive Planar, Blunt) , Reference (Small Passive Cranial Frame)"
       RegistrationUpdatePeriod="0.0"
       ToolReferenceFrame="Tracker" >
       <DataSources>
+        <!-- Remove tools that are not defined by the StealthStation -->
+        <!-- Corresponding tools also need to be removed from the OutputChannels section -->
         <DataSource Type="Tool" Id="Stylus" PortName="Passive Planar, Blunt" />
         <DataSource Type="Tool" Id="NProbe" 	 PortName="Navigus Probe" />
         <DataSource Type="Tool" Id="TProbe" 	 PortName="Touch-n-Go Probe" />
@@ -21,6 +23,7 @@ Tools: Stylus (Passive Planar, Blunt) , Reference (Small Passive Cranial Frame)"
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="TrackerStream">
+          <!-- Remove tools that are not defined by the StealthStation -->
           <DataSource  Id="NProbe" />
           <DataSource  Id="TProbe" />
           <DataSource  Id="Stylus" />
@@ -59,6 +62,7 @@ Tools: Stylus (Passive Planar, Blunt) , Reference (Small Passive Cranial Frame)"
         <Message Type="TRANSFORM" />
       </MessageTypes>
       <TransformNames> 
+        <!-- To avoid "Transform path not found" warnings, remove transforms for tools that are not defined by the StealthStation -->
         <Transform Name="StylusToTracker" />
         <Transform Name="ReferenceToTracker" />
         <Transform Name="RasToReference"  />
