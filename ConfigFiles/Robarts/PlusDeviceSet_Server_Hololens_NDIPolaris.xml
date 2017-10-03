@@ -2,29 +2,23 @@
 <PlusConfiguration version="2.1">
 
   <DataCollection StartupDelaySec="1.0">
-    <DeviceSet Name="PlusServer: NDI Polaris tracker with passive markers"
-               Description="Broadcasting tool tracking data through OpenIGTLink For NDI Polaris passive marker starting kit: Stylus (8700248), Tool (TraxisTA1D3x2), HoloLens (HoloLens)"/>
+    <DeviceSet Name="PlusServer: HoloLens - NDI Polaris tracking sending TRANSFORM messages with passive markers"
+               Description="Broadcasting tool tracking data through OpenIGTLink For NDI Polaris passive marker starting kit: Stylus (8700248), Tool (TraxisTA1D3x2), Phantom (Phantom), HoloLens (HoloLens)"/>
     <Device Id="TrackerDevice"
             Type="PolarisTracker"
-            SerialPort="4"
-            BaudRate="1228739"
             ToolReferenceFrame="Reference">
       <DataSources>
-        <DataSource Type="Tool"
-                    Id="Stylus"
-                    RomFile="../NdiToolDefinitions/8700248.rom"/>
-        <DataSource Type="Tool"
-                    Id="HoloLens"
-                    RomFile="../NdiToolDefinitions/HoloLens.rom"/>
-        <DataSource Type="Tool"
-                    Id="Tool"
-                    RomFile="../NdiToolDefinitions/TraxisTA1D3x2.rom"/>
+        <DataSource Type="Tool" Id="Stylus" RomFile="../NdiToolDefinitions/8700248.rom"/>
+        <DataSource Type="Tool" Id="HoloLens" RomFile="../NdiToolDefinitions/HoloLens.rom"/>
+        <DataSource Type="Tool" Id="Tool" RomFile="../NdiToolDefinitions/TraxisTA1D3x2.rom"/>
+        <DataSource Type="Tool" Id="Phantom" RomFile="../NdiToolDefinitions/Phantom.rom"/>
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="TrackerChannel">
           <DataSource Id="Stylus"/>
           <DataSource Id="HoloLens"/>
           <DataSource Id="Tool"/>
+          <DataSource Id="Phantom"/>
         </OutputChannel>
       </OutputChannels>
     </Device>
@@ -65,6 +59,7 @@
         <Transform Name="TipToReference"/>
         <Transform Name="HoloLensToReference"/>
         <Transform Name="ToolToReference"/>
+        <Transform Name="PhantomToReference"/>
       </TransformNames>
     </DefaultClientInfo>
   </PlusOpenIGTLinkServer>

@@ -34,7 +34,6 @@
       </MessageTypes>
       <TransformNames>
         <Transform Name="StylusTipToReference"/>
-        <Transform Name="PhantomToReference"/>
         <Transform Name="RedSphere1ToPhantom"/>
         <Transform Name="RedSphere2ToPhantom"/>
         <Transform Name="RedSphere3ToPhantom"/>
