@@ -1,4 +1,4 @@
-<PlusConfiguration version="2.1">
+<PlusConfiguration version="2.5">
 
   <DataCollection StartupDelaySec="1.0">
     <DeviceSet
@@ -10,7 +10,8 @@
       Type="OptiTrack"
       ToolReferenceFrame="Tracker" 
       ProjectFile="Project.ttp"
-      RunMotiveInBackground="TRUE" >
+      RunMotiveInBackground="TRUE"
+      MotiveDataDescriptionsUpdateTimeSec="1.0" >
       <DataSources>
         <DataSource Type="Tool" Id="Stylus" RigidBodyFile="Stylus.tra" />
         <DataSource Type="Tool" Id="Reference" RigidBodyFile="Reference.tra" />
