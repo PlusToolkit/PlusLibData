@@ -1,0 +1,93 @@
+ <PlusConfiguration version="2.1">
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet 
+      Name="PlusServer: Ultrasound transverse process enhancer component 2: Processing"
+      Description="Receives ultrasound images from the input connection at port 18945, enhances transverse process bone surfaces, and transmits the output on the default port 18944"/>
+
+    <Device
+      Id="TrackedVideoDevice"
+      Type="OpenIGTLinkVideo"
+      MessageType="TRACKEDFRAME"
+      ServerAddress="localhost"
+      ServerPort="18945"
+      IgtlMessageCrcCheckEnabled="false"
+      ImageToTransducerTransformName="ImageToTransducer"
+      LocalTimeOffsetSec="0" >
+      <DataSources>
+        <DataSource Type="Video" Id="Video" BufferSize="50" PortUsImageOrientation="UN" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+    </Device>
+
+    <Device
+      Id="BoneEnhancer"
+      Type="ImageProcessor" >
+      <DataSources>
+        <DataSource Type="Video" Id="Video" PortUsImageOrientation="UN" />  
+      </DataSources>
+      <InputChannels>
+        <InputChannel Id="VideoStream" />
+      </InputChannels>
+      <OutputChannels>
+        <OutputChannel Id="BoneVideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+      <Processor Type="vtkPlusTransverseProcessEnhancer" NumberOfScanLines="200" NumberOfSamplesPerScanLine="210">
+        <ScanConversion 
+          TransducerName="Ultrasonix_C5-2"
+          TransducerGeometry="CURVILINEAR"
+          RadiusStartMm="50.0"
+          RadiusStopMm="120.0"
+          ThetaStartDeg="-24"
+          ThetaStopDeg="24"
+          OutputImageSizePixel="820 616"
+          TransducerCenterPixel="410 110"
+          OutputImageSpacingMmPerPixel="0.1526 0.1526"
+          NumberOfSamplesPerScanLine="210"/>
+        <ImageProcessingOperations
+          ConvertToLinesImage="True"          
+          ThresholdingEnabled="True"
+          GaussianEnabled="True"
+          EdgeDetectorEnabled="True"
+          IslandRemovalEnabled="True"
+          ErosionEnabled="True"
+          DilationEnabled="True"
+          ReconvertBinaryToGreyscale="True"
+          ReturnToFanImage="True">
+          <GaussianSmoothing GaussianStdDev="3" GaussianKernelSize="5"/>
+          <Thresholding ThresholdOutValue="0" LowerThreshold="30" UpperThreshold="255"/>
+          <IslandRemoval IslandAreaThreshold="700"/>
+          <Erosion ErosionKernelSize="5 5"/>
+          <Dilation DilationKernelSize="15 5"/>
+        </ImageProcessingOperations>
+      </Processor>
+    </Device>
+  </DataCollection>
+  
+   <CoordinateDefinitions>
+    <Transform From="TransverseProcessImage" To="Image"
+      Matrix="
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0        
+        0 0 0 1" />
+  </CoordinateDefinitions>
+
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="true"
+    OutputChannelId="BoneVideoStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="TransverseProcessImage" EmbeddedTransformToFrame="Transducer" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>
