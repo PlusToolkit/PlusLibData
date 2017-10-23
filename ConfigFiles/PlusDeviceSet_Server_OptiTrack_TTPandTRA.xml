@@ -10,7 +10,7 @@
       Type="OptiTrack"
       ToolReferenceFrame="Tracker" 
       ProjectFile="Project.ttp"
-      RunMotiveInBackground="TRUE"
+      AttachToRunningMotive="FALSE"
       MotiveDataDescriptionsUpdateTimeSec="1.0" >
       <DataSources>
         <DataSource Type="Tool" Id="Stylus" RigidBodyFile="Stylus.tra" />
