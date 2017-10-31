@@ -14,7 +14,7 @@
       ImageToTransducerTransformName="ImageToTransducer"
       LocalTimeOffsetSec="0" >
       <DataSources>
-        <DataSource Type="Video" Id="Video" BufferSize="50" PortUsImageOrientation="UN" />
+        <DataSource Type="Video" Id="Video" BufferSize="50" PortUsImageOrientation="UF" />
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
@@ -25,7 +25,7 @@
       Id="BoneEnhancer"
       Type="ImageProcessor" >
       <DataSources>
-        <DataSource Type="Video" Id="Video" PortUsImageOrientation="UN" />  
+        <DataSource Type="Video" Id="Video" PortUsImageOrientation="UF" />  
       </DataSources>
       <InputChannels>
         <InputChannel Id="VideoStream" />
@@ -42,10 +42,11 @@
           ThetaStartDeg="-24"
           ThetaStopDeg="24"
           OutputImageSizePixel="820 616"
-          TransducerCenterPixel="410 110"
+          TransducerCenterPixel="410 35"
           OutputImageSpacingMmPerPixel="0.1526 0.1526"
           NumberOfSamplesPerScanLine="210"/>
         <ImageProcessingOperations
+          SaveIntermediateResults="True"
           ConvertToLinesImage="True"          
           ThresholdingEnabled="True"
           GaussianEnabled="True"
@@ -55,6 +56,20 @@
           DilationEnabled="True"
           ReconvertBinaryToGreyscale="True"
           ReturnToFanImage="True">
+          
+          <!-- Only item DrawScanLines looks for NumberOfScanLines in -->
+          <vtkPlusUsSimulatorAlgo   
+          ImageCoordinateFrame="Image"
+          ReferenceCoordinateFrame="Reference"
+          IncomingIntensityMwPerCm2="300"
+          BrightnessConversionGamma="0.2"
+          BrighntessConversionOffset="30"
+          NumberOfScanlines="128"
+          NumberOfSamplesPerScanline="1000"
+          NoiseAmplitude="5.0"
+          NoiseFrequency="2.5 3.5 1"
+          NoisePhase="50 20 0"        
+          />
           <GaussianSmoothing GaussianStdDev="3" GaussianKernelSize="5"/>
           <Thresholding ThresholdOutValue="0" LowerThreshold="30" UpperThreshold="255"/>
           <IslandRemoval IslandAreaThreshold="700"/>
@@ -67,6 +82,12 @@
   
    <CoordinateDefinitions>
     <Transform From="TransverseProcessImage" To="Image"
+      Matrix="
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0        
+        0 0 0 1" />
+    <Transform From="TransverseProcessImage" To="Transducer"
       Matrix="
         1 0 0 0
         0 1 0 0
