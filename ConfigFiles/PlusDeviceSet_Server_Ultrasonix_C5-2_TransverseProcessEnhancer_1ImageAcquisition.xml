@@ -13,11 +13,22 @@
       ImageToTransducerTransformName="ImageToTransducer"
       IP="130.15.7.20" >
       <DataSources>
-        <DataSource Type="Video" Id="Video" PortName="B" PortUsImageOrientation="UN"  />
+        <DataSource Type="Video" Id="Video" PortName="B" PortUsImageOrientation="UF"  />
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
       </OutputChannels>
+    </Device>
+	
+	<!-- This device gives you the option to save sequences to files for testing offline. -->
+	<Device
+      Id="CaptureDevice"
+      Type="VirtualCapture"
+      BaseFilename="Recording.mha"
+      EnableCapturingOnStart="FALSE" >
+      <InputChannels>
+        <InputChannel Id="VideoStream" />
+      </InputChannels>
     </Device>
 
   </DataCollection>
