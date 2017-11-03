@@ -1,0 +1,66 @@
+<PlusConfiguration version="2.1">
+  <DataCollection StartupDelaySec="1.0">
+    <DeviceSet
+      Name="PlusServer: Open Haptics device tracking and force rendering"
+      Description="Broadcasting  device stylyus tracking data and receiving force data from 3D Slicer through OpenIGTLink." />
+    <Device
+      Id="3DSlicerForceDataSource"
+      Type="OpenIGTLinkTracker"
+      MessageType="TRANSFORM"
+      ToolReferenceFrame="Ref"
+      ServerAddress="127.0.0.1"
+      ServerPort="22222"
+      IgtlMessageCrcCheckEnabled="true"
+      AcquisitionRate="20"
+      ReconnectOnReceiveTimeout="true"
+      UseReceivedTimestamps ="FALSE"
+      UseLastTransformsOnReceiveTimeout ="TRUE">
+      <DataSources>
+        <DataSource Type="Tool" Id="Force" PortName="Force"/>
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="ForceStream">
+          <DataSource Id="Force" />
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+    <Device
+      Id="TrackerDevice"
+      Type="OpenHapticsDevice"
+      AcquisitionRate="50"
+      ToolReferenceFrame="Base"
+      DeviceName="PLUS"  >
+      <DataSources>
+        <DataSource Type="Tool" Id="Stylus"  PortName="Stylus" />
+        <DataSource Type="Tool" Id="StylusVelocity"  PortName="StylusVelocity" />
+        <DataSource Type="Tool" Id="Buttons"  PortName="Buttons" />
+      </DataSources>
+      <InputChannels>
+        <InputChannel Id="ForceStream" />
+      </InputChannels>
+      <OutputChannels>
+        <OutputChannel Id="NeedleStream">
+          <DataSource Id="Stylus" />
+          <DataSource Id="StylusVelocity" />
+          <DataSource Id="Buttons" />
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    OutputChannelId="NeedleStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="StylusToBase" />
+        <Transform Name="StylusVelocityToBase" />
+        <Transform Name="ButtonsToBase" />
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+</PlusConfiguration>
