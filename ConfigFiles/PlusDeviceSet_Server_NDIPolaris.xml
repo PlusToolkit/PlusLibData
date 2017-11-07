@@ -8,7 +8,6 @@ For NDI Polaris passive marker starting kit: Tool (8700339), Stylus (8700340), R
     <Device
       Id="TrackerDevice"
       Type="PolarisTracker"
-      BaudRate="115200"
       ToolReferenceFrame="Tracker" >
       <DataSources>
         <DataSource Type="Tool" Id="Tool" RomFile="NdiToolDefinitions/8700339.rom"  />
