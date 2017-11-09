@@ -5,7 +5,7 @@
       Description="Broadcasting  device stylyus tracking data through OpenIGTLink." />
     <Device
       Id="TrackerDevice"
-      Type="OpenHapticsDevice"
+      Type="OpenHaptics"
       AcquisitionRate="50"
       ToolReferenceFrame="Base"
       DeviceName="PLUS"  >
