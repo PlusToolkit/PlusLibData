@@ -4,14 +4,17 @@
   <DataCollection StartupDelaySec="1.0">
     <DeviceSet Name="PlusServer: HoloLens - NDI Polaris tracking sending TRANSFORM messages with passive markers"
                Description="Broadcasting tool tracking data through OpenIGTLink For NDI Polaris passive marker starting kit: Stylus (8700248), Tool (TraxisTA1D3x2), Phantom (Phantom), HoloLens (HoloLens)"/>
+
     <Device Id="TrackerDevice"
-            Type="PolarisTracker"
+            Type="NDITracker"
+            NetworkHostname="192.168.0.30"
+            NetworkPort="8765"
             ToolReferenceFrame="Reference">
       <DataSources>
         <DataSource Type="Tool" Id="Stylus" RomFile="../NdiToolDefinitions/MagStylus.rom"/>
         <DataSource Type="Tool" Id="HoloLens" RomFile="../NdiToolDefinitions/HoloLens.rom"/>
         <DataSource Type="Tool" Id="Tool" RomFile="../NdiToolDefinitions/TraxisTA1D3x2.rom"/>
-        <DataSource Type="Tool" Id="Phantom" RomFile="../NdiToolDefinitions/8700449.rom"/>
+        <DataSource Type="Tool" Id="Phantom" RomFile="../NdiToolDefinitions/Phantom.rom"/>
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="TrackerChannel">
