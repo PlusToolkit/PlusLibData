@@ -1,0 +1,133 @@
+ <PlusConfiguration version="2.1">
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet 
+      Name="PlusServer: Ultrasound transverse process enhancer component 2: Processing"
+      Description="Recieves ultrasound images from an OpenIGTLink server running on port 18945 in Slicer (add unproccessed images to Out channel for this connection), segments bone pixels with BoneEnhancer device, and sends the processed images back to Slicer via an OpenIGTLink client on port 18946.
+        NOTE: This configuration uses a custom TPImageToProbe transform as a workaround for transforms which not found in the TrackedVideoStream; it is geometrically incorrect. Place processed image volume under ProbeToReference transforms (sent from acquisition server) to see tracking" />
+      
+    <Device
+      Id="OpenIGTLinkVideoReceiveDevice"
+      Type="OpenIGTLinkVideo"
+      MessageType="TRACKEDFRAME"
+      ServerAddress="localhost"
+      ServerPort="18945"
+      ReconnectOnReceiveTimeout="false"
+      IgtlMessageCrcCheckEnabled="false"
+      AcquisitionRate="30" >
+      <DataSources>
+        <DataSource Type="Video" Id="Video" BufferSize="50" PortUsImageOrientation="UF" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="TrackedVideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+    </Device>
+    
+    <Device
+      Id="BoneEnhancer"
+      Type="ImageProcessor" >
+      <DataSources>
+        <DataSource Type="Video" Id="Video" PortUsImageOrientation="UF" />  
+      </DataSources>
+      <InputChannels>
+        <InputChannel Id="TrackedVideoStream" />
+      </InputChannels>
+      <OutputChannels>
+        <OutputChannel Id="BoneVideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+      <Processor Type="vtkPlusTransverseProcessEnhancer" NumberOfScanLines="200" NumberOfSamplesPerScanLine="210">
+        <ScanConversion 
+          TransducerName="Ultrasonix_C5-2"
+          TransducerGeometry="CURVILINEAR"
+          RadiusStartMm="50.0"
+          RadiusStopMm="120.0"
+          ThetaStartDeg="-24"
+          ThetaStopDeg="24"
+          OutputImageSizePixel="820 616"
+          TransducerCenterPixel="320 35"
+          OutputImageSpacingMmPerPixel="0.1526 0.1526"
+          NumberOfSamplesPerScanLine="210"/>
+        <ImageProcessingOperations
+          SaveIntermediateResults="True"
+          ConvertToLinesImage="True"          
+          ThresholdingEnabled="True"
+          GaussianEnabled="True"
+          EdgeDetectorEnabled="True"
+          IslandRemovalEnabled="True"
+          ErosionEnabled="True"
+          DilationEnabled="True"
+          ReconvertBinaryToGreyscale="True"
+          ReturnToFanImage="True">
+          
+          <GaussianSmoothing GaussianStdDev="3" GaussianKernelSize="5"/>
+          <Thresholding ThresholdOutValue="0" LowerThreshold="30" UpperThreshold="255"/>
+          <IslandRemoval IslandAreaThreshold="700"/>
+          <Erosion ErosionKernelSize="5 5"/>
+          <Dilation DilationKernelSize="10 5"/>
+          
+          <vtkPlusUsSimulatorAlgo   
+          IncomingIntensityMwPerCm2="300"
+          BrightnessConversionGamma="0.2"
+          BrighntessConversionOffset="30"
+          NumberOfScanlines="128"
+          NumberOfSamplesPerScanline="200"
+          NoiseAmplitude="5.0"
+          NoiseFrequency="2.5 3.5 1"
+          NoisePhase="50 20 0"        
+          />
+        </ImageProcessingOperations>
+      </Processor>
+  </Device>
+  
+
+    <!-- This device allows you to save processed sequences to files for offline volume reconstruction. -->
+    <Device
+      Id="CaptureDevice"
+      Type="VirtualCapture"
+      BaseFilename="Recording.mha"
+      EnableCapturingOnStart="FALSE" >
+      <InputChannels>
+        <InputChannel Id="BoneVideoStream" />
+      </InputChannels>
+    </Device>  
+  </DataCollection>
+  
+  <CoordinateDefinitions>
+
+    <!-- TPImageToImage transform should be used with transforms in TrackedVideoStream to relate the processed images to the reference frame, but transforms in TrackedVideoStream cannot be found -->
+    <Transform From="TPImage" To="Image"
+      Matrix="
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0        
+        0 0 0 1" />
+
+    <!-- TPImageToProbe custom transform is included here as a hack to relate processed images to some coordinate frame -->
+    <Transform From="TPImage" To="Probe"
+      Matrix="
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0        
+        0 0 0 1" />
+
+  </CoordinateDefinitions>
+  
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18946"
+    SendValidTransformsOnly="true"
+    OutputChannelId="BoneVideoStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+
+      <ImageNames>
+        <Image Name="TPImage" EmbeddedTransformToFrame="Probe" />
+        <!-- "Probe" for the embedded transform frame rather than "Reference" because the TPImageToProbe hack custom transform should not redefine the Reference coord frame -->
+      </ImageNames>
+      
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>
