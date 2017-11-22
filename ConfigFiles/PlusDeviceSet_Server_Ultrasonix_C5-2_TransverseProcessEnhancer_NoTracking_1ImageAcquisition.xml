@@ -1,0 +1,43 @@
+ <PlusConfiguration version="2.1">
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet 
+      Name="PlusServer: Ultrasound transverse process enhancer component 1: Input connection"
+      Description="Acquires ultrasound images without tracking information and transmits them for processing to a 64-bit server at port 18945 running the transverse process enhancer. Runs on the processing computer"/>
+	  
+    <Device
+      Id="TrackedVideoDevice"
+      Type="SonixVideo" 
+      AcquisitionRate="30"
+      AutoClipEnabled="TRUE"
+      ImageGeometryOutputEnabled="TRUE"
+      ImageToTransducerTransformName="ImageToTransducer"
+      IP="130.15.7.75" >
+      <DataSources>
+        <DataSource Type="Video" Id="Video" PortName="B" PortUsImageOrientation="UF"  />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+    </Device>
+
+  </DataCollection>
+  
+    
+  <!-- Enable this Server's port in Slicer to see the input image along with the processed image -->
+  <PlusOpenIGTLinkServer 
+    MaxNumberOfIgtlMessagesToSend="1" 
+    MaxTimeSpentWithProcessingMs="50" 
+    ListeningPort="18945" 
+    SendValidTransformsOnly="true" 
+    OutputChannelId="VideoStream" > 
+    <DefaultClientInfo> 
+      <MessageTypes> 
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="Image" EmbeddedTransformToFrame="Transducer" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>
