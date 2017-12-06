@@ -29,8 +29,7 @@
       Depth="100"
       AutoClipEnabled="TRUE"
       ImageGeometryOutputEnabled="TRUE"
-      ImageToTransducerTransformName="ImageToProbe"
-      IP="130.15.7.75" >
+      ImageToTransducerTransformName="ImageToProbe" >
       <DataSources>
         <DataSource Type="Video" Id="Video" PortName="B" PortUsImageOrientation="UF"  />
       </DataSources>
