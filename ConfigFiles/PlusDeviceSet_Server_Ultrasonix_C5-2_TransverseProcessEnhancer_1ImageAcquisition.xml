@@ -2,7 +2,7 @@
   <DataCollection StartupDelaySec="1.0" >
     <DeviceSet 
       Name="PlusServer: Ultrasound transverse process enhancer component 1: Input connection"
-      Description="This 32 bit server runs on ultrasound machine, acquires images and tracking transforms, and transmits them to and OpenIGTLink client at port 18944 (with host address of machine running this server) in Slicer on the 64 bit processing machine"/>
+      Description="This 32-bit server runs on the Ultrasonix machine, acquires tracked frames, and transmits them to a PlusServer running on the 64-bit processing machine at port 18944."/>
     
     <Device 
       Id="TrackerDevice" 
@@ -29,8 +29,7 @@
       Depth="100"
       AutoClipEnabled="TRUE"
       ImageGeometryOutputEnabled="TRUE"
-      ImageToTransducerTransformName="ImageToProbe"
-      IP="130.15.7.75" >
+      ImageToTransducerTransformName="ImageToProbe" >
       <DataSources>
         <DataSource Type="Video" Id="Video" PortName="B" PortUsImageOrientation="UF"  />
       </DataSources>
@@ -49,17 +48,6 @@
       <OutputChannels>
         <OutputChannel Id="TrackedVideoStream"/>
       </OutputChannels>
-    </Device>
-  
-    <!-- This device gives you the option to save sequences to files for testing offline. -->
-    <Device
-      Id="CaptureDevice"
-      Type="VirtualCapture"
-      BaseFilename="Recording.mha"
-      EnableCapturingOnStart="FALSE" >
-      <InputChannels>
-        <InputChannel Id="VideoStream" />
-      </InputChannels>
     </Device>
 
   </DataCollection>
@@ -84,7 +72,7 @@
       </TransformNames>
       
       <ImageNames>
-        <Image Name="Image" EmbeddedTransformToFrame="Reference" /> <!-- Changing EmbeddedTransformToFrame from "Transducer" to "Reference" results in image appearing with tracking in Slicer automatically, though not under sent transform heirarchy -->
+        <Image Name="Image" EmbeddedTransformToFrame="Image" /> 
       </ImageNames>
       
     </DefaultClientInfo>
