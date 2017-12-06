@@ -2,16 +2,16 @@
   <DataCollection StartupDelaySec="1.0" >
     <DeviceSet 
       Name="PlusServer: Ultrasound transverse process enhancer component 2: Processing"
-      Description="Recieves ultrasound images from an OpenIGTLink server running on port 18945 in Slicer (add unproccessed images to Out channel for this connection), segments bone pixels with BoneEnhancer device, and sends the processed images back to Slicer via an OpenIGTLink client on port 18946.
-        NOTE: This configuration uses a custom TPImageToProbe transform as a workaround for transforms which not found in the TrackedVideoStream; it is geometrically incorrect. Place processed image volume under ProbeToReference transforms (sent from acquisition server) to see tracking" />
+      Description="Runs on 64-bit processing machine. Receives tracked ultrasound frames at port 18944 from the 32-bit PlusServer running on the Ultrasonix machine, segments bone surfaces, and sends tracked bone frames to an IGTLink client at port 18945 in Slicer" />
       
     <Device
       Id="OpenIGTLinkVideoReceiveDevice"
       Type="OpenIGTLinkVideo"
       MessageType="TRACKEDFRAME"
-      ServerAddress="localhost"
-      ServerPort="18945"
+      ServerAddress="130.15.7.75"
+      ServerPort="18944"
       ReconnectOnReceiveTimeout="false"
+      UseReceivedTimestamps="false" 
       IgtlMessageCrcCheckEnabled="false"
       AcquisitionRate="30" >
       <DataSources>
@@ -34,7 +34,7 @@
       <OutputChannels>
         <OutputChannel Id="BoneVideoStream" VideoDataSourceId="Video" />
       </OutputChannels>
-      <Processor Type="vtkPlusTransverseProcessEnhancer" NumberOfScanLines="200" NumberOfSamplesPerScanLine="210">
+      <Processor Type="vtkPlusBoneEnhancer" NumberOfScanLines="200" NumberOfSamplesPerScanLine="210">
         <ScanConversion 
           TransducerName="Ultrasonix_C5-2"
           TransducerGeometry="CURVILINEAR"
@@ -78,43 +78,43 @@
       </Processor>
   </Device>
   
-
-    <!-- This device allows you to save processed sequences to files for offline volume reconstruction. -->
+    <!-- These capture devices allow you to save and compare the same sequence, before and after processing, if both EnableCapturingOnStart="True". -->
     <Device
-      Id="CaptureDevice"
+      Id="RawCaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="Recording.mha"
-      EnableCapturingOnStart="FALSE" >
+      BaseFilename="RawRecording.mha"
+      EnableCapturingOnStart="False" >
+      <InputChannels>
+        <InputChannel Id="TrackedVideoStream" />
+      </InputChannels>
+    </Device>  
+    
+    <Device
+      Id="ProcessedCaptureDevice"
+      Type="VirtualCapture"
+      BaseFilename="ProcessedRecording.mha"
+      EnableCapturingOnStart="False" >
       <InputChannels>
         <InputChannel Id="BoneVideoStream" />
       </InputChannels>
-    </Device>  
+    </Device> 
+    
   </DataCollection>
   
   <CoordinateDefinitions>
-
-    <!-- TPImageToImage transform should be used with transforms in TrackedVideoStream to relate the processed images to the reference frame, but transforms in TrackedVideoStream cannot be found -->
-    <Transform From="TPImage" To="Image"
+  <Transform From="BoneImage" To="Image"
       Matrix="
         1 0 0 0
         0 1 0 0
         0 0 1 0        
         0 0 0 1" />
-
-    <!-- TPImageToProbe custom transform is included here as a hack to relate processed images to some coordinate frame -->
-    <Transform From="TPImage" To="Probe"
-      Matrix="
-        1 0 0 0
-        0 1 0 0
-        0 0 1 0        
-        0 0 0 1" />
-
   </CoordinateDefinitions>
   
+  <!-- Enable this Server's port in Slicer to see the processed image -->
   <PlusOpenIGTLinkServer
     MaxNumberOfIgtlMessagesToSend="1"
     MaxTimeSpentWithProcessingMs="50"
-    ListeningPort="18946"
+    ListeningPort="18945"
     SendValidTransformsOnly="true"
     OutputChannelId="BoneVideoStream" >
     <DefaultClientInfo>
@@ -123,8 +123,7 @@
       </MessageTypes>
 
       <ImageNames>
-        <Image Name="TPImage" EmbeddedTransformToFrame="Probe" />
-        <!-- "Probe" for the embedded transform frame rather than "Reference" because the TPImageToProbe hack custom transform should not redefine the Reference coord frame -->
+        <Image Name="BoneImage" EmbeddedTransformToFrame="Image" />
       </ImageNames>
       
     </DefaultClientInfo>
