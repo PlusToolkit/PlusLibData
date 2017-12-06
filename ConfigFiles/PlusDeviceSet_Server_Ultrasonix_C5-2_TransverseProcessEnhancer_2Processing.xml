@@ -2,13 +2,13 @@
   <DataCollection StartupDelaySec="1.0" >
     <DeviceSet 
       Name="PlusServer: Ultrasound transverse process enhancer component 2: Processing"
-      Description="Runs on 64-bit processing machine. Receives tracked ultrasound frames at port 18944 from the 32-bit PlusServer running on the Ultrasonix machine, segments bone surfaces, and sends tracked bone frames to an IGTLink client at port 18945 in Slicer" />
+      Description="Runs on 64-bit processing machine. Receives tracked ultrasound frames at port 18944 from the 32-bit PlusServer running on the Ultrasonix machine (change ServerAddress from localhost to Ultrasonix IP), segments bone surfaces, and sends tracked bone frames to an IGTLink client at port 18945 in Slicer" />
       
     <Device
       Id="OpenIGTLinkVideoReceiveDevice"
       Type="OpenIGTLinkVideo"
       MessageType="TRACKEDFRAME"
-      ServerAddress="130.15.7.75"
+      ServerAddress="localhost"
       ServerPort="18944"
       ReconnectOnReceiveTimeout="false"
       UseReceivedTimestamps="false" 
