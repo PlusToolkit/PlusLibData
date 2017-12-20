@@ -2,7 +2,7 @@
 <PlusConfiguration version="2.1">
 
   <DataCollection StartupDelaySec="1.0">
-    <DeviceSet Name="PlusServer: HoloLens - NDI Polaris tracking sending TRANSFORM messages with passive markers"
+    <DeviceSet Name="PlusServer: HoloLens - NDI Polaris tracking with passive markers (Stylus, Tool, Phantom, HoloLens)"
                Description="Broadcasting tool tracking data through OpenIGTLink For NDI Polaris passive marker starting kit: Stylus (8700248), Tool (TraxisTA1D3x2), Phantom (Phantom), HoloLens (HoloLens)"/>
 
     <Device Id="TrackerDevice"
@@ -11,10 +11,10 @@
             NetworkPort="8765"
             ToolReferenceFrame="Reference">
       <DataSources>
-        <DataSource Type="Tool" Id="Stylus" RomFile="../NdiToolDefinitions/MagStylus.rom"/>
+        <DataSource Type="Tool" Id="Stylus" RomFile="../NdiToolDefinitions/8700248.rom"/>
         <DataSource Type="Tool" Id="HoloLens" RomFile="../NdiToolDefinitions/HoloLens.rom"/>
         <DataSource Type="Tool" Id="Tool" RomFile="../NdiToolDefinitions/TraxisTA1D3x2.rom"/>
-        <DataSource Type="Tool" Id="Phantom" RomFile="../NdiToolDefinitions/Phantom.rom"/>
+        <DataSource Type="Tool" Id="Phantom" RomFile="../NdiToolDefinitions/8700449.rom"/>
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="TrackerChannel">
@@ -38,18 +38,36 @@
   </DataCollection>
 
   <CoordinateDefinitions>
+    <!-- Pivot calibration for 8700248 stylus -->
     <Transform From="Tip" To="Stylus"
       Matrix="
-        0.999688	0	0.0249626	1.98826
-        -0.00028736	0.999934	0.0115081	0.916616
-        -0.0249609	-0.0115117	0.999622	79.6197
+        1	0	0.000231211	0.0205483
+        5.54914e-08	-1	-0.000240003	-0.0213297
+        0.000231211	0.000240003	-1	-88.8726
         0	0	0	1"
-      Error="0.115965" Date="013017_102345" />
+       Error="0.346284" Date="112317_141120" />
+    <!-- Transform for OpticalMarker_3in sphere phantom -->
+    <xTransform From="Sphere" To="Phantom"
+      Matrix="
+        0.925205	0	-0.379468	-77.0749
+        -0.25922	-0.730312	-0.63202	-128.371
+        -0.27713	0.683113	-0.675689	-137.241
+        0	0	0	1"
+       Error="0.519839" Date="121817_172833" />
+    <!-- Transform for 40mm (ping pong) ball phantom -->
+    <Transform From="Sphere" To="Phantom"
+      Matrix="
+        0.740976	0	-0.671531	-81.7608
+        0.403359	0.799508	0.445072	54.1888
+        0.536894	-0.600656	0.592416	72.1283
+        0	0	0	1"
+       Error="0.195967" Date="120517_153911" />
   </CoordinateDefinitions>
 
   <PlusOpenIGTLinkServer MaxNumberOfIgtlMessagesToSend="1"
                          MaxTimeSpentWithProcessingMs="50"
                          ListeningPort="18944"
+                         DefaultClientSendTimeoutSec="0"
                          SendValidTransformsOnly="false"
                          OutputChannelId="TrackerChannel">
                          <!-- SendValidTransformsOnly="false" : This allows client apps to report invalid tools -->
@@ -61,7 +79,7 @@
         <Transform Name="TipToReference"/>
         <Transform Name="HoloLensToReference"/>
         <Transform Name="ToolToReference"/>
-        <Transform Name="PhantomToReference"/>
+        <Transform Name="SphereToReference"/>
       </TransformNames>
     </DefaultClientInfo>
   </PlusOpenIGTLinkServer>
