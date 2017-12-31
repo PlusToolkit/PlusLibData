@@ -8,10 +8,12 @@
     <Device
       Id="TrackerDevice"
       Type="AtracsysTracker"
+      MaxMissingFiducials="1"
+      ActiveMarkerPairingTimeSec="5"
       ToolReferenceFrame="Tracker" >
       <DataSources>
         <DataSource Type="Tool" Id="Stylus" GeometryFile="AtracsysTools/stylus.ini" />
-        <DataSource Type="Tool" Id="Reference" GeometryFile="AtracsysTools/reference.ini" />
+        <DataSource Type="Tool" Id="Reference" GeometryFile="ATRACSYS_ACTIVE_BOOMERANG" />
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="TrackerStream">
