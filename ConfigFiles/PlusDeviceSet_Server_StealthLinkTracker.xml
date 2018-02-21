@@ -19,6 +19,7 @@ Tools: Stylus (Passive Planar, Blunt) , Reference (Small Passive Cranial Frame)"
         <DataSource Type="Tool" Id="NProbe" 	 PortName="Navigus Probe" />
         <DataSource Type="Tool" Id="TProbe" 	 PortName="Touch-n-Go Probe" />
         <DataSource Type="Tool" Id="Reference" PortName="Small Passive Cranial Frame" />
+        <!--  The Ras virtual tool will only give a valid value when an image is acquired from the server (GetImage or GetExamData). -->
         <DataSource Type="Tool" Id="Ras" 	    PortName="RasRegistration" />
       </DataSources>
       <OutputChannels>
@@ -65,6 +66,7 @@ Tools: Stylus (Passive Planar, Blunt) , Reference (Small Passive Cranial Frame)"
         <!-- To avoid "Transform path not found" warnings, remove transforms for tools that are not defined by the StealthStation -->
         <Transform Name="StylusToTracker" />
         <Transform Name="ReferenceToTracker" />
+        <!-- RasToReference will not be available until an image is acquired from the server (GetImage or GetExamData). -->
         <Transform Name="RasToReference"  />
         <Transform Name="StylusToReference"  />
         <Transform Name="NProbeToReference"  />
