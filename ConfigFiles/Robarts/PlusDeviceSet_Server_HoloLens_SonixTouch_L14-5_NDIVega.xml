@@ -39,7 +39,7 @@
         <DataSource Type="Video" Id="Video" PortName="B" PortUsImageOrientation="UN" />
       </DataSources>
       <OutputChannels>
-        <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
+        <OutputChannel Id="VideoChannel" VideoDataSourceId="Video" />
       </OutputChannels>
       <UsImagingParameters>
         <UsParameter name="DepthMm" value="60" />
@@ -48,22 +48,22 @@
 
     <Device Id="TrackedVideoDevice" Type="VirtualMixer">
       <InputChannels>
-        <InputChannel Id="TrackerStream" />
-        <InputChannel Id="VideoStream" />
+        <InputChannel Id="TrackerChannel" />
+        <InputChannel Id="VideoChannel" />
       </InputChannels>
       <OutputChannels>
-        <OutputChannel Id="TrackedVideoStream" />
+        <OutputChannel Id="TrackedVideoChannel" />
       </OutputChannels>
     </Device>
   </DataCollection>
 
-  <xPlusOpenIGTLinkServer 
+  <PlusOpenIGTLinkServer 
     MaxNumberOfIgtlMessagesToSend="1"
     MaxTimeSpentWithProcessingMs="50"
     DefaultClientSendTimeoutSec="0"
     ListeningPort="18944"
     SendValidTransformsOnly="true"
-    OutputChannelId="TrackedVideoStream" >
+    OutputChannelId="TrackedVideoChannel" >
     <DefaultClientInfo>
       <MessageTypes>
         <Message Type="IMAGE" />
@@ -79,7 +79,7 @@
         <Image Name="Image" EmbeddedTransformToFrame="Reference" />
       </ImageNames>
     </DefaultClientInfo>
-  </xPlusOpenIGTLinkServer>
+  </PlusOpenIGTLinkServer>
 
   <CoordinateDefinitions>
     <Transform From="Image" To="Probe"
