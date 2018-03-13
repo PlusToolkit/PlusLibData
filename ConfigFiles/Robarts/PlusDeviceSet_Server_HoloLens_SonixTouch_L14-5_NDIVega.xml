@@ -1,0 +1,93 @@
+<PlusConfiguration version="2.1">
+
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet 
+      Name="PlusServer: HoloLens - SonixTouch L14-5 (6cm) + NDI Vega (Phantom, Stylus, Probe)"
+      Description="SonixTouch L14-5 (6cm) + NDI Vega (Phantom, Stylus, Probe). OpenIGTLink broadcasting through PlusServer." />
+
+    <Device Id="TrackerDevice"
+            Type="NDITracker"
+            NetworkHostname="192.168.0.30"
+            NetworkPort="8765"
+            ToolReferenceFrame="Reference">
+      <DataSources>
+        <DataSource Type="Tool" Id="Stylus" RomFile="../NdiToolDefinitions/8700248.rom"/>
+        <DataSource Type="Tool" Id="HoloLens" RomFile="../NdiToolDefinitions/HoloLens.rom"/>
+        <DataSource Type="Tool" Id="Probe" RomFile="../NdiToolDefinitions/L14-5Marker.rom"/>
+        <DataSource Type="Tool" Id="Phantom" RomFile="../NdiToolDefinitions/8700449.rom"/>
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="TrackerChannel">
+          <DataSource Id="Stylus"/>
+          <DataSource Id="HoloLens"/>
+          <DataSource Id="Probe"/>
+          <DataSource Id="Phantom"/>
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+
+    <Device
+      Id="VideoDevice"
+      Type="SonixVideo"
+      AcquisitionRate="30"
+      LocalTimeOffsetSec="0.0"
+      IP="129.100.101.206"
+      AutoClipEnabled="TRUE"
+      ImagingMode="BMode"
+      ImageGeometryOutputEnabled="FALSE">
+      <DataSources>
+        <DataSource Type="Video" Id="Video" PortName="B" PortUsImageOrientation="UN" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+      <UsImagingParameters>
+        <UsParameter name="DepthMm" value="60" />
+      </UsImagingParameters>
+    </Device>
+
+    <Device Id="TrackedVideoDevice" Type="VirtualMixer">
+      <InputChannels>
+        <InputChannel Id="TrackerStream" />
+        <InputChannel Id="VideoStream" />
+      </InputChannels>
+      <OutputChannels>
+        <OutputChannel Id="TrackedVideoStream" />
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+
+  <xPlusOpenIGTLinkServer 
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    DefaultClientSendTimeoutSec="0"
+    ListeningPort="18944"
+    SendValidTransformsOnly="true"
+    OutputChannelId="TrackedVideoStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="StylusToReference"/>
+        <Transform Name="PhantomToReference"/>
+        <Transform Name="ProbeToReference"/>
+        <Transform Name="HoloLensToReference"/>
+      </TransformNames>
+      <ImageNames>
+        <Image Name="Image" EmbeddedTransformToFrame="Reference" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </xPlusOpenIGTLinkServer>
+
+  <CoordinateDefinitions>
+    <Transform From="Image" To="Probe"
+      Matrix="
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1"
+       Error="0.0" Date="022017_000330" />
+  </CoordinateDefinitions>
+</PlusConfiguration>
