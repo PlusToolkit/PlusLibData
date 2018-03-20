@@ -41,7 +41,7 @@
         OutputOrigin="-15 -15 30" OutputExtent="0 300 0 300 0 300" OutputSpacing="0.15 0.15 0.15" />
     </Device>
   </DataCollection>
-    
+
   <PlusOpenIGTLinkServer 
     MaxNumberOfIgtlMessagesToSend="1" 
     MaxTimeSpentWithProcessingMs="50" 
@@ -56,11 +56,11 @@
       <TransformNames> 
         <Transform Name="ProbeToTracker" /> 
         <Transform Name="ReferenceToTracker" /> 
-    <Transform Name="ProbeToReference" />
+        <Transform Name="ProbeToReference" />
       </TransformNames>
-    <ImageNames>
-      <Image Name="Image" EmbeddedTransformToFrame="Reference" />
-    </ImageNames>
+      <ImageNames>
+        <Image Name="Image" EmbeddedTransformToFrame="Reference" />
+      </ImageNames>
     </DefaultClientInfo>
   </PlusOpenIGTLinkServer>
   
@@ -94,5 +94,5 @@
         0     0       0     1"
       Error="0.582721" Date="012712_152030" />
   </CoordinateDefinitions> 
-    
+
 </PlusConfiguration>
