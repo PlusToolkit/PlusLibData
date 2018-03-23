@@ -8,9 +8,6 @@
     <Device
       Id="TrackerDevice"
       Type="NDITracker"
-      NetworkHostname="192.168.0.30"
-      NetworkPort="8765"
-      LocalTimeOffsetSec="0.0"
       ToolReferenceFrame="Reference" >
       <DataSources>
         <DataSource Type="Tool" Id="Stylus" RomFile="../NdiToolDefinitions/8700449.rom"  />

@@ -7,13 +7,11 @@
 
     <Device Id="TrackerDevice"
             Type="NDITracker"
-            NetworkHostname="192.168.0.30"
-            NetworkPort="8765"
             ToolReferenceFrame="Reference">
       <DataSources>
         <DataSource Type="Tool" Id="Stylus" RomFile="../NdiToolDefinitions/8700248.rom"/>
         <DataSource Type="Tool" Id="HoloLens" RomFile="../NdiToolDefinitions/HoloLens.rom"/>
-        <DataSource Type="Tool" Id="Tool" RomFile="../NdiToolDefinitions/TraxisTA1D3x2.rom"/>
+        <DataSource Type="Tool" Id="Tool" RomFile="../NdiToolDefinitions/Phantom.rom"/>
         <DataSource Type="Tool" Id="Phantom" RomFile="../NdiToolDefinitions/8700449.rom"/>
       </DataSources>
       <OutputChannels>
