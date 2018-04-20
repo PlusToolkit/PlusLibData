@@ -4,7 +4,7 @@
     <DeviceSet 
       Name="PlusServer: Philips IE33 3D Probe + NDI Aurora (Reference, Probe, Stylus)"
       Description="Broadcasting acquired 3D ultrasound video acquired on the Philips IE33 system through OpenIGTLink with NDI Aurora tracking" />
-	 <Device
+     <Device
       Id="TrackerDevice"
       Type="AuroraTracker"
       SerialPort="3"
@@ -29,8 +29,8 @@
     <Device
       Id="VideoDevice" 
       Type="iE33Video" 
-	  IP="129.100.44.8"
-	  Port="4013" >
+      IPAddress="129.100.44.8"
+      Port="4013" >
       <DataSources>
         <DataSource Type="Video" Id="Video" PortUsImageOrientation="AMF"  />
       </DataSources>      
