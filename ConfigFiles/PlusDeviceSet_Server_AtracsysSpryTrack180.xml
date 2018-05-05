@@ -9,7 +9,7 @@
       Id="TrackerDevice"
       Type="AtracsysTracker"
       MaxMissingFiducials="1"
-      ActiveMarkerPairingTimeSec="5"
+      ActiveMarkerPairingTimeSec="15"
       ToolReferenceFrame="Tracker" >
       <DataSources>
         <DataSource Type="Tool" Id="Stylus" GeometryFile="AtracsysTools/stylus.ini" />
