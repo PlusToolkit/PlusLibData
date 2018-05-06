@@ -5,14 +5,14 @@
       Name="PlusServer: Media Foundation video capture device"
       Description="Broadcasting acquired video through OpenIGTLink" />
     <Device
-      Id="VideoDevice" 
-      Type="MmfVideo" 
+      Id="VideoDevice"
+      Type="MmfVideo"
       FrameSize="640 480"
       VideoFormat="YUY2"
       CaptureDeviceId="0" >
       <DataSources>
-        <DataSource Type="Video" Id="Video" PortUsImageOrientation="MF"  />
-      </DataSources>      
+        <DataSource Type="Video" Id="Video" PortUsImageOrientation="MN" />
+      </DataSources>
       <OutputChannels>
         <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
       </OutputChannels>
@@ -33,7 +33,7 @@
       Matrix="
         0.2 0.0 0.0 0.0
         0.0 0.2 0.0 0.0
-        0.0 0.0 0.2 0.0        
+        0.0 0.0 0.2 0.0
         0 0 0 1" />
   </CoordinateDefinitions>
   
@@ -42,9 +42,9 @@
     MaxTimeSpentWithProcessingMs="50" 
     ListeningPort="18944" 
     SendValidTransformsOnly="true" 
-    OutputChannelId="VideoStream" > 
-    <DefaultClientInfo> 
-      <MessageTypes> 
+    OutputChannelId="VideoStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
         <Message Type="IMAGE" />
       </MessageTypes>
       <ImageNames>
