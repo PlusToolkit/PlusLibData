@@ -9,8 +9,8 @@
      Id="VideoDevice"
      Type="InfraredSeekCam"
      CameraType="Pro"
-     FlatFile="A.bin"
-     BiasFile="B.bin"
+     FlatFile="flatfile.bin"
+     BiasFile="biasfile.bin"
      temp="false" >
      <DataSources>
        <DataSource Type="Video" Id="Video" PortUsImageOrientation="UF"  />
