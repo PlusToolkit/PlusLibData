@@ -3,7 +3,7 @@
   <DataCollection StartupDelaySec="1.0" >
     <DeviceSet 
       Name="PlusServer: Intel RealSense camera "
-      Description="Intel RealSense 3D camera"
+      Description="Broadcasting acquired RGB and Depth video through PlusServer from Intel RealSense 3D camera"
 	/>
     <Device
       Id="VideoDevice"
