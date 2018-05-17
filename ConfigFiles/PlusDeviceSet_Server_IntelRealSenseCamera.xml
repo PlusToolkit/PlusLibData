@@ -1,0 +1,56 @@
+<PlusConfiguration version="2.3">
+
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet 
+      Name="PlusServer: Intel RealSense camera "
+      Description="Broadcasting acquired RGB and Depth video through PlusServer from Intel RealSense 3D camera"
+	/>
+    <Device
+      Id="VideoDevice"
+      Type="IntelRealSenseCamera"
+	  AcquisitionRate="27"
+	  RgbDataSourceName = "VideoRGB"
+	  DepthDataSourceName = "VideoDEPTH">
+     <DataSources>
+        <DataSource Type="Video" Id="VideoRGB" PortUsImageOrientation="UN" />
+		<DataSource Type="Video" Id="VideoDEPTH" PortUsImageOrientation="UN" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStreamRGB" VideoDataSourceId="VideoRGB" />
+		<OutputChannel Id="VideoStreamDEPTH" VideoDataSourceId="VideoDEPTH" />
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="true"
+    OutputChannelId="VideoStreamRGB" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="ImageRGB" EmbeddedTransformToFrame="ImageRGB" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18945"
+    SendValidTransformsOnly="true"
+    OutputChannelId="VideoStreamDEPTH" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="ImageDEPTH" EmbeddedTransformToFrame="ImageDEPTH" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>
