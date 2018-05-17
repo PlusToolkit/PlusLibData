@@ -1,0 +1,51 @@
+ <PlusConfiguration version="2.1">
+
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet
+      Name="PlusServer: OpenCV device capturing a webcam stream"
+      Description="Broadcasting acquired video through OpenIGTLink"
+    />
+    <Device
+      Id="VideoDevice"
+      Type="OpenCVVideo" 
+      RequestedCaptureApi="CAP_ANY"
+      DeviceIndex="0"
+      AcquisitionRate="30"
+      FrameSize="1920 1080"
+      xCameraMatrix="1373.32486600278 0 0 -3.17877752068326 1375.02007951993 0 949.764769340714 578.710166166492 1"
+      xDistortionCoefficients="0.069421508819840 0.039084617106601 -0.476239753662249 0.008029222368919 0.001900555729598" >
+      <DataSources>
+        <DataSource Type="Video" Id="Video" ImageType="RGB_COLOR" PortUsImageOrientation="MF"  />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+
+  <CoordinateDefinitions>
+    <Transform From="Image" To="Reference"
+      Matrix="
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1" />
+  </CoordinateDefinitions>
+
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="true"
+    OutputChannelId="VideoStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="Image" EmbeddedTransformToFrame="Reference" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>
