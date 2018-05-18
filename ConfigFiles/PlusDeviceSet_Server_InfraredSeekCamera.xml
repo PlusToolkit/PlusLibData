@@ -11,7 +11,9 @@
      CameraType="Pro"
      FlatFile="flatfile.bin"
      BiasFile="biasfile.bin"
-     temp="false" >
+     CalibrateTemperature="true"
+     TemperatureMultiplier="0.022174"
+     TemperatureBias="322.56">
      <DataSources>
        <DataSource Type="Video" Id="Video" PortUsImageOrientation="UF"  />
      </DataSources>
