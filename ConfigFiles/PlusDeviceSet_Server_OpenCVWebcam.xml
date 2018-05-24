@@ -12,8 +12,10 @@
       DeviceIndex="0"
       AcquisitionRate="30"
       FrameSize="1920 1080"
-      xCameraMatrix="1373.32486600278 0 0 -3.17877752068326 1375.02007951993 0 949.764769340714 578.710166166492 1"
-      xDistortionCoefficients="0.069421508819840 0.039084617106601 -0.476239753662249 0.008029222368919 0.001900555729598" >
+      CameraMatrix="1.37283619e+03 0.00000000e+00 9.54121780e+02
+                    0.00000000e+00 1.37375569e+03 5.82778125e+02
+                    0.00000000e+00 0.00000000e+00 1.00000000e+00"
+      DistortionCoefficients="0.05713149  0.11501285  0.00879134  0.00346327 -0.6814123" >
       <DataSources>
         <DataSource Type="Video" Id="Video" ImageType="RGB_COLOR" PortUsImageOrientation="MF"  />
       </DataSources>
