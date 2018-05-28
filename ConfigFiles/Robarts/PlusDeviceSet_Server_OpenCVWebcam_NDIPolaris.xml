@@ -1,0 +1,93 @@
+ <PlusConfiguration version="2.1">
+
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet
+      Name="PlusServer: OpenCV webcam + NDI Polaris (Stylus, Camera)"
+      Description="Broadcasting webcam video and NDI Polaris tracking (Stylus, Camera) through OpenIGTLink"
+    />
+    <Device
+      Id="VideoDevice"
+      Type="OpenCVVideo" 
+      RequestedCaptureApi="CAP_MSMF"
+      DeviceIndex="0"
+      AcquisitionRate="30"
+      FrameSize="1920 1080"
+      xCameraMatrix="1.37283619e+03 0.00000000e+00 9.54121780e+02
+                    0.00000000e+00 1.37375569e+03 5.82778125e+02
+                    0.00000000e+00 0.00000000e+00 1.00000000e+00"
+      xDistortionCoefficients="0.05713149  0.11501285  0.00879134  0.00346327 -0.6814123" >
+      <DataSources>
+        <DataSource Type="Video" Id="Video" ImageType="RGB_COLOR" PortUsImageOrientation="MF" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoChannel" VideoDataSourceId="Video" />
+      </OutputChannels>
+    </Device>
+
+    <Device Id="TrackerDevice"
+            Type="NDITracker"
+            NetworkHostname="192.168.0.30"
+            NetworkPort="8765"
+            ToolReferenceFrame="Reference">
+      <DataSources>
+        <DataSource Type="Tool" Id="Stylus" RomFile="../NdiToolDefinitions/P4_Camera_Calib_Stylus.rom"  />
+        <DataSource Type="Tool" Id="Camera" RomFile="../NdiToolDefinitions/P3_TraxisTA1D3.rom"  />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="TrackerChannel" >
+          <DataSource Id="Stylus"/>
+          <DataSource Id="Camera"/>
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+
+    <Device Id="TrackedVideoDevice" Type="VirtualMixer">
+      <InputChannels>
+        <InputChannel Id="TrackerChannel" />
+        <InputChannel Id="VideoChannel" />
+      </InputChannels>
+      <OutputChannels>
+        <OutputChannel Id="TrackedVideoChannel" />
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+
+  <CoordinateDefinitions>
+    <Transform From="Image" To="Reference"
+      Matrix="
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1" />
+    <!-- 30mm Camera_Calib_Stylus pivot calibration -->
+    <Transform From="StylusTip" To="Stylus"
+      Matrix="
+        0.859604	0	0.510961	60.5491
+        0.19733	0.922418	-0.331974	-39.3391
+        -0.471319	0.386194	0.792914	93.9606
+        0	0	0	1"
+       Error="0.285262" Date="052818_114751" />
+  </CoordinateDefinitions>
+
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="true"
+    OutputChannelId="TrackedVideoChannel" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+        <Message TYPE="TRANSFORM" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="StylusTipToReference" />
+        <Transform Name="CameraToReference" />
+      </TransformNames>
+      <ImageNames>
+        <Image Name="Image" EmbeddedTransformToFrame="Reference" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>
