@@ -17,7 +17,7 @@
                     0.00000000e+00 0.00000000e+00 1.00000000e+00"
       DistortionCoefficients="0.05713149  0.11501285  0.00879134  0.00346327 -0.6814123" >
       <DataSources>
-        <DataSource Type="Video" Id="Video" ImageType="RGB_COLOR" PortUsImageOrientation="MF"  />
+        <DataSource Type="Video" Id="Video" ImageType="RGB_COLOR" PortUsImageOrientation="UN" />
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
