@@ -8,9 +8,8 @@ For NDI Vega: Tool (8700339), Stylus (8700340), Reference (8700449)" />
     <Device
       Id="TrackerDevice"
       Type="NDITracker"
-      NetworkHostname="192.168.0.101"
+      NetworkHostname="192.168.0.30"
       NetworkPort="8765"
-      BaudRate="115200"
       ToolReferenceFrame="Reference" >
       <DataSources>
         <DataSource Type="Tool" Id="Stylus" RomFile="NdiToolDefinitions/8700248.rom"  />
@@ -24,8 +23,8 @@ For NDI Vega: Tool (8700339), Stylus (8700340), Reference (8700449)" />
 
     <Device
       Id="VideoDevice"
-      Type="RTSPVideo"
-      StreamURL="rtsp://192.168.0.101/video">
+      Type="OpenCVVideo"
+      VideoURL="rtsp://192.168.0.30/video">
       <DataSources>
         <DataSource Type="Video" Id="Video" ImageType="RGB_COLOR" PortUsImageOrientation="MF"  />
       </DataSources>
