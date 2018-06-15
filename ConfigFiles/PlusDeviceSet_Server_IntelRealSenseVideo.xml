@@ -5,19 +5,19 @@
       Name="PlusServer: Intel RealSense camera "
       Description="Broadcasting acquired RGB and Depth video through PlusServer from Intel RealSense 3D camera"
 	/>
+  
     <Device
       Id="VideoDevice"
-      Type="IntelRealSenseCamera"
-	  AcquisitionRate="27"
-	  RgbDataSourceName = "VideoRGB"
-	  DepthDataSourceName = "VideoDEPTH">
-     <DataSources>
-        <DataSource Type="Video" Id="VideoRGB" PortUsImageOrientation="UN" />
-		<DataSource Type="Video" Id="VideoDEPTH" PortUsImageOrientation="UN" />
+      Type="IntelRealSense"
+      UseRealSenseColorizer="TRUE"
+      AlignDepthStream="TRUE">
+      <DataSources>
+        <DataSource Type="Video" Id="VideoRGB" FrameType="RGB" FrameSize="640 480" FrameRate="10" PortUsImageOrientation="UN" />
+        <DataSource Type="Video" Id="VideoDEPTH" FrameType="DEPTH" FrameSize="640 480" FrameRate="10" PortUsImageOrientation="UN" />
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="VideoStreamRGB" VideoDataSourceId="VideoRGB" />
-		<OutputChannel Id="VideoStreamDEPTH" VideoDataSourceId="VideoDEPTH" />
+        <OutputChannel Id="VideoStreamDEPTH" VideoDataSourceId="VideoDEPTH" />
       </OutputChannels>
     </Device>
   </DataCollection>
