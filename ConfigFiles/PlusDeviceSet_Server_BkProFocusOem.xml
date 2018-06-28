@@ -61,7 +61,7 @@
         <String Name="ProbeType" />
         <String Name="Origin" />
         <String Name="Angles" />
-        <String Name="BouningBox" />
+        <String Name="BoundingBox" />
         <String Name="Depths" />
         <String Name="LinearWidth" />
         <!-- Spacing are sent as separate messages, should be sent with image in the future. -->
