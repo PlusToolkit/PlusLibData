@@ -1,9 +1,9 @@
-<PlusConfiguration version="2.6">
+<PlusConfiguration version="2.7">
 
   <DataCollection StartupDelaySec="1.0">
     <DeviceSet
-      Name="PlusServer: Atracsys spryTrack 180"
-      Description="Broadcasting tracking data through OpenIGTLink."
+      Name="PlusServer: Atracsys"
+      Description="Broadcasting tracking data from Atracsys spryTrack180, fusionTrack250 or fusionTrack500 through OpenIGTLink."
     />
     <Device
       Id="TrackerDevice"
