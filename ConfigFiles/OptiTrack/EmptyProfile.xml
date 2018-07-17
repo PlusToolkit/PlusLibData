@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile version="1">
+    <PropertyWarehouse>
+        <properties>
+            <property>
+                <name>AutoTrackingAlgorithm</name>
+                <value></value>
+            </property>
+            <property>
+                <name>StreamSkeletons</name>
+                <value>false</value>
+                <defaultValue>false</defaultValue>
+            </property>
+            <property>
+                <name>PCObjectFilterObjectROIIntrusionDetection</name>
+                <value>1</value>
+            </property>
+            <property>
+                <name>DialogOtherGroupPath</name>
+                <value>E:/P/opt2/PlusLibData/ConfigFiles/OptiTrack</value>
+                <defaultValue>E:/P/opt2/PlusLibData/ConfigFiles/OptiTrack</defaultValue>
+            </property>
+            <property>
+                <name>DialogProfileGroupPath</name>
+                <value>E:/P/opt2/PlusLibData/ConfigFiles/OptiTrack</value>
+                <defaultValue>E:/P/opt2/PlusLibData/ConfigFiles/OptiTrack</defaultValue>
+            </property>
+            <property>
+                <name>TrajNumPasses</name>
+                <value>1</value>
+                <defaultValue>1</defaultValue>
+            </property>
+            <property>
+                <name>TrajRBAssistedPredictionRadius</name>
+                <value>10</value>
+                <defaultValue>10</defaultValue>
+            </property>
+            <property>
+                <name>Maximum2DPoints</name>
+                <value>512</value>
+                <defaultValue>512</defaultValue>
+            </property>
+            <property>
+                <name>TrajTrajectoryBased</name>
+                <value>false</value>
+                <defaultValue>false</defaultValue>
+            </property>
+            <property>
+                <name>C3DExporterXAxis</name>
+                <value>0</value>
+            </property>
+            <property>
+                <name>C3DExporterYAxis</name>
+                <value>5</value>
+            </property>
+            <property>
+                <name>C3DExporterZAxis</name>
+                <value>2</value>
+            </property>
+        </properties>
+    </PropertyWarehouse>
+    <MouseActions version="1">
+        <assignment name="ExpandSelectInView">
+            <buttons invertX="0" invertY="0">
+                <left/>
+            </buttons>
+            <modifiers>
+                <shift/>
+            </modifiers>
+        </assignment>
+        <assignment name="PanView">
+            <buttons invertX="0" invertY="0">
+                <middle/>
+            </buttons>
+            <modifiers/>
+        </assignment>
+        <assignment name="RotateView">
+            <buttons invertX="0" invertY="0">
+                <right/>
+            </buttons>
+            <modifiers/>
+        </assignment>
+        <assignment name="ScrubTime">
+            <buttons invertX="0" invertY="0">
+                <left/>
+            </buttons>
+            <modifiers>
+                <alt/>
+            </modifiers>
+        </assignment>
+        <assignment name="SelectInView">
+            <buttons invertX="0" invertY="0">
+                <left/>
+            </buttons>
+            <modifiers/>
+        </assignment>
+        <assignment name="ToggleSelectInView">
+            <buttons invertX="0" invertY="0">
+                <left/>
+            </buttons>
+            <modifiers>
+                <ctrl/>
+            </modifiers>
+        </assignment>
+        <assignment name="ZoomView">
+            <buttons invertX="0" invertY="0">
+                <wheel/>
+            </buttons>
+            <modifiers/>
+        </assignment>
+    </MouseActions>
+    <KeyActions>
+        <hotkeys version="1">
+            <hotkey key="Key_Space" action="StartStopRecordOrPlayback"/>
+            <hotkey key="Key_QuoteDbl" action="ToggleViewTrackedRays"/>
+            <hotkey key="Key_A" action="IncrementBackward"/>
+            <hotkey key="Key_B" action="EndSelection"/>
+            <hotkey key="Key_C" action="FillSelectedCubic"/>
+            <hotkey key="Key_D" action="ToggleQuickSelect"/>
+            <hotkey key="Key_E" action="Rotate3DObject"/>
+            <hotkey key="Key_F" action="FrameSelectedInView"/>
+            <hotkey key="Key_G" action="ToggleFollowSelected"/>
+            <hotkey key="Key_I" action="SetVideoToMJPEGMode"/>
+            <hotkey key="Key_O" action="SetVideoToObjectMode"/>
+            <hotkey key="Key_P" action="SampleProbe"/>
+            <hotkey key="Key_Q" action="Select3DObject"/>
+            <hotkey key="Key_R" action="Scale3DObject"/>
+            <hotkey key="Key_S" action="IncrementForward"/>
+            <hotkey key="Key_T" action="ToggleEditAssets"/>
+            <hotkey key="Key_U" action="SetVideoToGrayScaleMode"/>
+            <hotkey key="Key_V" action="StartSelection"/>
+            <hotkey key="Key_W" action="Move3DObject"/>
+            <hotkey key="Key_X" action="SmoothSelectedNodesSelectedTime"/>
+            <hotkey key="Key_Z" action="FindNextGap"/>
+            <hotkey key="Key_AsciiTilde" action="ToggleLiveEdit"/>
+            <hotkey key="Key_QuoteDbl" action="ToggleViewUntrackedRays">
+                <modifiers>
+                    <ShiftModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_B" action="Deselect">
+                <modifiers>
+                    <ShiftModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_C" action="FillSelectedPattern">
+                <modifiers>
+                    <ShiftModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_D" action="Unlabel">
+                <modifiers>
+                    <ShiftModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_F" action="FrameAllInView">
+                <modifiers>
+                    <ShiftModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_V" action="SelectAll">
+                <modifiers>
+                    <ShiftModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_X" action="SmoothAllNodesSelectedTime">
+                <modifiers>
+                    <ShiftModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_Z" action="FindPreviousGap">
+                <modifiers>
+                    <ShiftModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_1" action="CalibrationLayout">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_2" action="CreateAssetsLayout">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_3" action="CaptureLayout">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_4" action="EditLayout">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_5" action="UserLayout1">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_6" action="UserLayout2">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_7" action="UserLayout3">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_8" action="UserLayout4">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_9" action="UserLayout5">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_O" action="OpenFile">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_P" action="ClearSamples">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_R" action="ResetSkeletonTracking">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_S" action="SaveTake">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_T" action="CreateRigidBody">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_Y" action="Redo">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_Z" action="Undo">
+                <modifiers>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_C" action="FillSelectedModel">
+                <modifiers>
+                    <ShiftModifier/>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_P" action="StartCalibration">
+                <modifiers>
+                    <ShiftModifier/>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_S" action="SaveTakeAs">
+                <modifiers>
+                    <ShiftModifier/>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_Z" action="Redo">
+                <modifiers>
+                    <ShiftModifier/>
+                    <ControlModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_Z" action="Undo">
+                <modifiers>
+                    <ControlModifier/>
+                    <AltModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_S" action="ExportData">
+                <modifiers>
+                    <ShiftModifier/>
+                    <ControlModifier/>
+                    <AltModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_Left" action="StepTimeBackward">
+                <modifiers>
+                    <ExtendedModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_Up" action="PageTimeForward">
+                <modifiers>
+                    <ExtendedModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_Right" action="StepTimeForward">
+                <modifiers>
+                    <ExtendedModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_Down" action="PageTimeBackward">
+                <modifiers>
+                    <ExtendedModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_Left" action="Rewind">
+                <modifiers>
+                    <ShiftModifier/>
+                    <ControlModifier/>
+                    <ExtendedModifier/>
+                </modifiers>
+            </hotkey>
+            <hotkey key="Key_Right" action="FastForward">
+                <modifiers>
+                    <ShiftModifier/>
+                    <ControlModifier/>
+                    <ExtendedModifier/>
+                </modifiers>
+            </hotkey>
+        </hotkeys>
+    </KeyActions>
+    <PropertyDefinitionWarehouse version="1">
+        <definitions/>
+    </PropertyDefinitionWarehouse>
+    <LabelingPanel>
+        <properties/>
+    </LabelingPanel>
+    <TakeManager version="1">
+        <sessions>
+            <session path="C:/Users/masselin/Documents/OptiTrack/Session 2018-05-22/"/>
+        </sessions>
+        <current_session path="C:/Users/masselin/Documents/OptiTrack/Session 2018-05-22/"/>
+    </TakeManager>
+    <NodeAssets/>
+    <PaneManager>
+        <Panes>
+            <PANE_12>
+                <ControlDeck CurrentProperty="1"/>
+            </PANE_12>
+            <PANE_22/>
+            <PANE_23>
+                <DataManager>
+                    <Table SelectedModel="Simple" Sort="3" SortOrder="0">
+                        <Model Name="Simple" ReadOnly="1" TreeOpen="0" Widths="36,35,35,252,39,39,56,59,54,63,169,110,105,110,200"/>
+                        <Model Name="Advanced" ReadOnly="1" TreeOpen="0" Widths="36,35,35,252,39,39,56,59,54,63,169,110,105,110,200"/>
+                        <Model Name="Classic" ReadOnly="1" TreeOpen="0" Widths="36,35,35,195,39,39,56,59,54,63,169,110,105,110,200"/>
+                    </Table>
+                </DataManager>
+            </PANE_23>
+            <PANE_24>
+                <Assets>
+                    <Table SelectedModel="Simple" Sort="1" SortOrder="0">
+                        <Model Name="Simple" ReadOnly="0" TreeOpen="0" Visibility="0,1,2,3" Order="0,1,2,3" Widths="0"/>
+                    </Table>
+                </Assets>
+            </PANE_24>
+            <PANE_25/>
+            <PANE_26/>
+            <PANE_27/>
+            <PANE_28/>
+        </Panes>
+    </PaneManager>
+</Profile>
