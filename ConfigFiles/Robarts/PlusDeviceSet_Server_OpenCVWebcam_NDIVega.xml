@@ -2,8 +2,8 @@
 
   <DataCollection StartupDelaySec="1.0" >
     <DeviceSet
-      Name="PlusServer: OpenCV webcam + NDI Polaris (Stylus, Camera)"
-      Description="Broadcasting webcam video and NDI Polaris tracking (Stylus, Camera) through OpenIGTLink"
+      Name="PlusServer: OpenCV webcam + NDI Vega (Stylus, Camera)"
+      Description="Broadcasting webcam video and NDI Vega tracking (Stylus, Camera) through OpenIGTLink"
     />
     <Device
       Id="VideoDevice"
@@ -22,7 +22,8 @@
 
     <Device Id="TrackerDevice"
             Type="NDITracker"
-            SerialPort="3"
+            NetworkHostname="192.168.0.30"
+            NetworkPort="8765"
             ToolReferenceFrame="Reference">
       <DataSources>
         <DataSource Type="Tool" Id="Stylus" RomFile="../NdiToolDefinitions/P4_Camera_Calib_Stylus.rom"  />
