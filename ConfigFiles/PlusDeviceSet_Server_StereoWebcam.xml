@@ -1,0 +1,86 @@
+ <PlusConfiguration version="2.1">
+
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet
+      Name="PlusServer: OpenCV device capturing two webcam streams"
+      Description="Broadcasting acquired video through OpenIGTLink"
+    />
+    <Device
+      Id="LeftVideoDevice"
+      Type="OpenCVVideo" 
+      RequestedCaptureApi="CAP_ANY"
+      FrameSize="800 600"
+      AcquisitionRate="30"
+      FourCC="MJPG"
+      DeviceIndex="0">
+      <DataSources>
+        <DataSource Type="Video" Id="Video" ImageType="RGB_COLOR" PortUsImageOrientation="UN"  />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="LeftVideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+    </Device>
+    <Device
+      Id="RightVideoDevice"
+      Type="OpenCVVideo" 
+      RequestedCaptureApi="CAP_ANY"
+      FrameSize="800 600"
+      AcquisitionRate="30"
+      FourCC="MJPG"
+      DeviceIndex="1">
+      <DataSources>
+        <DataSource Type="Video" Id="Video" ImageType="RGB_COLOR" PortUsImageOrientation="MF"  />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="RightVideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+
+  <CoordinateDefinitions>
+    <Transform From="LeftImage" To="Reference"
+      Matrix="
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1" />
+    <Transform From="RightImage" To="Reference"
+      Matrix="
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1" />
+  </CoordinateDefinitions>
+
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="true"
+    OutputChannelId="LeftVideoStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="LeftImage" EmbeddedTransformToFrame="Reference" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18945"
+    SendValidTransformsOnly="true"
+    OutputChannelId="RightVideoStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="RightImage" EmbeddedTransformToFrame="Reference" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>
