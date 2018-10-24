@@ -29,7 +29,7 @@
       FourCC="MJPG"
       DeviceIndex="1">
       <DataSources>
-        <DataSource Type="Video" Id="Video" ImageType="RGB_COLOR" PortUsImageOrientation="MF"  />
+        <DataSource Type="Video" Id="Video" ImageType="RGB_COLOR" PortUsImageOrientation="UN"  />
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="RightVideoStream" VideoDataSourceId="Video" />
