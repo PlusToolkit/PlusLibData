@@ -8,17 +8,16 @@
     <Device
       Id="VideoDevice" 
       Type="OvrvisionPro"
-      DirectShowFilterID="0"
       RequestedFormat="OV_CAMVR_FULL"
       CameraSync="TRUE"
       Exposure="7808"
       Vendor="NVIDIA Corporation"
-      ProcessingModeName="OV_CAMQT_DMSRMP"
+      ProcessingModeName="OV_CAMQT_DMS"
       LeftEyeDataSourceName="LeftVideo"
       RightEyeDataSourceName="RightVideo" >
       <DataSources>
-        <DataSource Type="Video" Id="LeftVideo" PortUsImageOrientation="MF" ImageType="RGB_COLOR" />
-        <DataSource Type="Video" Id="RightVideo" PortUsImageOrientation="MF" ImageType="RGB_COLOR" />
+        <DataSource Type="Video" Id="LeftVideo" PortUsImageOrientation="MN" ImageType="RGB_COLOR" />
+        <DataSource Type="Video" Id="RightVideo" PortUsImageOrientation="MN" ImageType="RGB_COLOR" />
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="LeftVideoStream" VideoDataSourceId="LeftVideo" />
