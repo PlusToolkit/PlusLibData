@@ -39,7 +39,7 @@ The computer needs to be on the same local network as Aurora SCU unit. The needl
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="ndiCapture.nrrd"
+      BaseFilename="ndiCapture.igs.nrrd"
       EnableCapturing="FALSE" >
       <InputChannels>
         <InputChannel Id="TrackedVideoStream" />

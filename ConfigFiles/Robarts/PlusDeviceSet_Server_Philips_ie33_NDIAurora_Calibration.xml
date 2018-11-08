@@ -51,7 +51,7 @@
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="ie33Philips3DCapture.nrrd"
+      BaseFilename="ie33Philips3DCapture.igs.nrrd"
       EnableFileCompression="TRUE"
       EnableCapturing="FALSE" >
       <InputChannels>

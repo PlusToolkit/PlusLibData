@@ -82,7 +82,7 @@
     <Device
       Id="RawCaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="RawRecording.mha"
+      BaseFilename="RawRecording.igs.mha"
       EnableCapturingOnStart="False" >
       <InputChannels>
         <InputChannel Id="TrackedVideoStream" />
@@ -92,7 +92,7 @@
     <Device
       Id="ProcessedCaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="ProcessedRecording.mha"
+      BaseFilename="ProcessedRecording.igs.mha"
       EnableCapturingOnStart="False" >
       <InputChannels>
         <InputChannel Id="BoneVideoStream" />

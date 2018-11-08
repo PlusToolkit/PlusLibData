@@ -78,7 +78,7 @@
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="ie33Philips_biPlaneCapture.nrrd"
+      BaseFilename="ie33Philips_biPlaneCapture.igs.nrrd"
       EnableCapturing="FALSE" >
       <InputChannels>
         <InputChannel Id="TrackedVideoStream" />

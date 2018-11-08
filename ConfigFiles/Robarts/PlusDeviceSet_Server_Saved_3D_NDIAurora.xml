@@ -12,7 +12,7 @@
       RepeatEnabled="TRUE"
       AcquisitionRate="30"
       LocalTimeOffsetSec="0.0" 
-      SequenceFile="F:\arankin\PlusBuild-bin\bin\Debug\Output\Recording.mha" >
+      SequenceFile="F:\arankin\PlusBuild-bin\bin\Debug\Output\Recording.igs.mha" >
       <DataSources>
         <DataSource Type="Video" Id="Video" PortUsImageOrientation="MF"  />
       </DataSources>      
@@ -24,7 +24,7 @@
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="RecordingTest.nrrd"
+      BaseFilename="RecordingTest.igs.nrrd"
       EnableFileCompression="TRUE"
       EnableCapturingOnStart="FALSE" >
       <InputChannels>

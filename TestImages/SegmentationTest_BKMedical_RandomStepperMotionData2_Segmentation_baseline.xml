@@ -2,7 +2,7 @@
 <TestResults>
  <AlgorithmOptions SegmentationThresholdTop="10" SegmentationThresholdBottom="10" ImportSegResultsFromFile="" />
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_0">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="0" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="0" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.132167"
       SegmentationQualityInIntensityScore="312.635"
@@ -54,7 +54,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_1">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="1" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="1" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.148393"
       SegmentationQualityInIntensityScore="304.698"
@@ -103,7 +103,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_2">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="2" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="2" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.121445"
       SegmentationQualityInIntensityScore="295.227"
@@ -149,7 +149,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_3">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="3" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="3" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0890393"
       SegmentationQualityInIntensityScore="275.961"
@@ -194,7 +194,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_4">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="4" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="4" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.11333"
       SegmentationQualityInIntensityScore="282.584"
@@ -238,7 +238,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_5">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="5" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="5" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0615844"
       SegmentationQualityInIntensityScore="289.216"
@@ -283,7 +283,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_6">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="6" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="6" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0524503"
       SegmentationQualityInIntensityScore="287.494"
@@ -326,7 +326,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_7">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="7" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="7" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0841625"
       SegmentationQualityInIntensityScore="283.439"
@@ -372,7 +372,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_8">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="8" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="8" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.111436"
       SegmentationQualityInIntensityScore="270.098"
@@ -420,7 +420,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_9">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="9" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="9" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.114443"
       SegmentationQualityInIntensityScore="289.474"
@@ -469,7 +469,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_10">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="10" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="10" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.214583"
       SegmentationQualityInIntensityScore="291.698"
@@ -512,7 +512,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_11">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="11" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="11" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.194681"
       SegmentationQualityInIntensityScore="298.2"
@@ -560,7 +560,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_12">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="12" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="12" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.167865"
       SegmentationQualityInIntensityScore="283.082"
@@ -605,7 +605,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_13">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="13" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="13" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.126802"
       SegmentationQualityInIntensityScore="279.145"
@@ -652,7 +652,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_14">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="14" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="14" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.101238"
       SegmentationQualityInIntensityScore="292.588"
@@ -701,7 +701,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_15">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="15" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="15" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0816848"
       SegmentationQualityInIntensityScore="296.726"
@@ -751,7 +751,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_16">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="16" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="16" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.104157"
       SegmentationQualityInIntensityScore="296.514"
@@ -797,7 +797,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_17">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="17" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="17" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.101223"
       SegmentationQualityInIntensityScore="298.341"
@@ -847,7 +847,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_18">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="18" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="18" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.106779"
       SegmentationQualityInIntensityScore="295.851"
@@ -895,7 +895,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_19">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="19" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="19" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.152905"
       SegmentationQualityInIntensityScore="305.235"
@@ -940,7 +940,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_20">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="20" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="20" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.134085"
       SegmentationQualityInIntensityScore="315.145"
@@ -988,7 +988,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_21">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="21" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="21" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0857186"
       SegmentationQualityInIntensityScore="289.922"
@@ -1033,7 +1033,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_22">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="22" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="22" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.161317"
       SegmentationQualityInIntensityScore="298.678"
@@ -1077,7 +1077,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_23">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="23" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="23" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0693157"
       SegmentationQualityInIntensityScore="293.2"
@@ -1122,7 +1122,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_24">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="24" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="24" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0712891"
       SegmentationQualityInIntensityScore="287.376"
@@ -1165,7 +1165,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_25">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="25" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="25" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.03295"
       SegmentationQualityInIntensityScore="288.545"
@@ -1206,7 +1206,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_26">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="26" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="26" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0289839"
       SegmentationQualityInIntensityScore="217.055"
@@ -1241,7 +1241,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_27">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="27" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="27" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0533273"
       SegmentationQualityInIntensityScore="204.859"
@@ -1279,7 +1279,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_28">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="28" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="28" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.129603"
       SegmentationQualityInIntensityScore="303.6"
@@ -1326,7 +1326,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_29">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="29" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="29" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0989624"
       SegmentationQualityInIntensityScore="283.326"
@@ -1368,7 +1368,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_30">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="30" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="30" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.120486"
       SegmentationQualityInIntensityScore="282.22"
@@ -1415,7 +1415,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_31">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="31" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="31" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.128295"
       SegmentationQualityInIntensityScore="290.431"
@@ -1469,7 +1469,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_32">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="32" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="32" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0499647"
       SegmentationQualityInIntensityScore="278.365"
@@ -1518,7 +1518,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_33">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="33" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="33" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0254399"
       SegmentationQualityInIntensityScore="262.765"
@@ -1567,7 +1567,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_34">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="34" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="34" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.285062"
       SegmentationQualityInIntensityScore="291.984"
@@ -1611,7 +1611,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_35">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="35" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="35" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.146248"
       SegmentationQualityInIntensityScore="282.173"
@@ -1653,7 +1653,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_36">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="36" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="36" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.103165"
       SegmentationQualityInIntensityScore="310.447"
@@ -1705,7 +1705,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_37">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="37" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="37" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.182788"
       SegmentationQualityInIntensityScore="281.439"
@@ -1749,7 +1749,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_38">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="38" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="38" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0904169"
       SegmentationQualityInIntensityScore="278.678"
@@ -1796,7 +1796,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_39">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="39" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="39" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0910916"
       SegmentationQualityInIntensityScore="293.714"
@@ -1847,7 +1847,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_40">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="40" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="40" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.108145"
       SegmentationQualityInIntensityScore="293.216"
@@ -1893,7 +1893,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_41">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="41" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="41" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.10807"
       SegmentationQualityInIntensityScore="288.475"
@@ -1937,7 +1937,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_42">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="42" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="42" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.114619"
       SegmentationQualityInIntensityScore="296.157"
@@ -1983,7 +1983,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_43">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="43" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="43" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0857077"
       SegmentationQualityInIntensityScore="305.922"
@@ -2028,7 +2028,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_44">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="44" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="44" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.133039"
       SegmentationQualityInIntensityScore="312.031"
@@ -2075,7 +2075,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_45">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="45" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="45" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0861731"
       SegmentationQualityInIntensityScore="302.318"
@@ -2126,7 +2126,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_46">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="46" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="46" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0907289"
       SegmentationQualityInIntensityScore="295.553"
@@ -2169,7 +2169,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_47">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="47" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="47" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0477527"
       SegmentationQualityInIntensityScore="288.223"
@@ -2213,7 +2213,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_48">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="48" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="48" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0673378"
       SegmentationQualityInIntensityScore="287.376"
@@ -2254,7 +2254,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_49">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="49" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="49" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0248975"
       SegmentationQualityInIntensityScore="292.341"
@@ -2293,7 +2293,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_50">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="50" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="50" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0376331"
       SegmentationQualityInIntensityScore="289.408"
@@ -2331,7 +2331,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_51">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="51" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="51" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00558664"
       SegmentationQualityInIntensityScore="298.58"
@@ -2372,7 +2372,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_52">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="52" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="52" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0610755"
       SegmentationQualityInIntensityScore="240.165"
@@ -2408,7 +2408,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_53">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="53" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="53" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0101319"
       SegmentationQualityInIntensityScore="261.98"
@@ -2447,7 +2447,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_54">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="54" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="54" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0137606"
       SegmentationQualityInIntensityScore="277.408"
@@ -2482,7 +2482,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_55">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="55" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="55" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0148382"
       SegmentationQualityInIntensityScore="282.094"
@@ -2519,7 +2519,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_56">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="56" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="56" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0506297"
       SegmentationQualityInIntensityScore="278.714"
@@ -2555,7 +2555,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_57">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="57" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="57" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0256996"
       SegmentationQualityInIntensityScore="282.874"
@@ -2594,7 +2594,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_58">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="58" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="58" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0272197"
       SegmentationQualityInIntensityScore="284.682"
@@ -2636,7 +2636,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_59">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="59" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="59" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0276991"
       SegmentationQualityInIntensityScore="298.008"
@@ -2679,7 +2679,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_60">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="60" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="60" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0760573"
       SegmentationQualityInIntensityScore="293.247"
@@ -2716,7 +2716,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_61">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="61" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="61" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0623601"
       SegmentationQualityInIntensityScore="282.521"
@@ -2753,7 +2753,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_62">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="62" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="62" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0715883"
       SegmentationQualityInIntensityScore="285.455"
@@ -2794,7 +2794,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_63">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="63" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="63" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0688191"
       SegmentationQualityInIntensityScore="284.192"
@@ -2835,7 +2835,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_64">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="64" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="64" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.023819"
       SegmentationQualityInIntensityScore="277.502"
@@ -2876,7 +2876,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_65">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="65" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="65" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0869644"
       SegmentationQualityInIntensityScore="289.286"
@@ -2915,7 +2915,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_66">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="66" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="66" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0438686"
       SegmentationQualityInIntensityScore="292.698"
@@ -2955,7 +2955,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_67">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="67" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="67" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0508309"
       SegmentationQualityInIntensityScore="297.506"
@@ -2994,7 +2994,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_68">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="68" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="68" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00445499"
       SegmentationQualityInIntensityScore="300.431"
@@ -3031,7 +3031,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_69">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="69" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="69" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00650806"
       SegmentationQualityInIntensityScore="297.737"
@@ -3065,7 +3065,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_70">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="70" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="70" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0137968"
       SegmentationQualityInIntensityScore="294.651"
@@ -3100,7 +3100,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_71">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="71" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="71" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0702836"
       SegmentationQualityInIntensityScore="297.921"
@@ -3136,7 +3136,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_72">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="72" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="72" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0374762"
       SegmentationQualityInIntensityScore="287.749"
@@ -3169,7 +3169,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_73">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="73" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="73" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00338875"
       SegmentationQualityInIntensityScore="288.282"
@@ -3205,7 +3205,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_74">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="74" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="74" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0174739"
       SegmentationQualityInIntensityScore="281.741"
@@ -3242,7 +3242,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_75">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="75" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="75" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0221694"
       SegmentationQualityInIntensityScore="293.341"
@@ -3281,7 +3281,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_76">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="76" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="76" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0330842"
       SegmentationQualityInIntensityScore="294.816"
@@ -3317,7 +3317,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_77">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="77" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="77" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0204698"
       SegmentationQualityInIntensityScore="278.741"
@@ -3357,7 +3357,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_78">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="78" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="78" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0198894"
       SegmentationQualityInIntensityScore="276.808"
@@ -3394,7 +3394,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_79">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="79" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="79" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0355038"
       SegmentationQualityInIntensityScore="289.671"
@@ -3433,7 +3433,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_80">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="80" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="80" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0441937"
       SegmentationQualityInIntensityScore="275.765"
@@ -3472,7 +3472,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_81">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="81" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="81" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0411566"
       SegmentationQualityInIntensityScore="271.702"
@@ -3513,7 +3513,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_82">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="82" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="82" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00521695"
       SegmentationQualityInIntensityScore="242.722"
@@ -3553,7 +3553,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_83">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="83" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="83" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0245165"
       SegmentationQualityInIntensityScore="281.678"
@@ -3594,7 +3594,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_84">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="84" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="84" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00367493"
       SegmentationQualityInIntensityScore="281.616"
@@ -3636,7 +3636,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_85">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="85" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="85" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0317318"
       SegmentationQualityInIntensityScore="255.859"
@@ -3676,7 +3676,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_86">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="86" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="86" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0518225"
       SegmentationQualityInIntensityScore="271.851"
@@ -3716,7 +3716,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_87">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="87" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="87" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0761307"
       SegmentationQualityInIntensityScore="284.804"
@@ -3760,7 +3760,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_88">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="88" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="88" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0551641"
       SegmentationQualityInIntensityScore="290.455"
@@ -3802,7 +3802,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_89">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="89" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="89" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.101058"
       SegmentationQualityInIntensityScore="277.902"
@@ -3844,7 +3844,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_90">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="90" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="90" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.123706"
       SegmentationQualityInIntensityScore="300.522"
@@ -3888,7 +3888,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_91">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="91" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="91" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.118788"
       SegmentationQualityInIntensityScore="298.82"
@@ -3935,7 +3935,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_92">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="92" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="92" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.111268"
       SegmentationQualityInIntensityScore="290.479"
@@ -3984,7 +3984,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_93">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="93" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="93" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.103285"
       SegmentationQualityInIntensityScore="300.11"
@@ -4034,7 +4034,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_94">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="94" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="94" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.155864"
       SegmentationQualityInIntensityScore="284.62"
@@ -4082,7 +4082,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_95">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="95" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="95" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0838951"
       SegmentationQualityInIntensityScore="284.149"
@@ -4135,7 +4135,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_96">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="96" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="96" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0965991"
       SegmentationQualityInIntensityScore="287.835"
@@ -4186,7 +4186,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_97">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="97" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="97" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0965322"
       SegmentationQualityInIntensityScore="295.161"
@@ -4235,7 +4235,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_98">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="98" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="98" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.101267"
       SegmentationQualityInIntensityScore="297.02"
@@ -4280,7 +4280,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_99">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="99" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="99" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.136082"
       SegmentationQualityInIntensityScore="290.412"
@@ -4327,7 +4327,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_100">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="100" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="100" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0609839"
       SegmentationQualityInIntensityScore="282.882"
@@ -4371,7 +4371,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_101">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="101" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="101" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0417744"
       SegmentationQualityInIntensityScore="281.494"
@@ -4416,7 +4416,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_102">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="102" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="102" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.105401"
       SegmentationQualityInIntensityScore="296.325"
@@ -4461,7 +4461,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_103">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="103" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="103" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.059988"
       SegmentationQualityInIntensityScore="284.612"
@@ -4504,7 +4504,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_104">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="104" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="104" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.058419"
       SegmentationQualityInIntensityScore="282.349"
@@ -4544,7 +4544,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_105">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="105" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="105" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0340193"
       SegmentationQualityInIntensityScore="282.847"
@@ -4583,7 +4583,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_106">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="106" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="106" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0507144"
       SegmentationQualityInIntensityScore="286.769"
@@ -4621,7 +4621,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_107">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="107" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="107" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.037384"
       SegmentationQualityInIntensityScore="284.016"
@@ -4663,7 +4663,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_108">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="108" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="108" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0152486"
       SegmentationQualityInIntensityScore="262.494"
@@ -4701,7 +4701,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_109">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="109" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="109" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0512466"
       SegmentationQualityInIntensityScore="268.741"
@@ -4739,7 +4739,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_110">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="110" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="110" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00138975"
       SegmentationQualityInIntensityScore="277.82"
@@ -4777,7 +4777,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_111">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="111" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="111" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0426958"
       SegmentationQualityInIntensityScore="271.831"
@@ -4813,7 +4813,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_112">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="112" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="112" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0363276"
       SegmentationQualityInIntensityScore="281.839"
@@ -4847,7 +4847,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_113">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="113" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="113" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.041124"
       SegmentationQualityInIntensityScore="285.757"
@@ -4886,7 +4886,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_114">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="114" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="114" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0503554"
       SegmentationQualityInIntensityScore="290.514"
@@ -4927,7 +4927,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_115">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="115" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="115" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.048596"
       SegmentationQualityInIntensityScore="287.804"
@@ -4966,7 +4966,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_116">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="116" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="116" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0459861"
       SegmentationQualityInIntensityScore="290.886"
@@ -5003,7 +5003,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_117">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="117" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="117" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00878143"
       SegmentationQualityInIntensityScore="276.388"
@@ -5043,7 +5043,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_118">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="118" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="118" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0237469"
       SegmentationQualityInIntensityScore="271.353"
@@ -5088,7 +5088,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_119">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="119" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="119" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0236708"
       SegmentationQualityInIntensityScore="282.6"
@@ -5133,7 +5133,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_120">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="120" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="120" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0282243"
       SegmentationQualityInIntensityScore="223.949"
@@ -5170,7 +5170,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_121">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="121" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="121" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0367345"
       SegmentationQualityInIntensityScore="269.624"
@@ -5209,7 +5209,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_122">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="122" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="122" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0568739"
       SegmentationQualityInIntensityScore="287.922"
@@ -5250,7 +5250,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_123">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="123" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="123" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0314677"
       SegmentationQualityInIntensityScore="262.035"
@@ -5292,7 +5292,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_124">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="124" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="124" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0735123"
       SegmentationQualityInIntensityScore="271.451"
@@ -5330,7 +5330,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_125">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="125" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="125" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0615925"
       SegmentationQualityInIntensityScore="265.384"
@@ -5370,7 +5370,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_126">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="126" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="126" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0647944"
       SegmentationQualityInIntensityScore="283.698"
@@ -5413,7 +5413,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_127">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="127" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="127" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0247944"
       SegmentationQualityInIntensityScore="287.561"
@@ -5450,7 +5450,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_128">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="128" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="128" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0606549"
       SegmentationQualityInIntensityScore="288.157"
@@ -5492,7 +5492,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_129">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="129" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="129" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0236132"
       SegmentationQualityInIntensityScore="294.988"
@@ -5533,7 +5533,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_130">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="130" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="130" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0338819"
       SegmentationQualityInIntensityScore="290.526"
@@ -5571,7 +5571,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_131">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="131" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="131" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0745823"
       SegmentationQualityInIntensityScore="280.043"
@@ -5615,7 +5615,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_132">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="132" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="132" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00374889"
       SegmentationQualityInIntensityScore="238.749"
@@ -5649,7 +5649,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_133">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="133" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="133" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0468289"
       SegmentationQualityInIntensityScore="270.027"
@@ -5686,7 +5686,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_134">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="134" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="134" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0638903"
       SegmentationQualityInIntensityScore="271.235"
@@ -5723,7 +5723,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_135">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="135" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="135" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0329736"
       SegmentationQualityInIntensityScore="276.082"
@@ -5757,7 +5757,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_136">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="136" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="136" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0362553"
       SegmentationQualityInIntensityScore="281.059"
@@ -5799,7 +5799,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_137">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="137" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="137" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0420639"
       SegmentationQualityInIntensityScore="289.298"
@@ -5839,7 +5839,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_138">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="138" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="138" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0622346"
       SegmentationQualityInIntensityScore="292.345"
@@ -5880,7 +5880,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_139">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="139" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="139" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0669874"
       SegmentationQualityInIntensityScore="290.816"
@@ -5919,7 +5919,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_140">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="140" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="140" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0639065"
       SegmentationQualityInIntensityScore="285.847"
@@ -5958,7 +5958,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_141">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="141" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="141" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0754714"
       SegmentationQualityInIntensityScore="282.914"
@@ -5996,7 +5996,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_142">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="142" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="142" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0167196"
       SegmentationQualityInIntensityScore="277.945"
@@ -6038,7 +6038,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_143">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="143" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="143" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.022014"
       SegmentationQualityInIntensityScore="278.094"
@@ -6081,7 +6081,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_144">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="144" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="144" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0672754"
       SegmentationQualityInIntensityScore="287.906"
@@ -6121,7 +6121,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_145">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="145" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="145" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.010506"
       SegmentationQualityInIntensityScore="291.298"
@@ -6158,7 +6158,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_146">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="146" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="146" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0310523"
       SegmentationQualityInIntensityScore="299.376"
@@ -6192,7 +6192,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_147">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="147" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="147" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0132964"
       SegmentationQualityInIntensityScore="294.663"
@@ -6226,7 +6226,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_148">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="148" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="148" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0389766"
       SegmentationQualityInIntensityScore="293.914"
@@ -6261,7 +6261,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_149">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="149" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="149" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0382026"
       SegmentationQualityInIntensityScore="291.624"
@@ -6295,7 +6295,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_150">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="150" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="150" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0575676"
       SegmentationQualityInIntensityScore="292.671"
@@ -6331,7 +6331,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_151">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="151" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="151" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0668375"
       SegmentationQualityInIntensityScore="292.082"
@@ -6366,7 +6366,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_152">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="152" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="152" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0294612"
       SegmentationQualityInIntensityScore="287.521"
@@ -6403,7 +6403,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_153">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="153" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="153" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.032186"
       SegmentationQualityInIntensityScore="276.537"
@@ -6440,7 +6440,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_154">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="154" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="154" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00227412"
       SegmentationQualityInIntensityScore="270.341"
@@ -6478,7 +6478,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_155">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="155" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="155" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00441159"
       SegmentationQualityInIntensityScore="279.106"
@@ -6514,7 +6514,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_156">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="156" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="156" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0224827"
       SegmentationQualityInIntensityScore="285.655"
@@ -6550,7 +6550,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_157">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="157" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="157" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0228334"
       SegmentationQualityInIntensityScore="296.651"
@@ -6584,7 +6584,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_158">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="158" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="158" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0406787"
       SegmentationQualityInIntensityScore="297.988"
@@ -6621,7 +6621,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_159">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="159" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="159" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.047409"
       SegmentationQualityInIntensityScore="297.451"
@@ -6660,7 +6660,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_160">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="160" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="160" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0205106"
       SegmentationQualityInIntensityScore="291.267"
@@ -6696,7 +6696,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_161">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="161" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="161" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0127721"
       SegmentationQualityInIntensityScore="285.063"
@@ -6735,7 +6735,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_162">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="162" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="162" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0184207"
       SegmentationQualityInIntensityScore="293.114"
@@ -6774,7 +6774,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_163">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="163" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="163" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0253358"
       SegmentationQualityInIntensityScore="290.945"
@@ -6809,7 +6809,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_164">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="164" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="164" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0152142"
       SegmentationQualityInIntensityScore="272.129"
@@ -6849,7 +6849,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_165">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="165" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="165" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0295068"
       SegmentationQualityInIntensityScore="298.78"
@@ -6889,7 +6889,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_166">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="166" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="166" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0157329"
       SegmentationQualityInIntensityScore="289.388"
@@ -6926,7 +6926,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_167">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="167" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="167" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0501956"
       SegmentationQualityInIntensityScore="282.839"
@@ -6966,7 +6966,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_168">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="168" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="168" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0519507"
       SegmentationQualityInIntensityScore="285.616"
@@ -7007,7 +7007,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_169">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="169" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="169" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0265909"
       SegmentationQualityInIntensityScore="269.816"
@@ -7051,7 +7051,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_170">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="170" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="170" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0731563"
       SegmentationQualityInIntensityScore="272.251"
@@ -7092,7 +7092,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_171">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="171" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="171" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0172852"
       SegmentationQualityInIntensityScore="263.886"
@@ -7131,7 +7131,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_172">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="172" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="172" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0420408"
       SegmentationQualityInIntensityScore="282.812"
@@ -7171,7 +7171,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_173">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="173" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="173" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00560323"
       SegmentationQualityInIntensityScore="292.349"
@@ -7215,7 +7215,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_174">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="174" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="174" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0441171"
       SegmentationQualityInIntensityScore="263.749"
@@ -7253,7 +7253,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_175">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="175" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="175" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0762395"
       SegmentationQualityInIntensityScore="276.631"
@@ -7295,7 +7295,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_176">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="176" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="176" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.107456"
       SegmentationQualityInIntensityScore="282.412"
@@ -7337,7 +7337,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_177">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="177" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="177" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.165257"
       SegmentationQualityInIntensityScore="299.463"
@@ -7384,7 +7384,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_178">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="178" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="178" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0950072"
       SegmentationQualityInIntensityScore="289.965"
@@ -7431,7 +7431,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_179">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="179" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="179" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.106009"
       SegmentationQualityInIntensityScore="286.227"
@@ -7476,7 +7476,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_180">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="180" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="180" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.104755"
       SegmentationQualityInIntensityScore="294.533"
@@ -7520,7 +7520,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_181">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="181" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="181" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.100107"
       SegmentationQualityInIntensityScore="276.478"
@@ -7565,7 +7565,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_182">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="182" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="182" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0700223"
       SegmentationQualityInIntensityScore="282.647"
@@ -7614,7 +7614,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_183">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="183" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="183" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0847915"
       SegmentationQualityInIntensityScore="295.333"
@@ -7665,7 +7665,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_184">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="184" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="184" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.142057"
       SegmentationQualityInIntensityScore="284.741"
@@ -7722,7 +7722,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_185">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="185" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="185" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.181745"
       SegmentationQualityInIntensityScore="295.761"
@@ -7768,7 +7768,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_186">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="186" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="186" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.24299"
       SegmentationQualityInIntensityScore="295.62"
@@ -7812,7 +7812,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_187">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="187" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="187" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.383382"
       SegmentationQualityInIntensityScore="303.498"
@@ -7857,7 +7857,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_188">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="188" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="188" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.217627"
       SegmentationQualityInIntensityScore="277.243"
@@ -7906,7 +7906,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_189">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="189" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="189" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0764779"
       SegmentationQualityInIntensityScore="276.722"
@@ -7952,7 +7952,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_190">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="190" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="190" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0898409"
       SegmentationQualityInIntensityScore="285.078"
@@ -7999,7 +7999,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_191">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="191" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="191" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.104693"
       SegmentationQualityInIntensityScore="299.537"
@@ -8050,7 +8050,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_192">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="192" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="192" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.103473"
       SegmentationQualityInIntensityScore="307.839"
@@ -8100,7 +8100,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_193">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="193" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="193" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.123534"
       SegmentationQualityInIntensityScore="295.686"
@@ -8144,7 +8144,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_194">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="194" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="194" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0905551"
       SegmentationQualityInIntensityScore="296.588"
@@ -8190,7 +8190,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_195">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="195" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="195" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0484334"
       SegmentationQualityInIntensityScore="298.239"
@@ -8230,7 +8230,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_196">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="196" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="196" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.059647"
       SegmentationQualityInIntensityScore="300.42"
@@ -8274,7 +8274,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_197">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="197" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="197" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0511245"
       SegmentationQualityInIntensityScore="287.8"
@@ -8315,7 +8315,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_198">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="198" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="198" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.028038"
       SegmentationQualityInIntensityScore="284.957"
@@ -8352,7 +8352,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="SegmentationTest_BKMedical_RandomStepperMotionData2_199">
-    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.mha" ImageSeqFrameIndex="199" />
+    <Input ImageSeqFileName="SegmentationTest_BKMedical_RandomStepperMotionData2.igs.mha" ImageSeqFrameIndex="199" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0126492"
       SegmentationQualityInIntensityScore="292.482"

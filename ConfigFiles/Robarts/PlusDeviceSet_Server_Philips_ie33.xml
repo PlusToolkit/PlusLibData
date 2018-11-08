@@ -20,7 +20,7 @@
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="ie33Philips3DCapture.nrrd"
+      BaseFilename="ie33Philips3DCapture.igs.nrrd"
       EnableCapturing="FALSE" >
       <InputChannels>
         <InputChannel Id="VideoStream" />

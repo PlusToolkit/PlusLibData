@@ -7,7 +7,7 @@
       Id="VideoDevice"
       Type="SavedDataSource"
       AcquisitionRate="20"
-      SequenceFile="ie33_NDIAurora_Probe_Stylus_compressed.mha"
+      SequenceFile="ie33_NDIAurora_Probe_Stylus_compressed.igs.mha"
       UseData="IMAGE_AND_TRANSFORM"
       RepeatEnabled="TRUE" >
       <DataSources>

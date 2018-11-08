@@ -2,7 +2,7 @@
 <TestResults>
  <AlgorithmOptions SegmentationThreshold="19" ImportSegResultsFromFile="" />
   <TestCase id="CIRS_TranslationData1_0">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="0" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="0" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="61.2431"
       SegmentationPoints="579.741 248.999 587.752 184.538 573.079 316.457 564.067 381.507 557.991 446.377 587.752 184.538 515.063 241.806 439.612 298.069 367.946 354.955 298.258 412.416 303.644 346.958 313.393 282.092 322.239 213.637 298.258 412.416 331.064 147.489" />
@@ -23,7 +23,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_1">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="1" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="1" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="61.4941"
       SegmentationPoints="580.488 249.438 573.47 316.857 564.324 381.761 587.668 184.548 558.182 446.654 515.608 242.04 587.668 184.548 440.001 298.13 368.234 354.892 298.597 412.174 303.862 346.787 313.207 282.315 323.212 213.305 298.597 412.174 329.554 148" />
@@ -44,7 +44,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_2">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="2" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="2" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="6.91765" Positon="580.435 249.561" />
@@ -63,7 +63,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_3">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="3" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="3" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="62.3294"
       SegmentationPoints="580.974 249.827 573.821 317.035 564.942 382.155 589.935 185.784 558.886 447.437 516.451 242.566 589.935 185.784 441.742 298.621 369.653 355.045 299.119 412.466 304.803 346.932 314.337 282.505 299.119 412.466 324.734 213.625 332.412 147.892" />
@@ -84,7 +84,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_4">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="4" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="4" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="61.7922"
       SegmentationPoints="580.998 249.854 574.244 317.225 564.949 382.184 590.431 186.047 558.951 447.567 516.514 242.601 590.431 186.047 442.1 298.737 369.96 355.228 299.129 412.73 304.942 347.029 314.349 282.695 299.129 412.73 325.004 213.733 332.203 148.385" />
@@ -105,7 +105,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_5">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="5" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="5" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="67.0314"
       SegmentationPoints="580.884 249.814 574.174 317.131 590.431 185.945 564.999 382.195 558.951 447.567 516.633 242.584 590.431 185.945 442.186 298.806 369.75 355.232 299.114 412.733 304.947 347.025 314.233 282.779 324.843 213.785 299.114 412.733 331.724 148.668" />
@@ -126,7 +126,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_6">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="6" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="6" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="66.1333"
       SegmentationPoints="574.2 317.187 581.017 249.961 589.977 185.874 565.035 382.311 558.992 447.641 516.702 242.737 589.977 185.874 442.189 298.856 369.627 355.312 299.1 412.759 304.907 347.093 314.154 282.793 299.1 412.759 324.925 213.741 332.597 148.29" />
@@ -147,7 +147,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_7">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="7" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="7" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="8.32941" Positon="580.862 250.029" />
@@ -166,7 +166,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_8">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="8" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="8" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="64.4941"
       SegmentationPoints="580.767 249.985 574.093 317.208 564.969 382.331 589.887 185.837 558.978 447.699 516.662 242.839 589.887 185.837 441.661 298.931 369.732 355.179 299.083 412.825 304.931 347.174 314.283 282.797 299.083 412.825 324.839 213.834 331.653 148.612" />
@@ -187,7 +187,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_9">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="9" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="9" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="64.8588"
       SegmentationPoints="580.919 250.166 574.223 317.309 564.967 382.361 590.076 186.058 558.946 447.709 516.766 242.904 590.076 186.058 441.768 299.01 369.702 355.157 299.11 412.809 314.14 282.864 304.849 347.212 324.792 213.696 299.11 412.809 332.039 148.236" />
@@ -208,7 +208,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_10">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="10" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="10" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="65.2706"
       SegmentationPoints="580.512 249.958 574.026 317.15 564.959 382.349 590.006 186.035 558.829 447.555 516.633 242.877 590.006 186.035 441.716 298.988 369.744 355.164 299.11 412.809 304.918 347.146 314.115 282.882 324.788 213.755 299.11 412.809 332.378 148.162" />
@@ -229,7 +229,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_11">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="11" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="11" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="8.00392" Positon="580.648 249.921" />
@@ -247,7 +247,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_12">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="12" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="12" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="8.47059" Positon="580.55 249.793" />
@@ -266,7 +266,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_13">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="13" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="13" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="65.6706"
       SegmentationPoints="574.104 317.127 580.639 249.968 589.935 185.789 564.946 382.274 558.782 447.507 516.608 242.678 589.935 185.789 441.914 299 369.521 355.283 299.25 412.526 305.064 347.078 314.197 282.716 299.25 412.526 324.876 213.755 332.5 147.735" />
@@ -287,7 +287,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_14">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="14" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="14" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="64.498"
       SegmentationPoints="574.072 317.186 580.859 249.942 564.942 382.256 590.321 186.029 558.824 447.549 516.743 242.743 590.321 186.029 441.889 298.957 369.675 355.129 299.266 412.498 305.035 347.007 314.61 282.531 325.086 213.607 299.266 412.498 333.058 148" />
@@ -308,7 +308,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_15">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="15" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="15" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="7.76471" Positon="581.242 250.107" />
@@ -327,7 +327,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_16">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="16" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="16" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="64.4824"
       SegmentationPoints="582.073 250.293 575.403 317.92 591.587 186.581 565.804 383.04 559.443 447.946 591.587 186.581 517.802 243.146 443.084 298.992 300.051 411.993 370.713 354.715 315.092 282.246 300.051 411.993 305.835 346.446 325.363 213.945 333.75 147.72" />
@@ -348,7 +348,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_17">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="17" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="17" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="61.6863"
       SegmentationPoints="582.289 250.323 575.811 317.909 591.418 186.124 566.131 382.984 559.763 447.966 591.418 186.124 517.91 242.97 443.094 298.593 300.278 411.797 370.818 354.335 315.6 282 300.278 411.797 306.24 346.106 325.944 213.559 334.513 147.366" />
@@ -369,7 +369,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_18">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="18" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="18" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="59.9098"
       SegmentationPoints="582.634 250.399 575.896 317.819 566.195 382.854 592.052 186.249 559.845 447.83 518.318 242.954 592.052 186.249 300.467 411.649 443.357 298.52 371.141 354.17 315.623 281.967 306.79 345.892 300.467 411.649 326.243 213.394 334.125 147.389" />
@@ -390,7 +390,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_19">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="19" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="19" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="58.8196"
       SegmentationPoints="576.06 317.442 582.498 250.13 592.205 185.727 566.421 382.694 559.944 447.602 592.205 185.727 518.431 242.736 443.494 298.268 300.714 411.435 371.313 354.126 306.853 345.843 300.714 411.435 316.096 281.865 326.356 213.098 335.034 147" />
@@ -411,7 +411,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_20">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="20" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="20" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="61.2784"
       SegmentationPoints="575.976 317.098 582.912 249.948 592.054 185.553 566.285 382.274 559.803 447.294 592.054 185.553 518.707 242.496 443.571 298.038 300.886 411.03 371.818 353.823 307.153 345.462 300.886 411.03 315.965 281.515 325.682 212.746 335.238 146.525" />
@@ -432,7 +432,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_21">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="21" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="21" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="63.3373"
       SegmentationPoints="582.721 249.622 575.979 316.85 592.295 185.451 566.417 382.09 559.916 446.891 592.295 185.451 518.16 242.101 443.399 297.949 300.889 410.814 371.572 353.764 307.018 345.263 316.285 281.295 300.889 410.814 326.082 212.468 335.565 146.365" />
@@ -453,7 +453,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_22">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="22" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="22" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="60.898"
       SegmentationPoints="576.181 316.861 583.328 249.807 592.468 185.499 566.4 382.002 560.016 446.919 518.956 242.224 592.468 185.499 443.902 297.876 301.223 410.412 371.52 353.686 307.328 344.886 316.847 280.896 301.223 410.412 326.61 212.357 334.5 146.5" />
@@ -474,7 +474,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_23">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="23" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="23" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="59.7216"
       SegmentationPoints="576.125 316.586 583.263 249.552 592.597 185.102 566.473 381.698 559.733 446.39 518.688 241.721 592.597 185.102 443.81 297.48 301.171 410.045 371.964 353.257 307.831 344.344 316.837 280.371 301.171 410.045 326.534 211.84 335.244 146.269" />
@@ -495,7 +495,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_24">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="24" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="24" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="62.4706"
       SegmentationPoints="576.499 316.408 583.501 249.119 593.297 185.009 566.252 381.019 559.895 445.809 519.095 241.452 593.297 185.009 443.895 297.086 301.358 409.358 372.508 352.839 308.012 343.751 318.107 279.611 301.358 409.358 326.285 211.494 336.627 145.107" />
@@ -516,7 +516,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_25">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="25" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="25" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="60.5804"
       SegmentationPoints="576.68 316.021 584.007 248.569 593.568 184.751 566.43 380.757 560.233 445.672 593.568 184.751 519.639 241.176 444.679 296.823 301.947 408.681 373.18 352.521 308.655 343.301 318.613 279.116 301.947 408.681 327.649 210.581 338 144.391" />
@@ -537,7 +537,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_26">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="26" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="26" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="66.4353"
       SegmentationPoints="579.013 314.213 595.866 182.87 586.344 247.063 568.832 378.875 562.088 443.538 522.467 239.412 595.866 182.87 447.588 294.385 375.713 350.344 305.401 405.549 311.228 340.811 321.237 276.734 330.132 208.759 305.401 405.549 340 142" />
@@ -558,7 +558,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_27">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="27" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="27" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="9.21176" Positon="579.528 312.264" />
@@ -576,7 +576,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_28">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="28" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="28" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="8.22353" Positon="579.307 312.564" />
@@ -594,7 +594,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_29">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="29" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="29" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="8.87843" Positon="579.785 312.602" />
@@ -612,7 +612,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_30">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="30" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="30" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="8.92549" Positon="586.441 245.138" />
@@ -630,7 +630,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_31">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="31" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="31" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="8.73725" Positon="587.219 247.246" />
@@ -649,7 +649,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_32">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="32" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="32" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="7.7451" Positon="586.392 248.518" />
@@ -667,7 +667,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_33">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="33" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="33" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="7.96471" Positon="578.755 315.979" />
@@ -685,7 +685,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_34">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="34" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="34" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="7.47059" Positon="577.972 316.039" />
@@ -703,7 +703,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_35">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="35" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="35" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="7.19216" Positon="577.435 316.261" />
@@ -721,7 +721,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_36">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="36" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="36" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="6.6" Positon="584.548 249.449" />
@@ -739,7 +739,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_37">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="37" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="37" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="7.46667" Positon="584.242 249.523" />
@@ -758,7 +758,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_38">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="38" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="38" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="58.5137"
       SegmentationPoints="577.783 316.883 585.153 250.056 568.32 380.928 594.48 186.1 561.584 445.616 520.203 241.932 446.252 296.569 594.48 186.1 374.352 352.47 302.805 409.285 309.407 343.742 319.376 279.476 302.805 409.285 328.548 210.994 337.058 143.346" />
@@ -779,7 +779,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_39">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="39" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="39" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="57.3255"
       SegmentationPoints="577.101 317.193 567.514 381.481 584.266 250.036 593.543 186.56 561.527 446.315 593.543 186.56 519.869 242.557 445.493 296.954 373.614 353.087 302.111 410.196 319.004 280.13 308.851 344.476 302.111 410.196 327.315 211.874 336.119 143.945" />
@@ -800,7 +800,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_40">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="40" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="40" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="6.86667" Positon="577.07 317.474" />
@@ -818,7 +818,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_41">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="41" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="41" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="51.7137"
       SegmentationPoints="567.542 382.403 583.491 250.619 577.37 318.404 592.717 186.788 561.232 446.827 519.784 243.265 592.717 186.788 445.595 297.989 373.682 353.927 302.107 411.113 317.637 281.024 308.748 345.003 327.365 212.229 302.107 411.113 336.695 144.888" />
@@ -839,7 +839,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_42">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="42" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="42" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="47.2392"
       SegmentationPoints="568.237 382.888 583.982 250.929 577.615 318.575 561.238 446.946 592.546 187.069 445.547 298.039 519.924 243.085 374.089 353.915 302.248 410.951 592.546 187.069 318.269 280.975 308.709 345.205 327.149 212.092 302.248 410.951 337.533 145" />
@@ -860,7 +860,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_43">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="43" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="43" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="47.6157"
       SegmentationPoints="577.426 318.591 584.25 251.571 567.503 382.681 561.46 447.164 593.121 187.424 519.489 243.33 593.121 187.424 445.594 298.394 372.829 354.041 301.811 411.571 317.858 281.391 307.994 346.103 326.91 212.731 301.811 411.571 336.518 145.366" />
@@ -882,7 +882,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_44">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="44" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="44" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="5.1098" Positon="576.434 318.676" />
@@ -902,7 +902,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_45">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="45" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="45" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="43.1333"
       SegmentationPoints="576.599 319.353 567.38 383.349 584.176 252.447 561.135 448.199 592.571 187.949 445.049 298.641 519.804 244.101 301.359 411.95 373.028 354.699 592.571 187.949 316.899 282.148 326.514 213.294 307.832 346.402 301.359 411.95 335.275 146.122" />
@@ -923,7 +923,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_46">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="46" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="46" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="4.63922" Positon="582.923 251.74" />
@@ -943,7 +943,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_47">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="47" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="47" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="45.7608"
       SegmentationPoints="567.509 383.238 576.265 318.925 584.515 252.095 561.233 447.879 592.407 187.895 445.076 298.416 301.488 412 519.164 244.116 373.451 354.155 592.407 187.895 316.876 282.028 307.74 346.285 301.488 412 327.033 213.354 336.118 146.311" />
@@ -965,7 +965,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_48">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="48" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="48" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="51.8824"
       SegmentationPoints="576.74 318.815 567.56 383.194 592.556 187.81 583.415 251.73 561.161 447.623 518.773 243.496 592.556 187.81 445.249 298.714 301.246 412.122 372.769 354.588 325.953 213.423 317.557 281.835 307.816 346.149 335.177 146.604 301.246 412.122" />
@@ -987,7 +987,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_49">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="49" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="49" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="50.7686"
       SegmentationPoints="582.974 251.174 576.416 318.808 567.282 382.581 592.346 187.701 561.228 447.501 445.263 298.561 592.346 187.701 301.523 412.152 372.669 354.74 519.275 243.819 307.457 346.478 326.552 213.967 335.014 146.861 301.523 412.152 317.361 281.79" />
@@ -1008,7 +1008,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_50">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="50" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="50" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="46.5176"
       SegmentationPoints="567.259 382.523 584.108 251.211 576.814 318.48 592.921 187.825 561.389 447.239 592.921 187.825 444.828 298.514 301.474 412.139 373.164 354.582 519.691 244.137 317.177 281.889 308.246 346.345 335.848 146.653 301.474 412.139 328.063 213.586" />
@@ -1029,7 +1029,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_51">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="51" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="51" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="48.6745"
       SegmentationPoints="577.404 318.524 568.318 382.686 584.341 251.285 562.085 447.324 592.622 187.116 446.43 298.455 518.885 243.068 302.044 411.889 374.002 354.358 592.622 187.116 335.904 146.449 326.875 213.716 319.034 281.198 309.005 345.94 302.044 411.889" />
@@ -1051,7 +1051,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_52">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="52" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="52" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="48.2118"
       SegmentationPoints="577.944 318.425 568.124 382.303 584.799 251.286 562.657 447.119 592.636 186.691 520.269 243.185 446.832 298.703 302.463 411.744 374.525 354.163 592.636 186.691 319.503 281.111 327.781 213.538 336.686 146.774 309.066 346.034 302.463 411.744" />
@@ -1072,7 +1072,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_53">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="53" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="53" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="48.4667"
       SegmentationPoints="568.789 381.627 585.161 250.633 578.559 318.487 593.509 186.724 562.998 446.861 593.509 186.724 374.745 353.96 446.392 298.068 520.606 243.187 302.787 411.66 319.56 281.345 336.189 146.947 309.206 345.703 328.072 213.053 302.787 411.66" />
@@ -1093,7 +1093,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_54">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="54" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="54" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="51.1882"
       SegmentationPoints="568.432 381.213 584.72 250.426 578.565 318.107 592.353 185.793 562.984 446.245 447.033 297.887 592.353 185.793 374.991 353.964 303.079 411.435 520.47 242.528 319.597 281.524 336.6 146.888 327.902 213.301 309.41 345.484 303.079 411.435" />
@@ -1115,7 +1115,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_55">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="55" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="55" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="47.9608"
       SegmentationPoints="578.089 317.227 585.208 250.002 568.87 381.283 563.231 446.081 592.727 185.668 447.073 297.256 375.545 353.766 520.838 241.999 303.455 411.223 592.727 185.668 328.734 212.944 319.056 281.533 336.651 146.905 309.625 345.468 303.455 411.223" />
@@ -1137,7 +1137,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_56">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="56" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="56" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="50.6314"
       SegmentationPoints="578.463 317.533 586.219 250.567 568.857 381.198 563.142 446.025 593.276 185.649 521.107 242.837 447.269 297.404 375.661 353.823 303.665 411.064 593.276 185.649 328.626 213.149 336.898 147.206 320.129 281.113 303.665 411.064 310.038 345.147" />
@@ -1159,7 +1159,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_57">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="57" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="57" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="50.1529"
       SegmentationPoints="578.548 317.483 568.816 381.17 585.853 250.664 593.629 185.934 563.223 446.129 521.904 243.349 447.488 297.554 375.614 353.81 303.812 410.94 593.629 185.934 328.531 213.23 303.812 410.94 320.352 280.822 309.905 345.146 336.833 147.185" />
@@ -1181,7 +1181,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_58">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="58" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="58" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="50.6118"
       SegmentationPoints="568.345 380.441 577.953 316.982 594.179 185.913 585.565 250.157 563.045 445.465 594.179 185.913 521.471 242.425 447.039 297.501 375.256 353.613 303.84 410.827 319.901 280.635 328.541 213.254 310.056 345.118 337.554 146.973 303.84 410.827" />
@@ -1203,7 +1203,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_59">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="59" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="59" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="50.7098"
       SegmentationPoints="568.744 380.515 577.783 316.448 585.62 249.863 562.955 445.104 593.398 185.479 520.418 241.604 446.361 297.084 303.309 410.814 375.391 353.401 593.398 185.479 327.727 213.055 336.359 147.023 309.693 344.753 319.732 280.661 303.309 410.814" />
@@ -1225,7 +1225,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_60">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="60" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="60" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="53.9176"
       SegmentationPoints="584.634 249.183 577.917 316.366 568.688 380.14 562.842 444.837 594.039 185.365 520.451 241.499 447.228 297.054 303.464 410.541 375.332 353.231 594.039 185.365 326.652 213.255 336.457 147.054 309.836 344.765 303.464 410.541 319.256 280.818" />
@@ -1246,7 +1246,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_61">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="61" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="61" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="51.5961"
       SegmentationPoints="568.451 379.523 577.831 315.987 584.562 248.658 562.921 444.415 593.791 184.838 520.688 241.553 447.444 296.993 375.514 353.105 303.816 410.187 593.791 184.838 309.704 344.454 336.519 146.962 319.221 280.357 303.816 410.187 327.793 212.846" />
@@ -1267,7 +1267,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_62">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="62" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="62" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="53.1373"
       SegmentationPoints="577.647 315.275 568.746 378.675 584.75 247.986 563.201 443.391 590.867 182.889 520.244 240.437 446.914 296.326 375.055 352.661 303.839 410.088 590.867 182.889 320.117 279.667 336.453 147.257 327.879 212.529 309.978 344.215 303.839 410.088" />
@@ -1288,7 +1288,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_63">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="63" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="63" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="52.3608"
       SegmentationPoints="577.94 314.765 568.505 378.129 583.959 247.401 563.126 442.966 591.372 182.52 520.783 240.688 375.559 352.484 446.959 296.145 304.053 409.817 591.372 182.52 327.881 212.294 309.97 343.848 319.942 279.667 336.984 146.918 304.053 409.817" />
@@ -1309,7 +1309,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_64">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="64" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="64" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="57.5529"
       SegmentationPoints="584.88 247.039 577.974 314.212 568.756 377.52 563.253 442.249 591.937 182.427 520.668 240.08 447.211 295.935 375.811 352.02 304.419 409.534 591.937 182.427 320.512 279.471 327.645 212.317 310.518 343.637 304.419 409.534 335.64 147.091" />
@@ -1330,7 +1330,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_65">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="65" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="65" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="51.9216"
       SegmentationPoints="577.91 313.822 569.146 377.117 584.653 246.987 563.443 442.057 593.471 182.427 521.207 239.727 376.245 351.926 447.165 295.134 304.494 409.32 593.471 182.427 320.891 278.741 310.279 343.262 327.903 212.124 304.494 409.32 336.145 147.076" />
@@ -1352,7 +1352,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_66">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="66" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="66" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="51.9373"
       SegmentationPoints="568.966 376.961 578.214 313.994 585.448 246.664 563.585 441.653 592.199 181.744 521.298 240.197 376.666 351.798 447.684 295.084 305.082 408.967 592.199 181.744 310.493 343.184 321.043 278.987 328.038 212.079 305.082 408.967 336.829 147.065" />
@@ -1373,7 +1373,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_67">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="67" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="67" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="47.6627"
       SegmentationPoints="569.183 377.08 585.238 246.345 578.819 314.223 563.783 441.625 592.463 181.926 520.601 239.556 447.89 295.187 376.777 351.799 305.244 409.231 592.463 181.926 310.866 343.09 320.713 279.108 305.244 409.231 328.101 212.023 337.208 146.8" />
@@ -1394,7 +1394,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_68">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="68" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="68" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="49.2667"
       SegmentationPoints="578.778 313.906 569.403 377.01 585.366 246.299 564.019 441.659 592.759 181.598 520.42 239.38 448.391 295.347 304.595 409.68 376.752 351.946 592.759 181.598 310.866 343.424 320.689 279.18 304.595 409.68 328.277 212.264 337.07 147.244" />
@@ -1415,7 +1415,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_69">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="69" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="69" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="50.0431"
       SegmentationPoints="578.71 313.646 569.619 376.916 585.508 246.291 564.076 441.634 592.281 180.926 521.159 239.511 448.15 295.297 305.112 409.463 376.795 351.903 592.281 180.926 311 343.449 320.759 279.135 305.112 409.463 327.561 212.134 337.653 147.045" />
@@ -1436,7 +1436,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_70">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="70" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="70" />
     <Output SegmentationSuccess="0" />
      <FiducialPointCandidates>
        <Point id="0" Intensity ="7.23922" Positon="578.952 313.258" />
@@ -1456,7 +1456,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_71">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="71" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="71" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="49.949"
       SegmentationPoints="578.806 313.127 569.305 376.252 584.865 245.552 593.296 181.022 564.358 440.897 448.58 294.785 521.892 239.89 593.296 181.022 305.251 409.062 376.738 351.449 311.216 342.771 305.251 409.062 328.398 212.202 321.338 278.778 337.349 146.457" />
@@ -1477,7 +1477,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_72">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="72" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="72" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="51.0784"
       SegmentationPoints="577.957 312.133 584.091 244.604 569.022 375.472 564.134 440.66 592.357 180.126 521.316 238.927 376.842 351.023 448.245 294.872 592.357 180.126 304.956 408.916 310.79 342.837 327.503 211.268 321.144 278.295 304.956 408.916 337.469 146.434" />
@@ -1498,7 +1498,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_73">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="73" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="73" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="49.5451"
       SegmentationPoints="578.18 312.098 569.476 375.536 584.415 244.753 563.89 440.179 592.854 180.095 520.981 238.594 376.623 350.78 447.831 294.021 305.373 408.339 592.854 180.095 310.736 342.271 305.373 408.339 321.119 278.338 328.214 210.926 336.526 146.456" />
@@ -1519,7 +1519,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_74">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="74" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="74" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="47.0353"
       SegmentationPoints="578.077 311.77 568.357 374.774 584.116 244.36 563.238 439.431 592.516 179.884 447.635 293.865 521.32 238.573 376.199 350.715 304.938 408.112 592.516 179.884 320.504 277.333 327.725 210.949 304.938 408.112 310.671 342.169 336.302 146.032" />
@@ -1540,7 +1540,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_75">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="75" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="75" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="48.9294"
       SegmentationPoints="568.692 374.508 584.016 243.994 577.791 311.79 563.203 439.171 591.515 178.631 520.6 237.739 447.332 293.409 304.672 408.076 376.157 350.543 591.515 178.631 310.629 341.708 320.056 277.738 327.024 210.861 304.672 408.076 335.84 146.369" />
@@ -1561,7 +1561,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_76">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="76" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="76" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="48.8196"
       SegmentationPoints="577.669 311.288 568.56 374.536 584.986 244.317 563.118 439.106 591.463 178.636 520.779 237.577 447.61 293.271 375.867 350.232 304.952 407.882 591.463 178.636 320.236 277.518 310.48 341.77 304.952 407.882 327.433 210.911 335.715 146.28" />
@@ -1583,7 +1583,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_77">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="77" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="77" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="48.1137"
       SegmentationPoints="578.225 311.549 584.449 243.746 568.885 374.331 563.494 439.158 591.048 178.008 447.929 293.12 520.993 237.637 305.296 407.701 376.443 350.254 591.048 178.008 311.222 341.29 328.15 210.536 320.184 277.499 305.296 407.701 336.932 145.701" />
@@ -1605,7 +1605,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_78">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="78" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="78" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="51.0157"
       SegmentationPoints="568.583 374.113 577.95 311.115 584.142 243.616 563.723 439.077 592.151 178.286 520.889 237.586 447.701 293.105 376.224 350.168 304.976 407.876 592.151 178.286 310.331 341.853 328.417 210.126 304.976 407.876 320.138 277.824 336.117 145.761" />
@@ -1626,7 +1626,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="CIRS_TranslationData1_79">
-    <Input ImageSeqFileName="CIRS_TranslationData1.mha" ImageSeqFrameIndex="79" />
+    <Input ImageSeqFileName="CIRS_TranslationData1.igs.mha" ImageSeqFrameIndex="79" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInIntensityScore="48.9294"
       SegmentationPoints="577.997 310.205 583.616 242.851 568.285 373.244 563.891 438.65 591.608 178.039 520.508 237.235 447.432 292.714 376.708 349.992 305.383 407.696 591.608 178.039 311.014 341.221 321.218 277.079 305.383 407.696 326.673 210.569 336.245 145.596" />

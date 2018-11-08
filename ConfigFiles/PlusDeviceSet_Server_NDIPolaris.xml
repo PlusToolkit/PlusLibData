@@ -25,7 +25,7 @@ For NDI Polaris passive marker starting kit: Tool (8700339), Stylus (8700340), R
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="RecordingTest.nrrd"
+      BaseFilename="RecordingTest.igs.nrrd"
       EnableFileCompression="TRUE"
       EnableCapturingOnStart="TRUE" >
       <InputChannels>
