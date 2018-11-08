@@ -55,7 +55,7 @@
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="RecordingTest.mha"
+      BaseFilename="RecordingTest.igs.mha"
       EnableCapturing="FALSE" >
       <InputChannels>
         <InputChannel Id="TrackedVideoStream" />

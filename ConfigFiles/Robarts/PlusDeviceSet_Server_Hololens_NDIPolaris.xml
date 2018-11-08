@@ -26,7 +26,7 @@
 
     <Device Id="CaptureDevice"
             Type="VirtualCapture"
-            BaseFilename="RecordingTest.nrrd"
+            BaseFilename="RecordingTest.igs.nrrd"
             EnableFileCompression="TRUE"
             EnableCapturingOnStart="FALSE">
       <InputChannels>

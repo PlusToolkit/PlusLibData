@@ -33,7 +33,7 @@
     <Device
       Id="VideoDevice"
       Type="SavedDataSource"
-      SequenceFile="fCal_Test_Calibration_3NWires_fCal2.0.mha"
+      SequenceFile="fCal_Test_Calibration_3NWires_fCal2.0.igs.mha"
       UseData="IMAGE"
       UseOriginalTimestamps="FALSE"
       RepeatEnabled="TRUE">

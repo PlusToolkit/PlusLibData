@@ -12,7 +12,7 @@
       UseData="TRANSFORM"
       AcquisitionRate="10"
       LocalTimeOffsetSec="0.0"
-      SequenceFile="SlidingProbeTrackingData.mha"
+      SequenceFile="SlidingProbeTrackingData.igs.mha"
       UseOriginalTimestamps="FALSE"
       RepeatEnabled="TRUE"
       ToolReferenceFrame="Tracker" >
@@ -150,7 +150,7 @@
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="RecordingTest.mha"
+      BaseFilename="RecordingTest.igs.mha"
       EnableCapturingOnStart="FALSE" >
       <InputChannels>
         <InputChannel Id="TrackedVideoStream" />

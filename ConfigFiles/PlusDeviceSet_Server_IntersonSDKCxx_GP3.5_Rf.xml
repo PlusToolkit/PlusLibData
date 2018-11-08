@@ -41,7 +41,7 @@
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="IntersonRf.mha"
+      BaseFilename="IntersonRf.igs.mha"
       RequestedFrameRate="12"
       EnableCapturingOnStart="TRUE" >
       <InputChannels>

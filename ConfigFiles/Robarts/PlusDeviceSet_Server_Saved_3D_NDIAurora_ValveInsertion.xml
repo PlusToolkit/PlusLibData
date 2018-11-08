@@ -12,7 +12,7 @@
       RepeatEnabled="TRUE"
       AcquisitionRate="10" 
       LocalTimeOffsetSec="0.0" 
-      SequenceMetafile="iE33_NDIAurora_BeatingHeartPhantom_MitralValveInsertion.mha" >
+      SequenceMetafile="iE33_NDIAurora_BeatingHeartPhantom_MitralValveInsertion.igs.mha" >
       <DataSources>
         <DataSource Type="Video" Id="Video" PortUsImageOrientation="MF"  />
       </DataSources>      

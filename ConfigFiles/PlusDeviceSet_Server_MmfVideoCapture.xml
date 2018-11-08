@@ -20,7 +20,7 @@
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="RecordingTest.mha"
+      BaseFilename="RecordingTest.igs.mha"
       EnableCapturingOnStart="FALSE" >
       <InputChannels>
         <InputChannel Id="VideoStream" />

@@ -12,7 +12,7 @@
       RepeatEnabled="TRUE"
       AcquisitionRate="50"
       LocalTimeOffsetSec="0.0" 
-      SequenceFile="Agilent_Scope_Recording_DP310.nrrd" >
+      SequenceFile="Agilent_Scope_Recording_DP310.igs.nrrd" >
       <DataSources>
         <DataSource Type="Video" Id="Video" PortUsImageOrientation="MF"  />
       </DataSources>      

@@ -7,8 +7,8 @@
     <Device
       Id="TrackedVideoDevice"
       Type="SavedDataSource"
-      SequenceFile="SpinePhantom2Freehand.mha"
-      xSequenceFile="fCal_Test_Calibration_3NWires.mha"
+      SequenceFile="SpinePhantom2Freehand.igs.mha"
+      xSequenceFile="fCal_Test_Calibration_3NWires.igs.mha"
       UseData="IMAGE_AND_TRANSFORM"
       UseOriginalTimestamps="TRUE"
       RepeatEnabled="TRUE" >
@@ -47,7 +47,7 @@
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="RecordingTest.mha"
+      BaseFilename="RecordingTest.igs.mha"
       EnableCapturingOnStart="FALSE" >
       <InputChannels>
         <InputChannel Id="TrackedVideoStream" />

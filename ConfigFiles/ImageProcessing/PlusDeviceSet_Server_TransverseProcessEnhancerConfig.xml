@@ -7,7 +7,7 @@
     <Device
       Id="TrackedVideoLoaderDevice"
       Type="SavedDataSource"
-      SequenceFile="TrackedImageSequence_20150916_154208.mha"
+      SequenceFile="TrackedImageSequence_20150916_154208.igs.mha"
       UseData="IMAGE_AND_TRANSFORM"
       AcquisitionRate="50"
       LocalTimeOffsetSec="0"

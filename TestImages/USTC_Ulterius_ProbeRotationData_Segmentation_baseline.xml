@@ -2,7 +2,7 @@
 <TestResults>
  <AlgorithmOptions SegmentationThresholdTop="10" SegmentationThresholdBottom="10" ImportSegResultsFromFile="" />
   <TestCase id="USTC_Ulterius_ProbeRotationData_0">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="0" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="0" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0339256"
       SegmentationQualityInIntensityScore="455.047"
@@ -21,7 +21,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_1">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="1" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="1" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.000335138"
       SegmentationQualityInIntensityScore="411.318"
@@ -45,7 +45,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_2">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="2" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="2" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00164797"
       SegmentationQualityInIntensityScore="403.239"
@@ -68,7 +68,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_3">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="3" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="3" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0202608"
       SegmentationQualityInIntensityScore="413.224"
@@ -92,7 +92,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_4">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="4" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="4" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.016205"
       SegmentationQualityInIntensityScore="413.541"
@@ -115,7 +115,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_5">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="5" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="5" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0364804"
       SegmentationQualityInIntensityScore="373.706"
@@ -138,7 +138,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_6">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="6" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="6" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0208962"
       SegmentationQualityInIntensityScore="396.306"
@@ -162,7 +162,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_7">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="7" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="7" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.013953"
       SegmentationQualityInIntensityScore="397.427"
@@ -186,7 +186,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_8">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="8" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="8" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0198592"
       SegmentationQualityInIntensityScore="400.055"
@@ -210,7 +210,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_9">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="9" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="9" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0194163"
       SegmentationQualityInIntensityScore="414.883"
@@ -232,7 +232,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_10">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="10" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="10" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0148552"
       SegmentationQualityInIntensityScore="429.118"
@@ -254,7 +254,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_11">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="11" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="11" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0140142"
       SegmentationQualityInIntensityScore="422.93"
@@ -276,7 +276,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_12">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="12" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="12" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0175336"
       SegmentationQualityInIntensityScore="419.706"
@@ -298,7 +298,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_13">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="13" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="13" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0296311"
       SegmentationQualityInIntensityScore="427.149"
@@ -320,7 +320,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_14">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="14" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="14" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0346642"
       SegmentationQualityInIntensityScore="430.451"
@@ -342,7 +342,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_15">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="15" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="15" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0210368"
       SegmentationQualityInIntensityScore="429.651"
@@ -363,7 +363,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_16">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="16" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="16" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0144969"
       SegmentationQualityInIntensityScore="427.776"
@@ -384,7 +384,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_17">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="17" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="17" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0195634"
       SegmentationQualityInIntensityScore="438.886"
@@ -406,7 +406,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_18">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="18" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="18" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.000454464"
       SegmentationQualityInIntensityScore="429.769"
@@ -427,7 +427,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_19">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="19" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="19" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0219871"
       SegmentationQualityInIntensityScore="417.428"
@@ -448,7 +448,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_20">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="20" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="20" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.102584"
       SegmentationQualityInIntensityScore="403.886"
@@ -468,7 +468,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_21">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="21" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="21" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.111351"
       SegmentationQualityInIntensityScore="401.961"
@@ -488,7 +488,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_22">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="22" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="22" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0579899"
       SegmentationQualityInIntensityScore="394.729"
@@ -510,7 +510,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_23">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="23" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="23" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0138167"
       SegmentationQualityInIntensityScore="405.071"
@@ -533,7 +533,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_24">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="24" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="24" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0480517"
       SegmentationQualityInIntensityScore="376"
@@ -556,7 +556,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_25">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="25" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="25" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0255893"
       SegmentationQualityInIntensityScore="373.345"
@@ -579,7 +579,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_26">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="26" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="26" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0393096"
       SegmentationQualityInIntensityScore="364.816"
@@ -602,7 +602,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_27">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="27" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="27" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.04099"
       SegmentationQualityInIntensityScore="405.502"
@@ -625,7 +625,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_28">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="28" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="28" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.028737"
       SegmentationQualityInIntensityScore="421.529"
@@ -647,7 +647,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_29">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="29" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="29" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0109295"
       SegmentationQualityInIntensityScore="408.49"
@@ -669,7 +669,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_30">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="30" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="30" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0210772"
       SegmentationQualityInIntensityScore="427.075"
@@ -690,7 +690,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_31">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="31" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="31" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0191719"
       SegmentationQualityInIntensityScore="435.988"
@@ -710,7 +710,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_32">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="32" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="32" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0237659"
       SegmentationQualityInIntensityScore="436.282"
@@ -730,7 +730,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_33">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="33" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="33" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00770638"
       SegmentationQualityInIntensityScore="424.89"
@@ -749,7 +749,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_34">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="34" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="34" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00326908"
       SegmentationQualityInIntensityScore="407.431"
@@ -769,7 +769,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_35">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="35" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="35" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.027146"
       SegmentationQualityInIntensityScore="407.325"
@@ -790,7 +790,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_36">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="36" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="36" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0236712"
       SegmentationQualityInIntensityScore="415.871"
@@ -811,7 +811,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_37">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="37" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="37" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0566896"
       SegmentationQualityInIntensityScore="403.129"
@@ -830,7 +830,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_38">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="38" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="38" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0900902"
       SegmentationQualityInIntensityScore="375.678"
@@ -850,7 +850,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_39">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="39" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="39" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.139216"
       SegmentationQualityInIntensityScore="334.286"
@@ -870,7 +870,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_40">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="40" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="40" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.110078"
       SegmentationQualityInIntensityScore="353.055"
@@ -891,7 +891,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_41">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="41" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="41" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0683236"
       SegmentationQualityInIntensityScore="403.529"
@@ -910,7 +910,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_42">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="42" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="42" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.047482"
       SegmentationQualityInIntensityScore="416.329"
@@ -930,7 +930,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_43">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="43" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="43" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0473645"
       SegmentationQualityInIntensityScore="415.953"
@@ -950,7 +950,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_44">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="44" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="44" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0278433"
       SegmentationQualityInIntensityScore="427.259"
@@ -969,7 +969,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_45">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="45" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="45" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0273687"
       SegmentationQualityInIntensityScore="427.969"
@@ -989,7 +989,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_46">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="46" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="46" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0292656"
       SegmentationQualityInIntensityScore="428.698"
@@ -1008,7 +1008,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_47">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="47" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="47" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0284514"
       SegmentationQualityInIntensityScore="432.043"
@@ -1028,7 +1028,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_48">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="48" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="48" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0416178"
       SegmentationQualityInIntensityScore="429.588"
@@ -1049,7 +1049,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_49">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="49" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="49" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0404629"
       SegmentationQualityInIntensityScore="436.616"
@@ -1068,7 +1068,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_50">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="50" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="50" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0487184"
       SegmentationQualityInIntensityScore="425.004"
@@ -1087,7 +1087,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_51">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="51" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="51" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0581896"
       SegmentationQualityInIntensityScore="448.463"
@@ -1106,7 +1106,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_52">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="52" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="52" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0456162"
       SegmentationQualityInIntensityScore="287.294"
@@ -1126,7 +1126,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_53">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="53" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="53" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.119428"
       SegmentationQualityInIntensityScore="416.568"
@@ -1146,7 +1146,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_54">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="54" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="54" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.120946"
       SegmentationQualityInIntensityScore="389.619"
@@ -1167,7 +1167,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_55">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="55" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="55" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.16561"
       SegmentationQualityInIntensityScore="372.435"
@@ -1187,7 +1187,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_56">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="56" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="56" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0424531"
       SegmentationQualityInIntensityScore="383.961"
@@ -1208,7 +1208,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_57">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="57" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="57" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00543328"
       SegmentationQualityInIntensityScore="392.212"
@@ -1227,7 +1227,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_58">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="58" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="58" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0122103"
       SegmentationQualityInIntensityScore="420.722"
@@ -1246,7 +1246,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_59">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="59" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="59" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.031543"
       SegmentationQualityInIntensityScore="424.133"
@@ -1265,7 +1265,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_60">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="60" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="60" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0392568"
       SegmentationQualityInIntensityScore="421.439"
@@ -1283,7 +1283,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_61">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="61" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="61" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0498902"
       SegmentationQualityInIntensityScore="431.192"
@@ -1302,7 +1302,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_62">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="62" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="62" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0288586"
       SegmentationQualityInIntensityScore="461.373"
@@ -1321,7 +1321,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_63">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="63" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="63" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0321337"
       SegmentationQualityInIntensityScore="464.714"
@@ -1340,7 +1340,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_64">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="64" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="64" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0315781"
       SegmentationQualityInIntensityScore="414.384"
@@ -1361,7 +1361,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_65">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="65" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="65" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00414514"
       SegmentationQualityInIntensityScore="408.377"
@@ -1384,7 +1384,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_66">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="66" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="66" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00264148"
       SegmentationQualityInIntensityScore="403.153"
@@ -1409,7 +1409,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_67">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="67" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="67" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0214589"
       SegmentationQualityInIntensityScore="401.298"
@@ -1434,7 +1434,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_68">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="68" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="68" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0147332"
       SegmentationQualityInIntensityScore="401.796"
@@ -1458,7 +1458,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_69">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="69" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="69" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.030166"
       SegmentationQualityInIntensityScore="387.537"
@@ -1482,7 +1482,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_70">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="70" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="70" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.020408"
       SegmentationQualityInIntensityScore="388.663"
@@ -1506,7 +1506,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_71">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="71" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="71" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0218213"
       SegmentationQualityInIntensityScore="397.082"
@@ -1530,7 +1530,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_72">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="72" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="72" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.014739"
       SegmentationQualityInIntensityScore="402.02"
@@ -1554,7 +1554,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_73">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="73" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="73" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0267198"
       SegmentationQualityInIntensityScore="412.619"
@@ -1578,7 +1578,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_74">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="74" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="74" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0376692"
       SegmentationQualityInIntensityScore="411.541"
@@ -1601,7 +1601,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_75">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="75" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="75" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0105886"
       SegmentationQualityInIntensityScore="416.275"
@@ -1625,7 +1625,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_76">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="76" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="76" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00881486"
       SegmentationQualityInIntensityScore="418.345"
@@ -1647,7 +1647,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_77">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="77" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="77" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0140504"
       SegmentationQualityInIntensityScore="437.435"
@@ -1670,7 +1670,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_78">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="78" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="78" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0124797"
       SegmentationQualityInIntensityScore="444.937"
@@ -1693,7 +1693,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_79">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="79" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="79" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0083565"
       SegmentationQualityInIntensityScore="439.192"
@@ -1715,7 +1715,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_80">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="80" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="80" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.013392"
       SegmentationQualityInIntensityScore="435.259"
@@ -1737,7 +1737,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_81">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="81" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="81" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0072566"
       SegmentationQualityInIntensityScore="443.792"
@@ -1760,7 +1760,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_82">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="82" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="82" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0229107"
       SegmentationQualityInIntensityScore="420.831"
@@ -1782,7 +1782,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_83">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="83" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="83" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.022626"
       SegmentationQualityInIntensityScore="402.808"
@@ -1805,7 +1805,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_84">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="84" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="84" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0345624"
       SegmentationQualityInIntensityScore="366.506"
@@ -1827,7 +1827,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_85">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="85" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="85" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0186388"
       SegmentationQualityInIntensityScore="370.706"
@@ -1849,7 +1849,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_86">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="86" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="86" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.011674"
       SegmentationQualityInIntensityScore="386.623"
@@ -1872,7 +1872,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_87">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="87" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="87" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0267497"
       SegmentationQualityInIntensityScore="398.498"
@@ -1893,7 +1893,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_88">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="88" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="88" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0141431"
       SegmentationQualityInIntensityScore="409.577"
@@ -1915,7 +1915,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_89">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="89" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="89" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.01874"
       SegmentationQualityInIntensityScore="433.231"
@@ -1936,7 +1936,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_90">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="90" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="90" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0222377"
       SegmentationQualityInIntensityScore="448.494"
@@ -1954,7 +1954,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_91">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="91" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="91" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.029734"
       SegmentationQualityInIntensityScore="455.118"
@@ -1973,7 +1973,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_92">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="92" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="92" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00980664"
       SegmentationQualityInIntensityScore="440.019"
@@ -1993,7 +1993,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_93">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="93" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="93" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0269621"
       SegmentationQualityInIntensityScore="402.396"
@@ -2014,7 +2014,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_94">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="94" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="94" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0915107"
       SegmentationQualityInIntensityScore="380.467"
@@ -2034,7 +2034,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_95">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="95" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="95" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.101657"
       SegmentationQualityInIntensityScore="368.776"
@@ -2054,7 +2054,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_96">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="96" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="96" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0982969"
       SegmentationQualityInIntensityScore="404.094"
@@ -2075,7 +2075,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_97">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="97" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="97" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.102204"
       SegmentationQualityInIntensityScore="404.773"
@@ -2096,7 +2096,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_98">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="98" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="98" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.074111"
       SegmentationQualityInIntensityScore="392.196"
@@ -2117,7 +2117,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_99">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="99" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="99" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0699827"
       SegmentationQualityInIntensityScore="407.294"
@@ -2139,7 +2139,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_100">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="100" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="100" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.058742"
       SegmentationQualityInIntensityScore="404.949"
@@ -2160,7 +2160,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_101">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="101" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="101" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0364615"
       SegmentationQualityInIntensityScore="415.851"
@@ -2179,7 +2179,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_102">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="102" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="102" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0307776"
       SegmentationQualityInIntensityScore="418.812"
@@ -2199,7 +2199,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_103">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="103" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="103" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0191474"
       SegmentationQualityInIntensityScore="436.086"
@@ -2218,7 +2218,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_104">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="104" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="104" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0302415"
       SegmentationQualityInIntensityScore="448.067"
@@ -2237,7 +2237,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_105">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="105" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="105" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.045036"
       SegmentationQualityInIntensityScore="442.145"
@@ -2257,7 +2257,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_106">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="106" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="106" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0468393"
       SegmentationQualityInIntensityScore="452.977"
@@ -2277,7 +2277,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_107">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="107" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="107" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.058126"
       SegmentationQualityInIntensityScore="448.941"
@@ -2297,7 +2297,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_108">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="108" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="108" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0611512"
       SegmentationQualityInIntensityScore="442.333"
@@ -2317,7 +2317,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_109">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="109" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="109" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0525786"
       SegmentationQualityInIntensityScore="446.953"
@@ -2336,7 +2336,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_110">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="110" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="110" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0374565"
       SegmentationQualityInIntensityScore="447.6"
@@ -2355,7 +2355,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_111">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="111" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="111" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.000603394"
       SegmentationQualityInIntensityScore="439.898"
@@ -2374,7 +2374,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_112">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="112" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="112" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0100201"
       SegmentationQualityInIntensityScore="416.145"
@@ -2393,7 +2393,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_113">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="113" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="113" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0166432"
       SegmentationQualityInIntensityScore="445.518"
@@ -2412,7 +2412,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_114">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="114" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="114" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0825463"
       SegmentationQualityInIntensityScore="427.185"
@@ -2430,7 +2430,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_115">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="115" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="115" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.104031"
       SegmentationQualityInIntensityScore="381.565"
@@ -2449,7 +2449,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_116">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="116" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="116" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.126138"
       SegmentationQualityInIntensityScore="399.772"
@@ -2469,7 +2469,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_117">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="117" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="117" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0835344"
       SegmentationQualityInIntensityScore="324.945"
@@ -2489,7 +2489,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_118">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="118" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="118" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0977507"
       SegmentationQualityInIntensityScore="337.329"
@@ -2511,7 +2511,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_119">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="119" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="119" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.127067"
       SegmentationQualityInIntensityScore="358.722"
@@ -2532,7 +2532,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_120">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="120" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="120" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.000324871"
       SegmentationQualityInIntensityScore="418.184"
@@ -2551,7 +2551,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_121">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="121" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="121" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0347552"
       SegmentationQualityInIntensityScore="421.89"
@@ -2570,7 +2570,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_122">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="122" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="122" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0278104"
       SegmentationQualityInIntensityScore="431.624"
@@ -2589,7 +2589,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_123">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="123" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="123" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0422471"
       SegmentationQualityInIntensityScore="440.965"
@@ -2607,7 +2607,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_124">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="124" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="124" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0375337"
       SegmentationQualityInIntensityScore="450.859"
@@ -2628,7 +2628,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_125">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="125" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="125" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0268261"
       SegmentationQualityInIntensityScore="458.396"
@@ -2649,7 +2649,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_126">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="126" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="126" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0270073"
       SegmentationQualityInIntensityScore="457.329"
@@ -2669,7 +2669,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_127">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="127" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="127" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.037191"
       SegmentationQualityInIntensityScore="395.043"
@@ -2689,7 +2689,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_128">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="128" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="128" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0343473"
       SegmentationQualityInIntensityScore="412.039"
@@ -2709,7 +2709,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_129">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="129" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="129" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0984461"
       SegmentationQualityInIntensityScore="354.431"
@@ -2732,7 +2732,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_130">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="130" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="130" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0138148"
       SegmentationQualityInIntensityScore="400.502"
@@ -2755,7 +2755,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_131">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="131" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="131" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00693065"
       SegmentationQualityInIntensityScore="408.714"
@@ -2778,7 +2778,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_132">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="132" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="132" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0227361"
       SegmentationQualityInIntensityScore="418.98"
@@ -2800,7 +2800,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_133">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="133" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="133" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0129554"
       SegmentationQualityInIntensityScore="404.596"
@@ -2823,7 +2823,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_134">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="134" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="134" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0218129"
       SegmentationQualityInIntensityScore="396.231"
@@ -2845,7 +2845,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_135">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="135" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="135" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0230788"
       SegmentationQualityInIntensityScore="395.329"
@@ -2869,7 +2869,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_136">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="136" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="136" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00707726"
       SegmentationQualityInIntensityScore="421.059"
@@ -2894,7 +2894,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_137">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="137" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="137" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0100052"
       SegmentationQualityInIntensityScore="421.235"
@@ -2918,7 +2918,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_138">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="138" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="138" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0216934"
       SegmentationQualityInIntensityScore="436.522"
@@ -2941,7 +2941,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_139">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="139" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="139" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0209233"
       SegmentationQualityInIntensityScore="441.8"
@@ -2964,7 +2964,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_140">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="140" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="140" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0191927"
       SegmentationQualityInIntensityScore="442.028"
@@ -2987,7 +2987,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_141">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="141" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="141" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00472377"
       SegmentationQualityInIntensityScore="436.416"
@@ -3011,7 +3011,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_142">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="142" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="142" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0114242"
       SegmentationQualityInIntensityScore="437.996"
@@ -3034,7 +3034,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_143">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="143" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="143" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0145715"
       SegmentationQualityInIntensityScore="438.353"
@@ -3056,7 +3056,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_144">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="144" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="144" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0419086"
       SegmentationQualityInIntensityScore="346.074"
@@ -3079,7 +3079,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_145">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="145" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="145" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0234405"
       SegmentationQualityInIntensityScore="352.274"
@@ -3103,7 +3103,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_146">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="146" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="146" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0272959"
       SegmentationQualityInIntensityScore="407.702"
@@ -3126,7 +3126,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_147">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="147" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="147" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.041125"
       SegmentationQualityInIntensityScore="409.816"
@@ -3149,7 +3149,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_148">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="148" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="148" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0107658"
       SegmentationQualityInIntensityScore="437.714"
@@ -3169,7 +3169,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_149">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="149" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="149" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.027026"
       SegmentationQualityInIntensityScore="454.788"
@@ -3189,7 +3189,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_150">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="150" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="150" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0135342"
       SegmentationQualityInIntensityScore="437.423"
@@ -3209,7 +3209,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_151">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="151" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="151" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0205794"
       SegmentationQualityInIntensityScore="437.376"
@@ -3227,7 +3227,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_152">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="152" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="152" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.014912"
       SegmentationQualityInIntensityScore="437.635"
@@ -3248,7 +3248,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_153">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="153" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="153" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.000544722"
       SegmentationQualityInIntensityScore="428.851"
@@ -3268,7 +3268,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_154">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="154" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="154" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0199483"
       SegmentationQualityInIntensityScore="406.969"
@@ -3286,7 +3286,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_155">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="155" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="155" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0754017"
       SegmentationQualityInIntensityScore="397.859"
@@ -3306,7 +3306,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_156">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="156" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="156" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0929417"
       SegmentationQualityInIntensityScore="397.384"
@@ -3326,7 +3326,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_157">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="157" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="157" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0972891"
       SegmentationQualityInIntensityScore="401.764"
@@ -3348,7 +3348,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_158">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="158" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="158" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0990492"
       SegmentationQualityInIntensityScore="419.82"
@@ -3369,7 +3369,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_159">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="159" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="159" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0527221"
       SegmentationQualityInIntensityScore="421.784"
@@ -3390,7 +3390,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_160">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="160" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="160" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0673159"
       SegmentationQualityInIntensityScore="425.353"
@@ -3411,7 +3411,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_161">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="161" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="161" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.000844023"
       SegmentationQualityInIntensityScore="422.384"
@@ -3430,7 +3430,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_162">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="162" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="162" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0278548"
       SegmentationQualityInIntensityScore="426.867"
@@ -3449,7 +3449,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_163">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="163" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="163" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0344428"
       SegmentationQualityInIntensityScore="439.612"
@@ -3469,7 +3469,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_164">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="164" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="164" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0430657"
       SegmentationQualityInIntensityScore="441.639"
@@ -3488,7 +3488,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_165">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="165" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="165" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.048901"
       SegmentationQualityInIntensityScore="437.216"
@@ -3507,7 +3507,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_166">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="166" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="166" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.067927"
       SegmentationQualityInIntensityScore="416.643"
@@ -3527,7 +3527,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_167">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="167" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="167" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.105723"
       SegmentationQualityInIntensityScore="409.925"
@@ -3547,7 +3547,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_168">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="168" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="168" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.132181"
       SegmentationQualityInIntensityScore="398.31"
@@ -3568,7 +3568,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_169">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="169" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="169" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.123507"
       SegmentationQualityInIntensityScore="363.408"
@@ -3589,7 +3589,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_170">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="170" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="170" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.138107"
       SegmentationQualityInIntensityScore="402.439"
@@ -3609,7 +3609,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_171">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="171" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="171" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.12209"
       SegmentationQualityInIntensityScore="384.996"
@@ -3629,7 +3629,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_172">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="172" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="172" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0321669"
       SegmentationQualityInIntensityScore="410.541"
@@ -3649,7 +3649,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_173">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="173" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="173" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00429434"
       SegmentationQualityInIntensityScore="415.663"
@@ -3668,7 +3668,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_174">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="174" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="174" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0159908"
       SegmentationQualityInIntensityScore="424.208"
@@ -3687,7 +3687,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_175">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="175" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="175" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0228969"
       SegmentationQualityInIntensityScore="419.259"
@@ -3706,7 +3706,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_176">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="176" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="176" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0341084"
       SegmentationQualityInIntensityScore="433.737"
@@ -3725,7 +3725,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_177">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="177" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="177" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.025046"
       SegmentationQualityInIntensityScore="422.098"
@@ -3744,7 +3744,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_178">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="178" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="178" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0251968"
       SegmentationQualityInIntensityScore="469.031"
@@ -3763,7 +3763,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_179">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="179" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="179" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0123462"
       SegmentationQualityInIntensityScore="405.874"
@@ -3784,7 +3784,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_180">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="180" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="180" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0307504"
       SegmentationQualityInIntensityScore="406.361"
@@ -3805,7 +3805,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_181">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="181" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="181" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0189027"
       SegmentationQualityInIntensityScore="400.671"
@@ -3830,7 +3830,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_182">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="182" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="182" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0303823"
       SegmentationQualityInIntensityScore="412.353"
@@ -3854,7 +3854,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_183">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="183" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="183" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00994807"
       SegmentationQualityInIntensityScore="432.181"
@@ -3878,7 +3878,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_184">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="184" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="184" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.025488"
       SegmentationQualityInIntensityScore="392.506"
@@ -3902,7 +3902,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_185">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="185" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="185" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.023277"
       SegmentationQualityInIntensityScore="393.361"
@@ -3925,7 +3925,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_186">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="186" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="186" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0276108"
       SegmentationQualityInIntensityScore="394.502"
@@ -3948,7 +3948,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_187">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="187" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="187" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0228276"
       SegmentationQualityInIntensityScore="387.039"
@@ -3971,7 +3971,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_188">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="188" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="188" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0171942"
       SegmentationQualityInIntensityScore="403.941"
@@ -3995,7 +3995,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_189">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="189" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="189" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00932122"
       SegmentationQualityInIntensityScore="404.804"
@@ -4018,7 +4018,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_190">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="190" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="190" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00233722"
       SegmentationQualityInIntensityScore="403.278"
@@ -4041,7 +4041,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_191">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="191" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="191" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.01673"
       SegmentationQualityInIntensityScore="393.31"
@@ -4063,7 +4063,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_192">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="192" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="192" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0124385"
       SegmentationQualityInIntensityScore="398.608"
@@ -4087,7 +4087,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_193">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="193" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="193" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0310677"
       SegmentationQualityInIntensityScore="391.071"
@@ -4110,7 +4110,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_194">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="194" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="194" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0287357"
       SegmentationQualityInIntensityScore="414.106"
@@ -4132,7 +4132,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_195">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="195" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="195" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00849774"
       SegmentationQualityInIntensityScore="409.521"
@@ -4154,7 +4154,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_196">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="196" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="196" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00844812"
       SegmentationQualityInIntensityScore="424.639"
@@ -4176,7 +4176,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_197">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="197" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="197" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0200031"
       SegmentationQualityInIntensityScore="451.796"
@@ -4196,7 +4196,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_198">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="198" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="198" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0200269"
       SegmentationQualityInIntensityScore="451.647"
@@ -4215,7 +4215,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_199">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="199" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="199" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0212512"
       SegmentationQualityInIntensityScore="449.847"
@@ -4234,7 +4234,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_200">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="200" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="200" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0134335"
       SegmentationQualityInIntensityScore="411.251"
@@ -4254,7 +4254,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_201">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="201" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="201" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0792148"
       SegmentationQualityInIntensityScore="394.592"
@@ -4274,7 +4274,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_202">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="202" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="202" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0900991"
       SegmentationQualityInIntensityScore="390.392"
@@ -4294,7 +4294,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_203">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="203" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="203" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.108522"
       SegmentationQualityInIntensityScore="389.655"
@@ -4314,7 +4314,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_204">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="204" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="204" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.102322"
       SegmentationQualityInIntensityScore="399.726"
@@ -4335,7 +4335,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_205">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="205" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="205" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0854636"
       SegmentationQualityInIntensityScore="408.878"
@@ -4356,7 +4356,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_206">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="206" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="206" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0943613"
       SegmentationQualityInIntensityScore="409.843"
@@ -4376,7 +4376,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_207">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="207" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="207" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0647944"
       SegmentationQualityInIntensityScore="419.714"
@@ -4396,7 +4396,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_208">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="208" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="208" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.067256"
       SegmentationQualityInIntensityScore="422.702"
@@ -4417,7 +4417,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_209">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="209" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="209" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0476237"
       SegmentationQualityInIntensityScore="429.78"
@@ -4436,7 +4436,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_210">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="210" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="210" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0581126"
       SegmentationQualityInIntensityScore="435.106"
@@ -4455,7 +4455,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_211">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="211" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="211" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.1248"
       SegmentationQualityInIntensityScore="379.572"
@@ -4476,7 +4476,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_212">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="212" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="212" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0250524"
       SegmentationQualityInIntensityScore="358.988"
@@ -4497,7 +4497,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_213">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="213" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="213" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.020493"
       SegmentationQualityInIntensityScore="428.11"
@@ -4518,7 +4518,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_214">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="214" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="214" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0172342"
       SegmentationQualityInIntensityScore="434.467"
@@ -4536,7 +4536,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_215">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="215" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="215" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0178997"
       SegmentationQualityInIntensityScore="446.694"
@@ -4555,7 +4555,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_216">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="216" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="216" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0226062"
       SegmentationQualityInIntensityScore="445.451"
@@ -4574,7 +4574,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_217">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="217" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="217" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0270323"
       SegmentationQualityInIntensityScore="435.098"
@@ -4594,7 +4594,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_218">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="218" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="218" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0204308"
       SegmentationQualityInIntensityScore="456.177"
@@ -4612,7 +4612,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_219">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="219" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="219" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0242122"
       SegmentationQualityInIntensityScore="460.424"
@@ -4630,7 +4630,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_220">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="220" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="220" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0310058"
       SegmentationQualityInIntensityScore="469.533"
@@ -4649,7 +4649,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_221">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="221" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="221" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0253073"
       SegmentationQualityInIntensityScore="442.808"
@@ -4671,7 +4671,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_222">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="222" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="222" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0320915"
       SegmentationQualityInIntensityScore="445.278"
@@ -4692,7 +4692,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_223">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="223" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="223" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0505398"
       SegmentationQualityInIntensityScore="397.973"
@@ -4713,7 +4713,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_224">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="224" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="224" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0339928"
       SegmentationQualityInIntensityScore="403.474"
@@ -4737,7 +4737,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_225">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="225" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="225" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0328545"
       SegmentationQualityInIntensityScore="421.231"
@@ -4762,7 +4762,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_226">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="226" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="226" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0224167"
       SegmentationQualityInIntensityScore="411.29"
@@ -4785,7 +4785,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_227">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="227" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="227" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00878827"
       SegmentationQualityInIntensityScore="429.875"
@@ -4809,7 +4809,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_228">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="228" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="228" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0115845"
       SegmentationQualityInIntensityScore="423"
@@ -4833,7 +4833,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_229">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="229" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="229" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0077541"
       SegmentationQualityInIntensityScore="404.941"
@@ -4857,7 +4857,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_230">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="230" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="230" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00707415"
       SegmentationQualityInIntensityScore="416.023"
@@ -4880,7 +4880,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_231">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="231" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="231" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0225868"
       SegmentationQualityInIntensityScore="404.976"
@@ -4903,7 +4903,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_232">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="232" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="232" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0282381"
       SegmentationQualityInIntensityScore="401.274"
@@ -4926,7 +4926,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_233">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="233" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="233" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0187264"
       SegmentationQualityInIntensityScore="394.4"
@@ -4949,7 +4949,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_234">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="234" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="234" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0217116"
       SegmentationQualityInIntensityScore="397.278"
@@ -4972,7 +4972,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_235">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="235" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="235" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0229066"
       SegmentationQualityInIntensityScore="400.769"
@@ -4997,7 +4997,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_236">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="236" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="236" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00881184"
       SegmentationQualityInIntensityScore="386.823"
@@ -5021,7 +5021,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_237">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="237" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="237" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00567027"
       SegmentationQualityInIntensityScore="395.965"
@@ -5044,7 +5044,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_238">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="238" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="238" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0335359"
       SegmentationQualityInIntensityScore="368.459"
@@ -5067,7 +5067,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_239">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="239" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="239" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0029875"
       SegmentationQualityInIntensityScore="385.251"
@@ -5090,7 +5090,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_240">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="240" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="240" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0370217"
       SegmentationQualityInIntensityScore="405.612"
@@ -5112,7 +5112,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_241">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="241" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="241" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0304869"
       SegmentationQualityInIntensityScore="413.165"
@@ -5134,7 +5134,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_242">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="242" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="242" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0263907"
       SegmentationQualityInIntensityScore="409.212"
@@ -5156,7 +5156,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_243">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="243" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="243" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0154975"
       SegmentationQualityInIntensityScore="438.553"
@@ -5176,7 +5176,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_244">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="244" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="244" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0317686"
       SegmentationQualityInIntensityScore="450.898"
@@ -5195,7 +5195,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_245">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="245" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="245" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0263033"
       SegmentationQualityInIntensityScore="455.498"
@@ -5214,7 +5214,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_246">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="246" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="246" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.00539975"
       SegmentationQualityInIntensityScore="405.188"
@@ -5233,7 +5233,7 @@
        </FiducialPointCandidates>
   </TestCase>
   <TestCase id="USTC_Ulterius_ProbeRotationData_247">
-    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.mha" ImageSeqFrameIndex="247" />
+    <Input ImageSeqFileName="USTC_Ulterius_ProbeRotationData.igs.mha" ImageSeqFrameIndex="247" />
     <Output SegmentationSuccess="1"
       SegmentationQualityInAngleScore="0.0258843"
       SegmentationQualityInIntensityScore="397.318"

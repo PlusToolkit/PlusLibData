@@ -52,7 +52,7 @@
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="Recording.mhd"
+      BaseFilename="Recording.igs.mhd"
       EnableCapturingOnStart="FALSE"
       RequestedFrameRate="15" >
       <InputChannels>

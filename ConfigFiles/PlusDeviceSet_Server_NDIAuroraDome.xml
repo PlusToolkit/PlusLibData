@@ -26,7 +26,7 @@ The computer needs to be on the same local network as Aurora SCU unit. The needl
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="RecordingTest.mha"
+      BaseFilename="RecordingTest.igs.mha"
       EnableCapturingOnStart="FALSE" >
       <InputChannels>
         <InputChannel Id="TrackerStream" />

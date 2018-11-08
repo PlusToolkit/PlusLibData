@@ -8,7 +8,7 @@
     <Device
       Id="TrackedVideoDevice"
       Type="SavedDataSource"
-      SequenceFile="NwirePhantomFreehandCropped.mha"
+      SequenceFile="NwirePhantomFreehandCropped.igs.mha"
       UseData="IMAGE_AND_TRANSFORM"
       UseOriginalTimestamps="FALSE"
       AcquisitionRate="3.0"
@@ -24,7 +24,7 @@
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="OpenIGTTrackedVideoRecordingTest.mha"
+      BaseFilename="OpenIGTTrackedVideoRecordingTest.igs.mha"
       EnableCapturingOnStart="FALSE" >
       <InputChannels>
         <InputChannel Id="TrackedVideoStream" />

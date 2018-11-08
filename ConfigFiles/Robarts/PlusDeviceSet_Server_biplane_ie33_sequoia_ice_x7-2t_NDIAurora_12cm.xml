@@ -90,7 +90,7 @@
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="ie33_ice.nrrd"
+      BaseFilename="ie33_ice.igs.nrrd"
       EnableCapturing="FALSE" >
       <InputChannels>
         <InputChannel Id="IceTrackedVideoStream" />

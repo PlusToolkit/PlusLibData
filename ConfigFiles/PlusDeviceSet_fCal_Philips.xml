@@ -43,7 +43,7 @@
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
-      BaseFilename="E:\arankin\Philips3DRecordingTest.mha"
+      BaseFilename="E:\arankin\Philips3DRecordingTest.igs.mha"
       EnableCapturingOnStart="FALSE" >
       <InputChannels>
         <InputChannel Id="TrackedVideoStream" />
