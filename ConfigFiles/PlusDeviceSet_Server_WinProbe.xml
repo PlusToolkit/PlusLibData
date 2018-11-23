@@ -7,16 +7,20 @@
     <Device
       Id="VideoDevice"
       Type="WinProbeVideo"
+      UseDeviceFrameReconstruction="True"
       AcquisitionRate="100"
       LocalTimeOffsetSec="0"
-      TransducerID="{c9d2bbc6-8061-4f74-8047-497cdea7e207}"
-      TimeGainCompensation="0.0 10.0 40.0 40 10 0.5 1.0 40"
+      TransducerID="{b4ebdf21-2144-4011-8a92-b8b219b69c05}"
+      TimeGainCompensation="20.0 20.0 20.0 20 20 20 20.0 20"
       FocalPointDepth="10.0 0 0 0"
       LogLinearKnee="32"
       MaxValue="5000"
       MinValue="4"
       LogMax="64"
       TxTxFrequency="9.5"
+      SpatialCompoundEnabled="False"
+      SpatialCompoundAngle="5.0"
+      SpatialCompoundCount="3"
       SSDepth="38.1"
       Voltage="50">
       <DataSources>
