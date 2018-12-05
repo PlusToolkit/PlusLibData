@@ -17,11 +17,11 @@
       MaxValue="5000"
       MinValue="4"
       LogMax="64"
-      TxTxFrequency="9.5"
+      TransmitFrequencyMHz="9.5"
       SpatialCompoundEnabled="False"
       SpatialCompoundAngle="5.0"
       SpatialCompoundCount="3"
-      SSDepth="38.1"
+      ScanDepthMm="38.1"
       Voltage="50">
       <DataSources>
         <DataSource Type="Video" Id="Video" PortName="B" PortUsImageOrientation="MF" BufferSize="200" AveragedItemsForFiltering="0"/>
