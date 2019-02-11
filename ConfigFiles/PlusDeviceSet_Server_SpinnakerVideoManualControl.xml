@@ -17,7 +17,6 @@
       GainMode="MANUAL"
       GainDB="5"
       WhiteBalanceMode="AUTO_CONTINUOUS"
-      SharpeningMode="OFF"
       >
       <DataSources>
         <DataSource Type="Video" Id="Video" PortUsImageOrientation="MF"  />
