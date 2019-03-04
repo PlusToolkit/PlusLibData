@@ -22,14 +22,15 @@
       SpatialCompoundAngle="5.0"
       SpatialCompoundCount="3"
       ScanDepthMm="38.1"
+      Mode="M"
       Voltage="50">
       <DataSources>
         <DataSource Type="Video" Id="Video" PortName="B" PortUsImageOrientation="MF" BufferSize="200" AveragedItemsForFiltering="0"/>
-        <DataSource Type="Video" Id="RfVideo" PortName="Rf" PortUsImageOrientation="FM"/>
+        <!-- <DataSource Type="Video" Id="RfVideo" PortName="Rf" PortUsImageOrientation="FM"/> -->
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
-        <OutputChannel Id="RfStream" VideoDataSourceId="RfVideo" />
+        <!-- <OutputChannel Id="RfStream" VideoDataSourceId="RfVideo" /> -->
       </OutputChannels>
     </Device>
   </DataCollection>
