@@ -1,19 +1,19 @@
 <PlusConfiguration version="2.1">
   <DataCollection StartupDelaySec="1.0">
     <DeviceSet 
-      Name="PlusServer: LeapMotion motion module" 
-      Description="Collecting orientation data from a LeapMotion JY901hand tracker and broadcasting through OpenIGTLink"
+      Name="PlusServer: LeapMotion" 
+      Description="Collecting orientation data from a LeapMotion hand tracker and broadcasting through OpenIGTLink"
     />
     <Device 
       Id="TrackerDevice"
       Type="LeapMotion"
       ToolReferenceFrame="Tracker" >
       <DataSources>
-        <DataSource Type="Tool" Id="IndexKnuckle" PortName="Knuckle1" />
+        <DataSource Type="Tool" Id="LeftIndexDistal" />
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="TrackerChannel">
-          <DataSource Id="IndexKnuckle"/>
+          <DataSource Id="LeftIndexDistal"/>
         </OutputChannel>
       </OutputChannels>
     </Device>    
