@@ -1,0 +1,20 @@
+﻿<PlusConfiguration version="2.3">
+  <DataCollection StartupDelaySec="1.0">
+    <Device
+      Id="VideoDevice"
+      Type="Clarius"
+      IpAddress="192.168.1.1"
+      TcpPort="5828"
+      FrameWidth="640"
+      FrameHeight="480"
+      ImuEnabled="FALSE"
+      WriteImageToDisk="FALSE">
+      <DataSources>
+        <DataSource Type="Video" Id="Video" PortName="B" PortUsImageOrientation="UN" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+</PlusConfiguration>
