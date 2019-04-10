@@ -9,6 +9,9 @@
       Type="LeapMotion"
       ToolReferenceFrame="Tracker" >
       <DataSources>
+        <DataSource Type="Video" Id="LeftCamera"/>
+        <DataSource Type="Video" Id="RightCamera"/>
+
         <DataSource Type="Tool" Id="LeftThumbDistal"/>
         <DataSource Type="Tool" Id="LeftIndexDistal"/>
         <DataSource Type="Tool" Id="LeftMiddleDistal"/>
@@ -46,6 +49,9 @@
         <DataSource Type="Tool" Id="RightPinkyProximal"/>
       </DataSources>
       <OutputChannels>
+        <OutputChannel Id="LeftChannel" VideoDataSourceId="LeftCamera"/>
+        <OutputChannel Id="RightChannel" VideoDataSourceId="RightCamera"/>
+
         <OutputChannel Id="TrackerChannel">
           <DataSource Id="LeftThumbDistal"/>
           <DataSource Id="LeftIndexDistal"/>
@@ -84,7 +90,7 @@
           <DataSource Id="RightPinkyProximal"/>
         </OutputChannel>
       </OutputChannels>
-    </Device>    
+    </Device>
     <Device
       Id="CaptureDevice"
       Type="VirtualCapture"
@@ -96,7 +102,32 @@
       </InputChannels>
     </Device>
   </DataCollection>
-  
+
+  <CoordinateDefinitions>
+    <Transform From="LeftCamera" To="Tracker"
+      Matrix="1 0 0 0
+              0 1 0 0
+              0 0 1 0
+              0 0 0 1"
+      Date="2011.12.06 17:57:00" Error="0.0" />
+  </CoordinateDefinitions> 
+
+  <PlusOpenIGTLinkServer 
+    MaxNumberOfIgtlMessagesToSend="1" 
+    MaxTimeSpentLeaphProcessingMs="50" 
+    ListeningPort="18945" 
+    OutputChannelId="LeftChannel"
+    > 
+    <DefaultClientInfo> 
+      <MessageTypes> 
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames> 
+        <Image Name="LeftCamera" EmbeddedTransformToFrame="Tracker"/>
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
   <PlusOpenIGTLinkServer 
     MaxNumberOfIgtlMessagesToSend="1" 
     MaxTimeSpentLeaphProcessingMs="50" 
