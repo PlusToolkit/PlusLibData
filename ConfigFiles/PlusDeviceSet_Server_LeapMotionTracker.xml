@@ -5,6 +5,7 @@
       Description="Collecting joint pose data from a LeapMotion hand tracker and broadcasting through OpenIGTLink"
     />
     <Device 
+      AcquisitionRate="240"
       Id="TrackerDevice"
       Type="LeapMotion"
       ToolReferenceFrame="Tracker" >
