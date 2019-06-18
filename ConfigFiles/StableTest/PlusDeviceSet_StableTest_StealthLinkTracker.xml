@@ -1,0 +1,74 @@
+<PlusConfiguration version="2.3"> 
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet 
+      Name="Stable Test: Medtronic StealthLink tracker"
+      Description="Broadcasting tool tracking data through OpenIGTLink
+Tools: Stylus (Passive Planar, Blunt) , Reference (Small Passive Cranial Frame)" 
+    />
+    <Device
+      Id="SLD"
+      Type="StealthLinkTracker"
+      ServerAddress="192.168.50.240"
+      ServerPort="6996"
+      RegistrationUpdatePeriod="0.0"
+      ToolReferenceFrame="Tracker" >
+      <DataSources>
+        <!-- Remove tools that are not defined by the StealthStation -->
+        <!-- Corresponding tools also need to be removed from the OutputChannels section -->
+        <DataSource Type="Tool" Id="Stylus" PortName="Passive Planar, Blunt" />
+        <DataSource Type="Tool" Id="Reference" PortName="Small Passive Cranial Frame" />
+        <!--  The Ras virtual tool will only give a valid value when an image is acquired from the server (GetImage or GetExamData). -->
+        <DataSource Type="Tool" Id="Ras" 	    PortName="RasRegistration" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="TrackerStream">
+          <!-- Remove tools that are not defined by the StealthStation -->
+          <DataSource  Id="Stylus" />
+          <DataSource  Id="Reference" />
+          <DataSource  Id="Ras" />
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+    <Device
+      Id="CaptureDevice"
+      Type="VirtualCapture"
+      BaseFilename="RecordingTest.igs.mha"
+      EnableCapturingOnStart="FALSE" >
+      <InputChannels>
+        <InputChannel Id="TrackerStream" />
+      </InputChannels>
+    </Device>
+  </DataCollection>
+  
+  <CoordinateDefinitions>
+    <Transform From="Ras" To="Lps"
+      Matrix="
+        -1  0  0  0
+         0 -1  0  0
+         0  0  1  0        
+         0  0  0  1" />
+    <Transform From="StylusTip" To="Stylus"
+      Matrix="
+        1 0 0 2.71664 
+        0 -1 -1.22465e-16 0.0651388 
+        0 1.22465e-16 -1 -1.83309 
+        0 0 0 1"/>
+  </CoordinateDefinitions>  
+  
+  <PlusOpenIGTLinkServer 
+    MaxNumberOfIgtlMessagesToSend="1" 
+    MaxTimeSpentWithProcessingMs="50" 
+    ListeningPort="18944" 
+    OutputChannelId="TrackerStream" > 
+    <DefaultClientInfo> 
+      <MessageTypes> 
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <TransformNames> 
+        <Transform Name="StylusToReference"  />
+        <Transform Name="StylusTipToRas"  />	
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>

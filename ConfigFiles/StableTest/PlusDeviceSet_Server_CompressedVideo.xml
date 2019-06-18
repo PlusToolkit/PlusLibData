@@ -1,0 +1,55 @@
+<PlusConfiguration version="2.0">
+
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet 
+      Name="PlusServer: Compressed video using Media Foundation video capture device"
+      Description="Broadcasting video frames compressed using VP9" />
+    <Device
+      Id="VideoDevice"
+      Type="MmfVideo"
+      FrameSize="640 480"
+      VideoFormat="YUY2"
+      CaptureDeviceId="0" >
+      <DataSources>
+        <DataSource Type="Video" Id="Video" PortUsImageOrientation="MN" ImageType="RGB_COLOR" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+    </Device>
+    <Device
+      Id="CaptureDevice"
+      Type="VirtualCapture"
+      BaseFilename="RecordingTest.mkv"
+      EnableCapturingOnStart="FALSE" >
+      <InputChannels>
+        <InputChannel Id="VideoStream" />
+      </InputChannels>
+    </Device>
+  </DataCollection>
+  
+  <PlusOpenIGTLinkServer 
+    MaxNumberOfIgtlMessagesToSend="1" 
+    MaxTimeSpentWithProcessingMs="50" 
+    ListeningPort="18944" 
+    SendValidTransformsOnly="true" 
+    OutputChannelId="VideoStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="VIDEO" />
+      </MessageTypes>
+      <VideoNames>
+        <Video Name="Video" EmbeddedTransformToFrame="Video">
+          <Encoding 
+            FourCC="VP90"
+            Lossless ="FALSE"
+            Speed="8"
+            DeadlineMode="REALTIME"
+            RateControl="Q"
+            />
+        </Video>
+      </VideoNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>

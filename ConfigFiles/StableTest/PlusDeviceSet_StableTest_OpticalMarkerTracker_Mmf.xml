@@ -1,0 +1,105 @@
+<PlusConfiguration version="2.4">
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet
+      Name="Stable Test: Optical marker tracker using MMF video"
+      Description="Tracking of printed ArUco markers using a simple camera. Marker positions and image data are broadcasted through OpenIGTLink (on port 18944 and 18945, respectively). To use a different camera, change CaptureDeviceId attribute (to 0, 1, 2, ...)." />
+    <Device
+      Id="VideoDevice"
+      Type="MmfVideo"
+      FrameSize="640 480"
+      VideoFormat="YUY2"
+      CaptureDeviceId="1" >
+      <DataSources>
+        <DataSource Type="Video" Id="Video" PortUsImageOrientation="MF" ImageType="RGB_COLOR" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
+      </OutputChannels>
+    </Device>
+    <Device
+      Id="TrackerDevice"
+      Type="OpticalMarkerTracker"
+      CameraCalibrationFile="OpticalMarkerTracker/realsense_gen2_calibration.yml"
+      ToolReferenceFrame="Tracker"
+      TrackingMethod="OPTICAL"
+      MarkerDictionary="ARUCO_MIP_36h12">
+      <DataSources>
+        <DataSource Type="Tool" Id="Marker0" MarkerId="0" MarkerSizeMm="80" />
+        <DataSource Type="Tool" Id="Marker1" MarkerId="1" MarkerSizeMm="80" />
+        <DataSource Type="Tool" Id="Marker2" MarkerId="2" MarkerSizeMm="50" />
+        <DataSource Type="Tool" Id="Marker3" MarkerId="3" MarkerSizeMm="50" />
+        <DataSource Type="Tool" Id="Marker4" MarkerId="4" MarkerSizeMm="50" />
+        <DataSource Type="Tool" Id="Marker5" MarkerId="5" MarkerSizeMm="30" />
+        <DataSource Type="Tool" Id="Marker6" MarkerId="6" MarkerSizeMm="30" />
+        <DataSource Type="Tool" Id="Marker7" MarkerId="7" MarkerSizeMm="30" />
+        <DataSource Type="Tool" Id="Marker8" MarkerId="8" MarkerSizeMm="30" />
+      </DataSources>
+      <InputChannels>
+        <InputChannel Id="VideoStream"  />
+      </InputChannels>
+      <OutputChannels>
+        <OutputChannel Id="TrackerStream" >
+          <DataSource Id="Marker0"/>
+          <DataSource Id="Marker1"/>
+          <DataSource Id="Marker2"/>
+          <DataSource Id="Marker3"/>
+          <DataSource Id="Marker4"/>
+          <DataSource Id="Marker5"/>
+          <DataSource Id="Marker6"/>
+          <DataSource Id="Marker7"/>
+          <DataSource Id="Marker8"/>
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+    <Device
+      Id="CaptureDevice"
+      Type="VirtualCapture"
+      BaseFilename="RecordingTest.igs.mha"
+      EnableCapturingOnStart="FALSE" >
+      <InputChannels>
+        <InputChannel Id="TrackerStream" />
+      </InputChannels>
+    </Device>
+  </DataCollection>
+  
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="true"
+    OutputChannelId="TrackerStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="Marker0ToTracker" />
+        <Transform Name="Marker1ToTracker" />
+        <Transform Name="Marker2ToTracker" />
+        <Transform Name="Marker3ToTracker" />
+        <Transform Name="Marker4ToTracker" />
+        <Transform Name="Marker5ToTracker" />
+        <Transform Name="Marker6ToTracker" />
+        <Transform Name="Marker7ToTracker" />
+        <Transform Name="Marker8ToTracker" />
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+  <PlusOpenIGTLinkServer 
+    MaxNumberOfIgtlMessagesToSend="1" 
+    MaxTimeSpentWithProcessingMs="50" 
+    ListeningPort="18945" 
+    SendValidTransformsOnly="true" 
+    OutputChannelId="VideoStream" > 
+    <DefaultClientInfo> 
+      <MessageTypes> 
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="Image" EmbeddedTransformToFrame="Image" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>
