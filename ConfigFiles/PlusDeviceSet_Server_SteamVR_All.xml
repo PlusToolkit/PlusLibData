@@ -1,0 +1,71 @@
+<PlusConfiguration version="2.7">
+
+  <DataCollection StartupDelaySec="1.0">
+    <DeviceSet
+      Name="PlusServer: SteamVR (All)"
+      Description="Broadcasting tracking data through OpenIGTLink."
+    />
+    <Device
+      Id="TD"
+      Type="SteamVR"
+      AcquisitionRate="30"
+      ToolReferenceFrame="SteamVR"
+      MissingInputGracePeriodSec="2">
+      <DataSources>
+        <DataSource
+            Id="HMD"
+            Type="Tool"
+            TrackingToolDeviceType="HMD"
+            BufferSize="150"
+            PortName="HMD"/>
+        <DataSource
+            Id="Controller1"
+            Type="Tool"
+            TrackingToolDeviceType="Controller"
+            BufferSize="150"
+            PortName="Controller1"/>
+        <DataSource
+            Id="Controller2"
+            Type="Tool"
+            TrackingToolDeviceType="Controller"
+            BufferSize="150"
+            PortName="Controller2"/>
+        <DataSource
+            Id="GenericTracker"
+            Type="Tool"
+            TrackingToolDeviceType="GenericTracker"
+            BufferSize="150"
+            PortName="GenericTracker"/>
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel
+            Id="SteamVRTrackingStream">
+            <DataSource Id="HMD"/>
+            <DataSource Id="Controller1"/>
+            <DataSource Id="Controller2"/>
+            <DataSource Id="GenericTracker"/>
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="TRUE"
+    OutputChannelId="SteamVRTrackingStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="HMDToSteamVR" />
+        <Transform Name="Controller1ToSteamVR" />
+        <Transform Name="Controller2ToSteamVR" />
+        <Transform Name="GenericTrackerToSteamVR" />
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+  
+</PlusConfiguration>

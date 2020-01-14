@@ -1,0 +1,63 @@
+<PlusConfiguration version="2.7">
+
+  <DataCollection StartupDelaySec="1.0">
+    <DeviceSet
+      Name="PlusServer: SteamVR (HMD, Controller, GenericTracker)"
+      Description="Broadcasting tracking data through OpenIGTLink."
+    />
+    <Device
+      Id="TD"
+      Type="SteamVR"
+      AcquisitionRate="30"
+      ToolReferenceFrame="SteamVR"
+      MissingInputGracePeriodSec="2">
+      <DataSources>
+        <DataSource
+            Id="HMD"
+            Type="Tool"
+            TrackingToolDeviceType="HMD"
+            BufferSize="50"
+            PortName="HMD"/>
+         <DataSource
+            Id="Controller1"
+            Type="Tool"
+            TrackingToolDeviceType="Controller"
+            BufferSize="50"
+            PortName="Controller1"/>
+        <DataSource
+            Id="GenericTracker"
+            Type="Tool"
+            TrackingToolDeviceType="GenericTracker"
+            BufferSize="50"
+            PortName="GenericTracker"/>
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel
+            Id="SteamVRTrackingStream">
+            <DataSource Id="HMD"/>
+            <DataSource Id="Controller1"/>
+            <DataSource Id="GenericTracker"/>
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="TRUE"
+    OutputChannelId="SteamVRTrackingStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="HMDToSteamVR" />
+        <Transform Name="Controller1ToSteamVR" />
+        <Transform Name="GenericTrackerToSteamVR" />
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+  
+</PlusConfiguration>
