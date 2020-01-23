@@ -1,0 +1,47 @@
+<PlusConfiguration version="2.7">
+
+  <DataCollection StartupDelaySec="1.0">
+    <DeviceSet
+      Name="PlusServer: SteamVR (Controller)"
+      Description="Broadcasting tracking data through OpenIGTLink."
+    />
+    <Device
+      Id="TD"
+      Type="SteamVR"
+      AcquisitionRate="30"
+      ToolReferenceFrame="SteamVR"
+      MissingInputGracePeriodSec="2">
+      <DataSources>
+         <DataSource
+            Id="Controller1"
+            Type="Tool"
+            TrackingToolDeviceType="Controller"
+            BufferSize="150"
+            PortName="Controller1"/>
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel
+            Id="SteamVRTrackingStream">
+            <DataSource Id="Controller1"/>
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="TRUE"
+    OutputChannelId="SteamVRTrackingStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="Controller1ToSteamVR" />
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+  
+</PlusConfiguration>
