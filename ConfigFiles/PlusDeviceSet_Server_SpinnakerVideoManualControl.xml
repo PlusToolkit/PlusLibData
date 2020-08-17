@@ -2,7 +2,7 @@
 
   <DataCollection StartupDelaySec="1.0" >
     <DeviceSet 
-      Name="PlusServer: Point Grey Spinnaker API Video Acquisition."
+      Name="PlusServer: Point Grey Spinnaker API Video Acquisition with parameters"
       Description="Broadcasting acquired video through OpenIGTLink"
     />
     <Device

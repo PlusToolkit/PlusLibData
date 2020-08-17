@@ -1,7 +1,7 @@
  <PlusConfiguration version="2.1">
   <DataCollection StartupDelaySec="1.0" >
     <DeviceSet 
-      Name="PlusServer: Ultrasound transverse process enhancer component 1: Input connection"
+      Name="PlusServer: Ultrasound transverse process enhancer component 1: Input connection - with tracking"
       Description="This 32-bit server runs on the Ultrasonix machine, acquires tracked frames, and transmits them to a PlusServer running on the 64-bit processing machine at port 18944."/>
     
     <Device 

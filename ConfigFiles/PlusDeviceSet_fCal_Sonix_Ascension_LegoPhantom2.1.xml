@@ -2,7 +2,7 @@
 
   <DataCollection StartupDelaySec="1.0">
     <DeviceSet 
-      Name="Ultrasonix US and Ascension3DG with Lego Phantom 2.0" 
+      Name="Ultrasonix US and Ascension3DG with Lego Phantom 2.0 - 6 N-Wire" 
       Description="Ascension3DG sensors should be plugged in to the Ascension3DG DriveBay mounted on Ultrasonix US in the following order from to leftmost slot (Transducer 1) to the right: 1 Probe, 2 Reference, 3 Stylus." 
     />
     <Device 

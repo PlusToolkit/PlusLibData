@@ -5,7 +5,7 @@
       Name="PlusServer: NDI Vega tracker with passive markers"
       Description="Broadcasting tool tracking data through OpenIGTLink
 For NDI Vega: Tool (8700339), Stylus (8700340), Reference (8700449)" />
-    <xDevice
+    <Device
       Id="TrackerDevice"
       Type="NDITracker"
       NetworkHostname="P9-00312"
@@ -19,7 +19,7 @@ For NDI Vega: Tool (8700339), Stylus (8700340), Reference (8700449)" />
           <DataSource Id="Stylus"/>
         </OutputChannel>
       </OutputChannels>
-    </xDevice>
+    </Device>
 
     <Device
       Id="VideoDevice"

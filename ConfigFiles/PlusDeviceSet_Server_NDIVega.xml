@@ -2,7 +2,7 @@
 
   <DataCollection StartupDelaySec="1.0" >
     <DeviceSet
-      Name="PlusServer: NDI Vega tracker with passive markers"
+      Name="PlusServer: NDI Vega tracker with passive markers - by IP"
       Description="Broadcasting tool tracking data through OpenIGTLink
 For NDI Vega: Tool (8700339), Stylus (8700340), Reference (8700449)" />
     <Device
