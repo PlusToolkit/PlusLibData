@@ -12,8 +12,8 @@
       UseRealSenseColorizer="TRUE"
       AlignDepthStream="TRUE">
       <DataSources>
-        <DataSource Type="Video" Id="VideoRGB" FrameType="RGB" FrameSize="640 480" FrameRate="10" PortUsImageOrientation="UN" />
-        <DataSource Type="Video" Id="VideoDEPTH" FrameType="DEPTH" FrameSize="640 480" FrameRate="10" PortUsImageOrientation="UN" />
+        <DataSource Type="Video" Id="VideoRGB" FrameType="RGB" FrameSize="640 480" FrameRate="30" PortUsImageOrientation="UN" />
+        <DataSource Type="Video" Id="VideoDEPTH" FrameType="DEPTH" FrameSize="640 480" FrameRate="30" PortUsImageOrientation="UN" />
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="VideoStreamRGB" VideoDataSourceId="VideoRGB" />
