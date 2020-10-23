@@ -7,10 +7,12 @@
     <Device
       Id="VideoDevice" 
       Type="DeckLinkVideo" 
-      FrameSize="640 480"
+      FrameSize="1920 1080"
+      DisplayMode="HD1080p5994"
+      PixelFormat="8BitYUV"
       CaptureDeviceId="0" >
       <DataSources>
-        <DataSource Type="Video" Id="Video" PortUsImageOrientation="MF" ImageType="RGB_COLOR"  />
+        <DataSource Type="Video" Id="Video" PortUsImageOrientation="UN" ImageType="RGB_COLOR"  />
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
