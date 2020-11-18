@@ -1,0 +1,106 @@
+<PlusConfiguration PlusRevision="Plus-2.7.0.d43851c5 - Win64" version="2.7">
+  <DataCollection StartupDelaySec="1.0">
+    <Device
+      Id="BLICamera"
+      Type="AndorCamera"
+      UseCooling="FALSE"
+      UseFrameCorrections="TRUE"
+      CoolTemperature="-70"
+      SafeTemperature="10"
+      ExposureTime="1.0"
+      HSSpeed="0 1"
+      VSSpeed="1"
+      PreAmpGain="0"
+      OutputSpacing="0.243309 0.243309 1.0"
+      Shutter="0"
+      ReadMode="4"
+      AcquisitionMode="1"
+      TriggerMode="0"
+      Binning="1"
+      SerialComPort="9"
+      CameraIntrinsics="20273.05 0 513.3315
+                        0 20207.06 525.1244
+                        0 0 1"
+      DistanceCoefficients="-81.8617 8523.784 0 0"
+      FlatCorrection="../../../../PlusLibData/TestImages/AndorTestFlat.png"
+      BiasDarkCorrection="../../../../PlusLibData/TestImages/AndorTestBias.png"
+      >
+      <DataSources>
+        <DataSource Type="Video" Id="VideoBR" PortName="BLIRaw"/>
+        <DataSource Type="Video" Id="VideoB" PortName="BLICorrected"/>
+
+        <DataSource Type="Video" Id="VideoGR" PortName="GrayRaw"/>
+        <DataSource Type="Video" Id="VideoG" PortName="GrayCorrected"/>
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="BLICorrectedStream" VideoDataSourceId="VideoB" />
+        <OutputChannel Id="BLIRawStream" VideoDataSourceId="VideoBR" />>
+
+        <OutputChannel Id="GrayCorrectedStream" VideoDataSourceId="VideoG" />
+        <OutputChannel Id="GrayRawStream" VideoDataSourceId="VideoGR" />
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+
+  <CoordinateDefinitions>
+    <Transform From="Reference" To="BLIImage"
+      Matrix="
+        1.0 0.0 0.0 100.0
+        0.0 1.0 0.0 200.0
+        0.0 0.0 1.0 300.0
+        0.0 0.0 0.0 1.0" />
+  </CoordinateDefinitions>
+
+  <PlusOpenIGTLinkServer
+    ListeningPort="18951"
+    OutputChannelId="BLICorrectedStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="BLICorrectedImage" EmbeddedTransformToFrame="Reference" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+  <PlusOpenIGTLinkServer
+    ListeningPort="18952"
+    OutputChannelId="BLIRawStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="BLIRawImage" EmbeddedTransformToFrame="Reference" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+  <PlusOpenIGTLinkServer
+    ListeningPort="18954"
+    OutputChannelId="GrayCorrectedStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="GrayCorrectedImage" EmbeddedTransformToFrame="Reference" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+  <PlusOpenIGTLinkServer
+    ListeningPort="18955"
+    OutputChannelId="GrayRawStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="GrayRawImage" EmbeddedTransformToFrame="Reference" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>
