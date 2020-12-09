@@ -18,6 +18,17 @@
         <OutputChannel Id="VideoStream" VideoDataSourceId="Video" />
       </OutputChannels>
     </Device>
+
+    <Device
+      Id="CaptureDevice"
+      Type="VirtualCapture"
+      BaseFilename="decklink.igs.nrrd"
+      EnableCapturingOnStart="FALSE"
+      EnableCompression="TRUE"	  >
+      <InputChannels>
+        <InputChannel Id="VideoStream" />
+      </InputChannels>
+    </Device>
   </DataCollection>
   
   <PlusOpenIGTLinkServer 
