@@ -1,5 +1,8 @@
 <PlusConfiguration version="2.3">
   <DataCollection StartupDelaySec="1.0">
+    <DeviceSet 
+      Name="PlusServer: Text recognition sample on saved data"
+      Description="Broadcasting acquired video through OpenIGTLink" />
     <Device
       Id="TrackedVideoDevice"
       Type="SavedDataSource"
