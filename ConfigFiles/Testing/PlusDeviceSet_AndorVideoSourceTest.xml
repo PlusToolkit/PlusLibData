@@ -3,7 +3,7 @@
     <Device
       Id="BLICamera"
       Type="AndorCamera"
-      UseCooling="FALSE"
+      RequireCoolTemp="FALSE"
       UseFrameCorrections="TRUE"
       CoolTemperature="-70"
       SafeTemperature="10"
@@ -21,9 +21,10 @@
       CameraIntrinsics="20273.05 0 513.3315
                         0 20207.06 525.1244
                         0 0 1"
-      DistanceCoefficients="-81.8617 8523.784 0 0"
+      DistortionCoefficients="-81.8617 8523.784 0 0"
       FlatCorrection="../../../../PlusLibData/TestImages/AndorTestFlat.png"
       BiasDarkCorrection="../../../../PlusLibData/TestImages/AndorTestBias.png"
+      BadPixelCorrection="../../../../PlusLibData/TestImages/AndorBadPixelImage.png"
       >
       <DataSources>
         <DataSource Type="Video" Id="VideoBR" PortName="BLIRaw"/>
