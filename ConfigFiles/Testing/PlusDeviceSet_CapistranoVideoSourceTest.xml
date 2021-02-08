@@ -21,9 +21,13 @@
         <Parameter name="SoundVelocity" value="1532"/>
         <Parameter name="DepthMm" value="36"/>
         <Parameter name="ImageSize" value="550 700"/>
-        <Parameter name="Intensity" value="100"/>
+        <Parameter name="Intensity" value="255"/>
         <Parameter name="Contrast" value="150"/>
         <Parameter name="ZoomFactor" value="1.0"/>
+        <Parameter name="DynRangeDb" value="25"/>
+        <Parameter name="FrequencyMhz" value="10"/>
+        <Parameter name="PowerDb" value="15"/>
+        <Parameter name="FocusDepthPercent" value="50"/>
         <Parameter name="GainPercent" value="50 60 70"/>
       </UsImagingParameters>
       <DataSources>
