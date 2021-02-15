@@ -26,7 +26,7 @@
         <Parameter name="ZoomFactor" value="1.0"/>
         <Parameter name="DynRangeDb" value="25"/>
         <Parameter name="FrequencyMhz" value="10"/>
-        <Parameter name="PowerDb" value="15"/>
+        <Parameter name="PowerDb" value="-5"/>
         <Parameter name="FocusDepthPercent" value="50"/>
         <Parameter name="GainPercent" value="50 60 70"/>
       </UsImagingParameters>
