@@ -10,6 +10,7 @@
       Type="OptiTrack"
       ToolReferenceFrame="Tracker" 
       Profile="OptiTrack/SampleProfile.xml"
+      Calibration="OptiTrack/SampleCalibration.cal"
       AttachToRunningMotive="FALSE"
       MotiveDataDescriptionsUpdateTimeSec="1.0" >
       <DataSources>
