@@ -1,0 +1,15 @@
+﻿<PlusConfiguration version="2.3">
+  <DataCollection StartupDelaySec="1.0">
+    <DeviceSet Name="TEST Data collection for AzureKinect Device" Description="" />
+    <Device Id="VideoDevice" Type="AzureKinect" AlignDepthStream="FALSE">
+      <DataSources>
+        <DataSource Type="Video" Id="VideoRGB" FrameType="RGB" FrameSize="1280" FrameRate="15" PortUsImageOrientation="UN" />
+        <DataSource Type="Video" Id="VideoDEPTH" FrameType="DEPTH" FrameSize="640" FrameRate="15" PortUsImageOrientation="UN" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStreamRGB" VideoDataSourceId="VideoRGB" />
+        <OutputChannel Id="VideoStreamDEPTH" VideoDataSourceId="VideoDEPTH" />
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+</PlusConfiguration>
