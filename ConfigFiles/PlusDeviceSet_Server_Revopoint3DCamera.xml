@@ -1,0 +1,23 @@
+<PlusConfiguration version="2.3">
+  <DataCollection StartupDelaySec="1.0">
+    <DeviceSet Name="PlusServer: Revopoint 3D Camera" Description="Broadcasting acquired depth video through PlusServer from Revopoint 3D camera" />
+    <Device Id="VideoDevice" Type="Revopoint3DCamera">
+      <DataSources>
+        <DataSource Type="Video" Id="VideoDEPTH" FrameWidth="1920" FrameRate="8" DepthRange="5 500" PortUsImageOrientation="UN" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStreamDEPTH" VideoDataSourceId="VideoDEPTH" />
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+  <PlusOpenIGTLinkServer MaxNumberOfIgtlMessagesToSend="1" MaxTimeSpentWithProcessingMs="50" ListeningPort="18944" SendValidTransformsOnly="true" OutputChannelId="VideoStreamDEPTH">
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="VideoStreamDEPTH" EmbeddedTransformToFrame="VideoStreamDEPTH" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+</PlusConfiguration>

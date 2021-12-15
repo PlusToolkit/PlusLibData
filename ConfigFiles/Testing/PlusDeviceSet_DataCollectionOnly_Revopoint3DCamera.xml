@@ -1,0 +1,13 @@
+﻿<PlusConfiguration version="2.3">
+  <DataCollection StartupDelaySec="1.0">
+    <DeviceSet Name="TEST Data collection for Revopoint 3D camera" Description="" />
+    <Device Id="VideoDevice" Type="Revopoint3DCamera">
+      <DataSources>
+        <DataSource Type="Video" Id="VideoDEPTH" FrameWidth="960" FrameRate="8" DepthRange="5 500" PortUsImageOrientation="UN" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="VideoStreamDEPTH" VideoDataSourceId="VideoDEPTH" />
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+</PlusConfiguration>
