@@ -1,0 +1,15 @@
+﻿<PlusConfiguration version="2.3">
+  <DataCollection StartupDelaySec="1.0">
+    <DeviceSet Name="PlusServer: Generic sensor" Description="Test sensor generic tracking data collection" />
+    <Device Id="TrackerDevice" Type="GenericSensor" ToolReferenceFrame="Tracker">
+      <DataSources>
+        <DataSource Type="Tool" Id="Accelerometer" PortName="Accelerometer" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="TrackerStream">
+          <DataSource Id="Accelerometer"/>
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+</PlusConfiguration>
