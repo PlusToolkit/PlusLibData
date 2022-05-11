@@ -1,0 +1,65 @@
+<PlusConfiguration version="2.1">
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet
+      Name="PlusServer: Clarius ultrasound device (OEM API)"
+      Description="Broadcasting acquired video through OpenIGTLink"/>
+    <Device
+      Id="VideoDevice"
+      Type="ClariusOEM"
+      ToolReferenceFrame="Transd"
+      ProbeSerialNum="C3HD01234567890"
+      PathToCert="ClariusCert/C3HD01234567890.cert"
+      ProbeType="C3HD"
+      ImagingApplication="MSK"
+      FrameSize="512 512"
+      EnableAutoGain="FALSE"
+      Enable5v="FALSE"
+      FreezeOnPoorWifiSignal="TRUE"
+      ContactDetectionTimeoutSec="15"
+      AutoFreezeTimeoutSec="60"
+      KeepAwakeTimeoutMin="60"
+      UpButtonMode="DISABLED"
+      DownButtonMode="FREEZE"
+      >
+      <UsImagingParameters>
+        <Parameter Name="DepthMm" Value="100" />
+        <Parameter Name="GainPercent" Value="80" />
+        <Parameter Name="DynRangeDb" Value="80" />
+        <Parameter Name="TimeGainCompensation" Value="5 5 5" />
+      </UsImagingParameters>
+
+      <DataSources>
+        <DataSource Type="Video" Id="Video" PortName="B" PortUsImageOrientation="UF"/>
+        <DataSource Type="Tool" Id="Image" PortName="Transd" />
+      </DataSources>
+
+      <OutputChannels>
+        <OutputChannel Id="VideoStream" VideoDataSourceId="Video" >
+          <DataSource Type="Tool" Id="Image" />
+        </OutputChannel>
+      </OutputChannels>
+
+    </Device>
+
+  </DataCollection>
+
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="false"
+    OutputChannelId="VideoStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="Image" EmbeddedTransformToFrame="Image" />
+      </ImageNames>
+      <TransformNames>
+        <Transform Name="ImageToTransd" />
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+</PlusConfiguration>
