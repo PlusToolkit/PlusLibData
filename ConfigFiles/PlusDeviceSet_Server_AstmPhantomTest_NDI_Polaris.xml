@@ -1,0 +1,45 @@
+<PlusConfiguration version="2.7">
+
+  <DataCollection StartupDelaySec="1.0">
+    <DeviceSet
+      Name="PlusServer: ASTM Phantom Test (NDI Polaris)"
+      Description="Broadcasting through OpenIGTLink the tracking data necessary for the ASTM Phantom Test from an NDI Polaris device."
+    />
+    <Device
+      Id="TrackerDevice"
+      Type="PolarisTracker"
+      MaxMissingFiducials="0"
+      MaxMeanRegistrationErrorMm="1.0"
+      ToolReferenceFrame="Tracker" >
+      <DataSources>
+        <DataSource Type="Tool" Id="Phantom" RomFile="NdiToolDefinitions/8700449.rom" />
+        <DataSource Type="Tool" Id="Pointer" RomFile="NdiToolDefinitions/8700340.rom" />
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="TrackerStream">
+          <DataSource Type="Tool" Id="Phantom" />
+          <DataSource Type="Tool" Id="Pointer" />
+        </OutputChannel>
+      </OutputChannels>
+    </Device>
+  </DataCollection>
+
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="FALSE"
+    OutputChannelId="TrackerStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="TRANSFORM" />
+      </MessageTypes>
+      <TransformNames>
+        <Transform Name="PointerToPhantom" />
+        <Transform Name="PointerToTracker" />
+        <Transform Name="PhantomToTracker" />
+      </TransformNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+  
+</PlusConfiguration>
