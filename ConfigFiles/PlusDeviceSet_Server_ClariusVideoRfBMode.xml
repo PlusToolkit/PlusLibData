@@ -1,0 +1,62 @@
+<PlusConfiguration version="2.1">
+
+  <DataCollection StartupDelaySec="1.0" >
+    <DeviceSet
+      Name="PlusServer: Clarius ultrasound device (B-Mode and RF)"
+      Description="Broadcasting acquired video from Clarius cast through OpenIGTLink. Port 18944 contains B-Mode images, while port 18945 contains RF images."/>
+
+    <Device
+      Id="VideoDevice"
+      Type="Clarius"
+      IpAddress = "192.168.1.1"
+      TcpPort = "5828"
+      FrameWidth = "640"
+      FrameHeight = "480"
+      ImuEnabled = "TRUE"
+      ImuOutputFileName = "ImuOutput.csv"
+      WriteImagesToDisk = "FALSE">
+      <DataSources>
+        <DataSource Type="Video" Id="BModeVideo" PortName="B" PortUsImageOrientation="UN"/>
+        <DataSource Type="Video" Id="RfVideo" PortName="Rf" PortUsImageOrientation="UN"/>
+      </DataSources>
+      <OutputChannels>
+        <OutputChannel Id="BModeVideoStream" VideoDataSourceId="BModeVideo" />
+        <OutputChannel Id="RfVideoStream" VideoDataSourceId="RfVideo" />
+      </OutputChannels>
+    </Device>
+
+  </DataCollection>
+
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18944"
+    SendValidTransformsOnly="false"
+    OutputChannelId="BModeVideoStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="BModeVideo" EmbeddedTransformToFrame="BModeVideo" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+  <PlusOpenIGTLinkServer
+    MaxNumberOfIgtlMessagesToSend="1"
+    MaxTimeSpentWithProcessingMs="50"
+    ListeningPort="18945"
+    SendValidTransformsOnly="false"
+    OutputChannelId="RfVideoStream" >
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="RfVideo" EmbeddedTransformToFrame="RfVideo" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+
+</PlusConfiguration>
