@@ -5,10 +5,12 @@
       <DataSources>
         <DataSource Type="Video" Id="VideoRGB" FrameType="RGB" FrameSize="1920" FrameRate="15" PortUsImageOrientation="UN" />
         <DataSource Type="Video" Id="VideoDEPTH" FrameType="DEPTH" FrameSize="1024" FrameRate="15" PortUsImageOrientation="UN" />
+        <DataSource Type="Video" Id="VideoPCL" FrameType="PCL" FrameSize="1920" FrameRate="15" PortUsImageOrientation="UN" />
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="VideoStreamRGB" VideoDataSourceId="VideoRGB" />
         <OutputChannel Id="VideoStreamDEPTH" VideoDataSourceId="VideoDEPTH" />
+        <OutputChannel Id="VideoStreamPCL" VideoDataSourceId="VideoPCL" />
       </OutputChannels>
     </Device>
   </DataCollection>
@@ -29,6 +31,16 @@
       </MessageTypes>
       <ImageNames>
         <Image Name="VideoStreamRGB" EmbeddedTransformToFrame="VideoStreamRGB" />
+      </ImageNames>
+    </DefaultClientInfo>
+  </PlusOpenIGTLinkServer>
+  <PlusOpenIGTLinkServer MaxNumberOfIgtlMessagesToSend="1" MaxTimeSpentWithProcessingMs="50" ListeningPort="18946" SendValidTransformsOnly="true" OutputChannelId="VideoStreamPCL">
+    <DefaultClientInfo>
+      <MessageTypes>
+        <Message Type="IMAGE" />
+      </MessageTypes>
+      <ImageNames>
+        <Image Name="VideoStreamPCL" EmbeddedTransformToFrame="VideoStreamPCL" />
       </ImageNames>
     </DefaultClientInfo>
   </PlusOpenIGTLinkServer>
