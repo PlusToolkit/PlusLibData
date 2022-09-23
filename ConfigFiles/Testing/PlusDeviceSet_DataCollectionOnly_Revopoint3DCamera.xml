@@ -3,10 +3,12 @@
     <DeviceSet Name="TEST Data collection for Revopoint 3D camera" Description="" />
     <Device Id="VideoDevice" Type="Revopoint3DCamera">
       <DataSources>
-        <DataSource Type="Video" Id="VideoDEPTH" FrameWidth="960" FrameRate="8" DepthRange="5 500" PortUsImageOrientation="UN" />
+        <DataSource Type="Video" Id="VideoDEPTH" FrameType="DEPTH" FrameWidth="960" FrameRate="8" DepthRange="5 500" PortUsImageOrientation="UN" />
+        <DataSource Type="Video" Id="VideoPCL" FrameType="PCL" PortUsImageOrientation="UN" />
       </DataSources>
       <OutputChannels>
         <OutputChannel Id="VideoStreamDEPTH" VideoDataSourceId="VideoDEPTH" />
+        <OutputChannel Id="VideoStreamPCL" VideoDataSourceId="VideoPCL" />
       </OutputChannels>
     </Device>
   </DataCollection>
