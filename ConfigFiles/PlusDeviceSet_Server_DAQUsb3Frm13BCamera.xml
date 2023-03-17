@@ -7,7 +7,7 @@
     />
     <Device
       Id="VideoDevice"
-      Type="DAQUsb3Frm13BCam" 
+      Type="DAQUSB3FRM13BCam" 
       ExposureTime="100"
       TimeBaseExposure="2"
       >
