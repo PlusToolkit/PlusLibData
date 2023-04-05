@@ -8,8 +8,7 @@
     <Device
       Id="VideoDevice"
       Type="DAQUSB3FRM13BCam" 
-      ExposureTime="100"
-      TimeBaseExposure="2"
+      DataMode="16"
       >
       <DataSources>
         <DataSource Type="Video" Id="Video" PortUsImageOrientation="UF"/>
