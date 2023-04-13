@@ -7,7 +7,7 @@
     />
     <Device
       Id="VideoDevice"
-      Type="DAQUSB3FRM13BCam" 
+      Type="DAQVideoSourceCam" 
       DataMode="16"
       >
       <DataSources>
