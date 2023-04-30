@@ -7,7 +7,7 @@
     />
     <Device
       Id="VideoDevice"
-      Type="DAQVideoSourceCam" 
+      Type="DAQVideoSource" 
       DataMode="16"
       >
       <DataSources>
