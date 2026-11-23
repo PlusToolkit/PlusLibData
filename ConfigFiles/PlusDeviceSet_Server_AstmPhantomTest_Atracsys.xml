@@ -12,9 +12,7 @@
       MaxMeanRegistrationErrorMm="1.0"
       SymmetriseCoordinates="1"
       EnableLasers="0"
-	  EnableIRstrobe="1"
-	  ImageCompressionThreshold="50"
-	  ImageIntegrationTime="130"
+      EnableIRstrobe="1"
       ToolReferenceFrame="Tracker" >
       <DataSources>
         <DataSource Type="Tool" Id="Phantom" TrackingType="PASSIVE" GeometryFile="AtracsysTools/geometry104.ini" />
